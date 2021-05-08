@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftUICharts",
+        "repositoryURL": "https://github.com/mecid/SwiftUICharts",
+        "state": {
+          "branch": "main",
+          "revision": "2fb67d979263ddc712a8e4ff3952cfc9e249c87c",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

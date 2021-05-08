@@ -1,0 +1,8 @@
+div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+body { margin-left: 40px; background-color: powderblue }
+a img { display: block; margin: auto; }
+div:last-of-type { margin-left: 50px }
