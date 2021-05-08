@@ -1,0 +1,33 @@
+#! /usr/bin/perl 
+    eval 'exec /usr/bin/perl -S $0 ${1+"$@"}'
+        if 0; #$running_under_some_shell
+
+use strict;
+use File::Find ();
+
+unless ($#ARGV == 1) {
+	warn "Please pass bundle identifier prefix and team identifier as arguments to the script.\n";
+	warn "- Your bundle identifier prefix will be something like com.mydomain\n";
+	warn "- You can find your ten character team identifier at https://developer.apple.com/account/#/membership\n\n";
+	die "Usage: $0 <prefix> <team id>\n";
+}
+
+my ($bundle, $teamId) = @ARGV;
+$bundle =~ s/\.$//;
+
+die "Team ID must be ten characters.\n" unless length($teamId) == 10;
+
+sub wanted {
+    return unless /^project\.pbxproj\z/s or /Info.plist\z/s or /UserDataKeychain.swift\z/s;
+
+    our $^I = '';
+    our @ARGV = ($_);
+
+    while (<ARGV>) {
+	s/DEVELOPMENT_TEAM = .*;/DEVELOPMENT_TEAM = $teamId;/;
+	s/com.raywenderlich/$bundle/g; 
+	print;
+    }
+}
+
+File::Find::find({wanted => \&wanted}, '.');
