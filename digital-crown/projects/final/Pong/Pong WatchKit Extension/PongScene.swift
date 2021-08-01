@@ -165,6 +165,8 @@ extension PongScene {
     ball.physicsBody?.velocity = .zero
     ball.physicsBody?.applyImpulse(.init(dx: offset, dy: offset))
     ballAtFullSpeed = false
+
+    paddleBeingMoved = (moving == .left) ? leftPaddle : rightPaddle
   }
 
   private func scored(winner: Direction) {
