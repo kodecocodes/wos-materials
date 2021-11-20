@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Tide" representedClassName="Tide" syncable="YES" codeGenerationType="class">
+        <attribute name="height" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="rawDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="rawStationId" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="rawType" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="rawDate"/>
+                <constraint value="rawStationId"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="Tide" positionX="-54" positionY="-9" width="128" height="89"/>
+    </elements>
+</model>

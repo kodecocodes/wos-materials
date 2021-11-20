@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D26E95C7266563ED00DD3362 /* TideWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D26E95C5266563ED00DD3362 /* TideWatch.xcdatamodeld */; };
+		D26E95C92665644700DD3362 /* Tide+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E95C82665644700DD3362 /* Tide+Extension.swift */; };
+		D26E95EB2665686D00DD3362 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E95EA2665686D00DD3362 /* PersistenceController.swift */; };
+		D26E95EE26659BF400DD3362 /* TidePrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E95ED26659BF400DD3362 /* TidePrediction.swift */; };
+		D26E95F02667008500DD3362 /* Calendar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E95EF2667008500DD3362 /* Calendar+Extension.swift */; };
+		D26E962C266D773800DD3362 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E962B266D773800DD3362 /* ComplicationController.swift */; };
+		D2756CFA259A8EA200B9B446 /* TideWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D2756CF9259A8EA200B9B446 /* TideWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2756CFF259A8EA300B9B446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2756CFE259A8EA300B9B446 /* Assets.xcassets */; };
+		D2756D06259A8EA300B9B446 /* TideWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D2756D05259A8EA300B9B446 /* TideWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2756D0B259A8EA300B9B446 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2756D0A259A8EA300B9B446 /* ContentView.swift */; };
+		D2756D0D259A8EA300B9B446 /* TideWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2756D0C259A8EA300B9B446 /* TideWatchApp.swift */; };
+		D2756D11259A8EA400B9B446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2756D10259A8EA400B9B446 /* Assets.xcassets */; };
+		D2756D14259A8EA400B9B446 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2756D13259A8EA400B9B446 /* Preview Assets.xcassets */; };
+		D2756D27259A8F8E00B9B446 /* Stations.json in Resources */ = {isa = PBXBuildFile; fileRef = D2756D26259A8F8E00B9B446 /* Stations.json */; };
+		D2756D2C259A909600B9B446 /* MeasurementStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2756D2B259A909600B9B446 /* MeasurementStation.swift */; };
+		D2756D31259A90EB00B9B446 /* CoOpsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2756D30259A90EB00B9B446 /* CoOpsApi.swift */; };
+		D2756D3B259A97B300B9B446 /* TidePredictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2756D3A259A97B300B9B446 /* TidePredictions.swift */; };
+		D2756D4B259AA1B900B9B446 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2756D4A259AA1B900B9B446 /* Color+Extension.swift */; };
+		D2756D53259AA50B00B9B446 /* TideDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2756D52259AA50B00B9B446 /* TideDataView.swift */; };
+		D2756D58259AA7C000B9B446 /* TideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2756D57259AA7C000B9B446 /* TideType.swift */; };
+		D2756D60259AA82300B9B446 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2756D5F259AA82300B9B446 /* ContentModel.swift */; };
+		D2B2A5F3264717A80078863D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D2B2A5F2264717A80078863D /* LICENSE */; };
+		D2B2A5F5265A5C630078863D /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B2A5F4265A5C630078863D /* Formatters.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2756CFB259A8EA200B9B446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2756CEF259A8EA200B9B446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2756CF8259A8EA200B9B446;
+			remoteInfo = "TideWatch WatchKit App";
+		};
+		D2756D07259A8EA300B9B446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2756CEF259A8EA200B9B446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2756D04259A8EA300B9B446;
+			remoteInfo = "TideWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D2756D1B259A8EA400B9B446 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D2756D06259A8EA300B9B446 /* TideWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2756D1F259A8EA400B9B446 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D2756CFA259A8EA200B9B446 /* TideWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D26E95C6266563ED00DD3362 /* TideWatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TideWatch.xcdatamodel; sourceTree = "<group>"; };
+		D26E95C82665644700DD3362 /* Tide+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tide+Extension.swift"; sourceTree = "<group>"; };
+		D26E95EA2665686D00DD3362 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		D26E95ED26659BF400DD3362 /* TidePrediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidePrediction.swift; sourceTree = "<group>"; };
+		D26E95EF2667008500DD3362 /* Calendar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+Extension.swift"; sourceTree = "<group>"; };
+		D26E962B266D773800DD3362 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		D2756CF5259A8EA200B9B446 /* TideWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TideWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2756CF9259A8EA200B9B446 /* TideWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TideWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2756CFE259A8EA300B9B446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2756D00259A8EA300B9B446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2756D05259A8EA300B9B446 /* TideWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TideWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2756D0A259A8EA300B9B446 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2756D0C259A8EA300B9B446 /* TideWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideWatchApp.swift; sourceTree = "<group>"; };
+		D2756D10259A8EA400B9B446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2756D13259A8EA400B9B446 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2756D15259A8EA400B9B446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2756D26259A8F8E00B9B446 /* Stations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Stations.json; sourceTree = "<group>"; };
+		D2756D2B259A909600B9B446 /* MeasurementStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementStation.swift; sourceTree = "<group>"; };
+		D2756D30259A90EB00B9B446 /* CoOpsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoOpsApi.swift; sourceTree = "<group>"; };
+		D2756D3A259A97B300B9B446 /* TidePredictions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidePredictions.swift; sourceTree = "<group>"; };
+		D2756D4A259AA1B900B9B446 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		D2756D52259AA50B00B9B446 /* TideDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideDataView.swift; sourceTree = "<group>"; };
+		D2756D57259AA7C000B9B446 /* TideType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideType.swift; sourceTree = "<group>"; };
+		D2756D5F259AA82300B9B446 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		D2B2A5F2264717A80078863D /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D2B2A5F4265A5C630078863D /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2756D02259A8EA300B9B446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D26E95A026632FD400DD3362 /* Complications */ = {
+			isa = PBXGroup;
+			children = (
+				D26E962B266D773800DD3362 /* ComplicationController.swift */,
+			);
+			path = Complications;
+			sourceTree = "<group>";
+		};
+		D26E95B826634D7900DD3362 /* Tide Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2756D2B259A909600B9B446 /* MeasurementStation.swift */,
+				D2756D26259A8F8E00B9B446 /* Stations.json */,
+				D26E95ED26659BF400DD3362 /* TidePrediction.swift */,
+				D2756D3A259A97B300B9B446 /* TidePredictions.swift */,
+				D2756D57259AA7C000B9B446 /* TideType.swift */,
+			);
+			path = "Tide Model";
+			sourceTree = "<group>";
+		};
+		D26E95B92663591400DD3362 /* Content View */ = {
+			isa = PBXGroup;
+			children = (
+				D2756D5F259AA82300B9B446 /* ContentModel.swift */,
+				D2756D0A259A8EA300B9B446 /* ContentView.swift */,
+				D2756D52259AA50B00B9B446 /* TideDataView.swift */,
+			);
+			path = "Content View";
+			sourceTree = "<group>";
+		};
+		D26E95EC2665696000DD3362 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				D26E95EA2665686D00DD3362 /* PersistenceController.swift */,
+				D26E95C82665644700DD3362 /* Tide+Extension.swift */,
+				D26E95C5266563ED00DD3362 /* TideWatch.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		D2756CEE259A8EA200B9B446 = {
+			isa = PBXGroup;
+			children = (
+				D2B2A5F2264717A80078863D /* LICENSE */,
+				D2756CFD259A8EA200B9B446 /* TideWatch WatchKit App */,
+				D2756D09259A8EA300B9B446 /* TideWatch WatchKit Extension */,
+				D2756CF6259A8EA200B9B446 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		D2756CF6259A8EA200B9B446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2756CF5259A8EA200B9B446 /* TideWatch.app */,
+				D2756CF9259A8EA200B9B446 /* TideWatch WatchKit App.app */,
+				D2756D05259A8EA300B9B446 /* TideWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2756CFD259A8EA200B9B446 /* TideWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D2756CFE259A8EA300B9B446 /* Assets.xcassets */,
+				D2756D00259A8EA300B9B446 /* Info.plist */,
+			);
+			path = "TideWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		D2756D09259A8EA300B9B446 /* TideWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D2756D15259A8EA400B9B446 /* Info.plist */,
+				D26E95EF2667008500DD3362 /* Calendar+Extension.swift */,
+				D2756D4A259AA1B900B9B446 /* Color+Extension.swift */,
+				D2756D30259A90EB00B9B446 /* CoOpsApi.swift */,
+				D2B2A5F4265A5C630078863D /* Formatters.swift */,
+				D2756D0C259A8EA300B9B446 /* TideWatchApp.swift */,
+				D2756D10259A8EA400B9B446 /* Assets.xcassets */,
+				D26E95A026632FD400DD3362 /* Complications */,
+				D26E95B92663591400DD3362 /* Content View */,
+				D26E95EC2665696000DD3362 /* Core Data */,
+				D2756D12259A8EA400B9B446 /* Preview Content */,
+				D26E95B826634D7900DD3362 /* Tide Model */,
+			);
+			path = "TideWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D2756D12259A8EA400B9B446 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D2756D13259A8EA400B9B446 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2756CF4259A8EA200B9B446 /* TideWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2756D20259A8EA400B9B446 /* Build configuration list for PBXNativeTarget "TideWatch" */;
+			buildPhases = (
+				D2756CF3259A8EA200B9B446 /* Resources */,
+				D2756D1F259A8EA400B9B446 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2756CFC259A8EA200B9B446 /* PBXTargetDependency */,
+			);
+			name = TideWatch;
+			productName = TideWatch;
+			productReference = D2756CF5259A8EA200B9B446 /* TideWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D2756CF8259A8EA200B9B446 /* TideWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2756D1C259A8EA400B9B446 /* Build configuration list for PBXNativeTarget "TideWatch WatchKit App" */;
+			buildPhases = (
+				D2756CF7259A8EA200B9B446 /* Resources */,
+				D2756D1B259A8EA400B9B446 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2756D08259A8EA300B9B446 /* PBXTargetDependency */,
+			);
+			name = "TideWatch WatchKit App";
+			productName = "TideWatch WatchKit App";
+			productReference = D2756CF9259A8EA200B9B446 /* TideWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D2756D04259A8EA300B9B446 /* TideWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2756D18259A8EA400B9B446 /* Build configuration list for PBXNativeTarget "TideWatch WatchKit Extension" */;
+			buildPhases = (
+				D8B1B6AC267841B200E36AF5 /* SwiftLint */,
+				D2756D01259A8EA300B9B446 /* Sources */,
+				D2756D02259A8EA300B9B446 /* Frameworks */,
+				D2756D03259A8EA300B9B446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TideWatch WatchKit Extension";
+			productName = "TideWatch WatchKit Extension";
+			productReference = D2756D05259A8EA300B9B446 /* TideWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2756CEF259A8EA200B9B446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D2756CF4259A8EA200B9B446 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					D2756CF8259A8EA200B9B446 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					D2756D04259A8EA300B9B446 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = D2756CF2259A8EA200B9B446 /* Build configuration list for PBXProject "TideWatch" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2756CEE259A8EA200B9B446;
+			productRefGroup = D2756CF6259A8EA200B9B446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2756CF4259A8EA200B9B446 /* TideWatch */,
+				D2756CF8259A8EA200B9B446 /* TideWatch WatchKit App */,
+				D2756D04259A8EA300B9B446 /* TideWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2756CF3259A8EA200B9B446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B2A5F3264717A80078863D /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2756CF7259A8EA200B9B446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2756CFF259A8EA300B9B446 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2756D03259A8EA300B9B446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2756D14259A8EA400B9B446 /* Preview Assets.xcassets in Resources */,
+				D2756D27259A8F8E00B9B446 /* Stations.json in Resources */,
+				D2756D11259A8EA400B9B446 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D8B1B6AC267841B200E36AF5 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    for yml in ~/.com.raywenderlich.swiftlint.yml ~/com.raywenderlich.swiftlint.yml\n    do\n        if [ -f $yml ]; then\n            swiftlint --no-cache --config $yml\n            break\n        fi\n    done\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2756D01259A8EA300B9B446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2756D53259AA50B00B9B446 /* TideDataView.swift in Sources */,
+				D2756D4B259AA1B900B9B446 /* Color+Extension.swift in Sources */,
+				D2756D31259A90EB00B9B446 /* CoOpsApi.swift in Sources */,
+				D2756D3B259A97B300B9B446 /* TidePredictions.swift in Sources */,
+				D2756D0B259A8EA300B9B446 /* ContentView.swift in Sources */,
+				D2756D60259AA82300B9B446 /* ContentModel.swift in Sources */,
+				D2756D0D259A8EA300B9B446 /* TideWatchApp.swift in Sources */,
+				D2B2A5F5265A5C630078863D /* Formatters.swift in Sources */,
+				D26E95C92665644700DD3362 /* Tide+Extension.swift in Sources */,
+				D26E95EB2665686D00DD3362 /* PersistenceController.swift in Sources */,
+				D26E95F02667008500DD3362 /* Calendar+Extension.swift in Sources */,
+				D26E95EE26659BF400DD3362 /* TidePrediction.swift in Sources */,
+				D26E95C7266563ED00DD3362 /* TideWatch.xcdatamodeld in Sources */,
+				D26E962C266D773800DD3362 /* ComplicationController.swift in Sources */,
+				D2756D2C259A909600B9B446 /* MeasurementStation.swift in Sources */,
+				D2756D58259AA7C000B9B446 /* TideType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2756CFC259A8EA200B9B446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2756CF8259A8EA200B9B446 /* TideWatch WatchKit App */;
+			targetProxy = D2756CFB259A8EA200B9B446 /* PBXContainerItemProxy */;
+		};
+		D2756D08259A8EA300B9B446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2756D04259A8EA300B9B446 /* TideWatch WatchKit Extension */;
+			targetProxy = D2756D07259A8EA300B9B446 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D2756D16259A8EA400B9B446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2756D17259A8EA400B9B446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2756D19259A8EA400B9B446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TideWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = BQUPLV7KWS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TideWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.TideWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		D2756D1A259A8EA400B9B446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TideWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = BQUPLV7KWS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TideWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.TideWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		D2756D1D259A8EA400B9B446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQUPLV7KWS;
+				IBSC_MODULE = TideWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "TideWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.TideWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		D2756D1E259A8EA400B9B446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQUPLV7KWS;
+				IBSC_MODULE = TideWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "TideWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.TideWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		D2756D21259A8EA400B9B446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQUPLV7KWS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.TideWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2756D22259A8EA400B9B446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQUPLV7KWS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.TideWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2756CF2259A8EA200B9B446 /* Build configuration list for PBXProject "TideWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2756D16259A8EA400B9B446 /* Debug */,
+				D2756D17259A8EA400B9B446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2756D18259A8EA400B9B446 /* Build configuration list for PBXNativeTarget "TideWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2756D19259A8EA400B9B446 /* Debug */,
+				D2756D1A259A8EA400B9B446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2756D1C259A8EA400B9B446 /* Build configuration list for PBXNativeTarget "TideWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2756D1D259A8EA400B9B446 /* Debug */,
+				D2756D1E259A8EA400B9B446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2756D20259A8EA400B9B446 /* Build configuration list for PBXNativeTarget "TideWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2756D21259A8EA400B9B446 /* Debug */,
+				D2756D22259A8EA400B9B446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D26E95C5266563ED00DD3362 /* TideWatch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D26E95C6266563ED00DD3362 /* TideWatch.xcdatamodel */,
+			);
+			currentVersion = D26E95C6266563ED00DD3362 /* TideWatch.xcdatamodel */;
+			path = TideWatch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D2756CEF259A8EA200B9B446 /* Project object */;
+}
