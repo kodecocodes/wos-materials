@@ -1,0 +1,9 @@
+{
+  "aps": {
+    "alert": {
+      "body": "Tap me to see an adorable kitty cat.",
+      "title": "Giggle Time!",
+    },
+    "category": "myCategory"
+  }
+}
