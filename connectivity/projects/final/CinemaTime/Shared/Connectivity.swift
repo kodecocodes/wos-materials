@@ -123,7 +123,7 @@ final class Connectivity: NSObject, ObservableObject {
     #endif
 
     let key = ConnectivityUserInfoKey.purchased.rawValue
-    guard let ids = dictionary[key] as? [Int], !ids.isEmpty else {
+    guard let ids = dictionary[key] as? [Int] else {
       return
     }
 
