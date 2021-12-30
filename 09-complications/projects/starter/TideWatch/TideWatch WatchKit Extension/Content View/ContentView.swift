@@ -40,7 +40,7 @@ struct ContentView: View {
         }
       }
       .onTapGesture {
-        async { await model.fetch(newStation: selectedStation) }
+        Task { await model.fetch(newStation: selectedStation) }
         isPresented.toggle()
       }
     }

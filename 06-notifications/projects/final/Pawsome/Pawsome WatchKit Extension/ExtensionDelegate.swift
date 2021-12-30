@@ -7,7 +7,7 @@ final class ExtensionDelegate: NSObject, WKExtensionDelegate {
   }
 
   func applicationDidFinishLaunching() {
-    async {
+    Task {
       do {
         let success = try await UNUserNotificationCenter
           .current()

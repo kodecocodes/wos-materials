@@ -19,7 +19,7 @@ final class ContentModel: ObservableObject {
       CoOpsApi.shared.stationId = station.id
     }
 
-    async { await CoOpsApi.shared.getLowWaterHeights() }
+    Task { await CoOpsApi.shared.getLowWaterHeights() }
 
     NotificationCenter
       .default

@@ -9,7 +9,7 @@ final class LocalNotifications: NSObject {
   override init() {
     super.init()
 
-    async {
+    Task {
       do {
         try await self.register()
         try await self.schedule()
