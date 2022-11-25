@@ -13,7 +13,9 @@ struct RecordView: View {
   var body: some View {
     if let snapshotHandler = snapshotHandler {
       snapshotView()
-        .task(snapshotHandler)
+        .task {
+          snapshotHandler()
+        }
     } else {
       normalView()
     }
@@ -21,14 +23,17 @@ struct RecordView: View {
 
   @ViewBuilder
   private func normalView() -> some View {
-    List(matches) {
+    List(season.pastMatches().reversed()) {
       RecordRow(match: $0)
     }
     .listStyle(.carousel)
     .navigationBarTitle("Scores")
+    .task {
+      snapshotHandler?()
+    }
   }
-  @ViewBuilder
 
+  @ViewBuilder
   private func snapshotView() -> some View {
     if
       let match = matches.first,

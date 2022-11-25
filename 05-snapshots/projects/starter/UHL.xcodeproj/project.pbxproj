@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D28FB1A7293042690065EE5A /* UHL Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D28FB1A6293042690065EE5A /* UHL Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D28FB1AC293042690065EE5A /* UHLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB1AB293042690065EE5A /* UHLApp.swift */; };
+		D28FB1AE293042690065EE5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB1AD293042690065EE5A /* ContentView.swift */; };
+		D28FB1B0293042690065EE5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28FB1AF293042690065EE5A /* Assets.xcassets */; };
+		D28FB1B3293042690065EE5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28FB1B2293042690065EE5A /* Preview Assets.xcassets */; };
+		D28FB1C3293043980065EE5A /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB1BF293043980065EE5A /* Team.swift */; };
+		D28FB1C4293043980065EE5A /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB1C0293043980065EE5A /* Match.swift */; };
+		D28FB1C5293043980065EE5A /* MatchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB1C1293043980065EE5A /* MatchResult.swift */; };
+		D28FB1C6293043980065EE5A /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB1C2293043980065EE5A /* Season.swift */; };
+		D28FB1CE293043BA0065EE5A /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB1C8293043BA0065EE5A /* RecordView.swift */; };
+		D28FB1CF293043BA0065EE5A /* RecordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB1C9293043BA0065EE5A /* RecordRow.swift */; };
+		D28FB1D0293043BA0065EE5A /* ScheduleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB1CB293043BA0065EE5A /* ScheduleDetailView.swift */; };
+		D28FB1D1293043BA0065EE5A /* ScheduleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB1CC293043BA0065EE5A /* ScheduleRow.swift */; };
+		D28FB1D2293043BA0065EE5A /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB1CD293043BA0065EE5A /* ScheduleView.swift */; };
+		D28FB1D4293045330065EE5A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB1D3293045330065EE5A /* ExtensionDelegate.swift */; };
+		D28FB1D62930454B0065EE5A /* Notification.Name+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB1D52930454B0065EE5A /* Notification.Name+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D28FB1A8293042690065EE5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D28FB19A293042680065EE5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D28FB1A5293042690065EE5A;
+			remoteInfo = "UHL Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D28FB1B9293042690065EE5A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D28FB1A7293042690065EE5A /* UHL Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D227AE7629998EEA001DDB4F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D28FB1A0293042690065EE5A /* UHL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UHL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28FB1A6293042690065EE5A /* UHL Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UHL Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28FB1AB293042690065EE5A /* UHLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UHLApp.swift; sourceTree = "<group>"; };
+		D28FB1AD293042690065EE5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D28FB1AF293042690065EE5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D28FB1B2293042690065EE5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D28FB1BF293043980065EE5A /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		D28FB1C0293043980065EE5A /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		D28FB1C1293043980065EE5A /* MatchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchResult.swift; sourceTree = "<group>"; };
+		D28FB1C2293043980065EE5A /* Season.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		D28FB1C8293043BA0065EE5A /* RecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		D28FB1C9293043BA0065EE5A /* RecordRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordRow.swift; sourceTree = "<group>"; };
+		D28FB1CB293043BA0065EE5A /* ScheduleDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleDetailView.swift; sourceTree = "<group>"; };
+		D28FB1CC293043BA0065EE5A /* ScheduleRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleRow.swift; sourceTree = "<group>"; };
+		D28FB1CD293043BA0065EE5A /* ScheduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		D28FB1D3293045330065EE5A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D28FB1D52930454B0065EE5A /* Notification.Name+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D28FB1A3293042690065EE5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D28FB199293042680065EE5A = {
+			isa = PBXGroup;
+			children = (
+				D227AE7629998EEA001DDB4F /* LICENSE */,
+				D28FB1AA293042690065EE5A /* UHL Watch App */,
+				D28FB1A1293042690065EE5A /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		D28FB1A1293042690065EE5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D28FB1A0293042690065EE5A /* UHL.app */,
+				D28FB1A6293042690065EE5A /* UHL Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D28FB1AA293042690065EE5A /* UHL Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				D28FB1AD293042690065EE5A /* ContentView.swift */,
+				D28FB1D3293045330065EE5A /* ExtensionDelegate.swift */,
+				D28FB1D52930454B0065EE5A /* Notification.Name+Extension.swift */,
+				D28FB1AB293042690065EE5A /* UHLApp.swift */,
+				D28FB1AF293042690065EE5A /* Assets.xcassets */,
+				D28FB1BE293043980065EE5A /* Model */,
+				D28FB1B1293042690065EE5A /* Preview Content */,
+				D28FB1C7293043BA0065EE5A /* Record */,
+				D28FB1CA293043BA0065EE5A /* Schedule */,
+			);
+			path = "UHL Watch App";
+			sourceTree = "<group>";
+		};
+		D28FB1B1293042690065EE5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D28FB1B2293042690065EE5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D28FB1BE293043980065EE5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D28FB1BF293043980065EE5A /* Team.swift */,
+				D28FB1C0293043980065EE5A /* Match.swift */,
+				D28FB1C1293043980065EE5A /* MatchResult.swift */,
+				D28FB1C2293043980065EE5A /* Season.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D28FB1C7293043BA0065EE5A /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				D28FB1C8293043BA0065EE5A /* RecordView.swift */,
+				D28FB1C9293043BA0065EE5A /* RecordRow.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		D28FB1CA293043BA0065EE5A /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				D28FB1CB293043BA0065EE5A /* ScheduleDetailView.swift */,
+				D28FB1CC293043BA0065EE5A /* ScheduleRow.swift */,
+				D28FB1CD293043BA0065EE5A /* ScheduleView.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D28FB19F293042690065EE5A /* UHL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28FB1BA293042690065EE5A /* Build configuration list for PBXNativeTarget "UHL" */;
+			buildPhases = (
+				D28FB19E293042690065EE5A /* Resources */,
+				D28FB1B9293042690065EE5A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D28FB1A9293042690065EE5A /* PBXTargetDependency */,
+			);
+			name = UHL;
+			productName = UHL;
+			productReference = D28FB1A0293042690065EE5A /* UHL.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D28FB1A5293042690065EE5A /* UHL Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28FB1B6293042690065EE5A /* Build configuration list for PBXNativeTarget "UHL Watch App" */;
+			buildPhases = (
+				D28FB1A2293042690065EE5A /* Sources */,
+				D28FB1A3293042690065EE5A /* Frameworks */,
+				D28FB1A4293042690065EE5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UHL Watch App";
+			productName = "UHL Watch App";
+			productReference = D28FB1A6293042690065EE5A /* UHL Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D28FB19A293042680065EE5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				ORGANIZATIONNAME = "Kodeco, Inc.";
+				TargetAttributes = {
+					D28FB19F293042690065EE5A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D28FB1A5293042690065EE5A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = D28FB19D293042680065EE5A /* Build configuration list for PBXProject "UHL" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D28FB199293042680065EE5A;
+			productRefGroup = D28FB1A1293042690065EE5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D28FB19F293042690065EE5A /* UHL */,
+				D28FB1A5293042690065EE5A /* UHL Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D28FB19E293042690065EE5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28FB1A4293042690065EE5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28FB1B3293042690065EE5A /* Preview Assets.xcassets in Resources */,
+				D28FB1B0293042690065EE5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D28FB1A2293042690065EE5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28FB1C3293043980065EE5A /* Team.swift in Sources */,
+				D28FB1CF293043BA0065EE5A /* RecordRow.swift in Sources */,
+				D28FB1D4293045330065EE5A /* ExtensionDelegate.swift in Sources */,
+				D28FB1D62930454B0065EE5A /* Notification.Name+Extension.swift in Sources */,
+				D28FB1AE293042690065EE5A /* ContentView.swift in Sources */,
+				D28FB1AC293042690065EE5A /* UHLApp.swift in Sources */,
+				D28FB1CE293043BA0065EE5A /* RecordView.swift in Sources */,
+				D28FB1C4293043980065EE5A /* Match.swift in Sources */,
+				D28FB1C6293043980065EE5A /* Season.swift in Sources */,
+				D28FB1C5293043980065EE5A /* MatchResult.swift in Sources */,
+				D28FB1D0293043BA0065EE5A /* ScheduleDetailView.swift in Sources */,
+				D28FB1D2293043BA0065EE5A /* ScheduleView.swift in Sources */,
+				D28FB1D1293043BA0065EE5A /* ScheduleRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D28FB1A9293042690065EE5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D28FB1A5293042690065EE5A /* UHL Watch App */;
+			targetProxy = D28FB1A8293042690065EE5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D28FB1B4293042690065EE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D28FB1B5293042690065EE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D28FB1B7293042690065EE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UHL Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = UHL;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.UHL.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		D28FB1B8293042690065EE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UHL Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = UHL;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.UHL.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		D28FB1BB293042690065EE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = UHL;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.UHL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D28FB1BC293042690065EE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = UHL;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.UHL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D28FB19D293042680065EE5A /* Build configuration list for PBXProject "UHL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28FB1B4293042690065EE5A /* Debug */,
+				D28FB1B5293042690065EE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28FB1B6293042690065EE5A /* Build configuration list for PBXNativeTarget "UHL Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28FB1B7293042690065EE5A /* Debug */,
+				D28FB1B8293042690065EE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28FB1BA293042690065EE5A /* Build configuration list for PBXNativeTarget "UHL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28FB1BB293042690065EE5A /* Debug */,
+				D28FB1BC293042690065EE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D28FB19A293042680065EE5A /* Project object */;
+}
