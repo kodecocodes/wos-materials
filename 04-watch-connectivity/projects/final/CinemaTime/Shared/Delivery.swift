@@ -1,3 +1,5 @@
+import Foundation
+
 enum Delivery {
   /// Deliver immediately. No retries on failure.
   case failable
