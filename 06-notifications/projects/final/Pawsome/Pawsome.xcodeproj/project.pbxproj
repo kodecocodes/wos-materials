@@ -3,64 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D253DB482675783A002D63DF /* Pawsome WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D253DB472675783A002D63DF /* Pawsome WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D253DB4D2675783C002D63DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D253DB4C2675783C002D63DF /* Assets.xcassets */; };
-		D253DB532675783C002D63DF /* Pawsome WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D253DB522675783C002D63DF /* Pawsome WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D253DB582675783C002D63DF /* PawsomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253DB572675783C002D63DF /* PawsomeApp.swift */; };
-		D253DB5A2675783C002D63DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253DB592675783C002D63DF /* ContentView.swift */; };
-		D253DB5C2675783C002D63DF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253DB5B2675783C002D63DF /* NotificationController.swift */; };
-		D253DB5E2675783C002D63DF /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253DB5D2675783C002D63DF /* NotificationView.swift */; };
-		D253DB602675783C002D63DF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253DB5F2675783C002D63DF /* ComplicationController.swift */; };
-		D253DB622675783D002D63DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D253DB612675783D002D63DF /* Assets.xcassets */; };
-		D253DB652675783D002D63DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D253DB642675783D002D63DF /* Preview Assets.xcassets */; };
-		D253DB7826757F3C002D63DF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253DB7726757F3C002D63DF /* ExtensionDelegate.swift */; };
-		D253DB7A26757F6D002D63DF /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253DB7926757F6D002D63DF /* LocalNotifications.swift */; };
-		D253DB8026757FD5002D63DF /* RemoteNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253DB7C26757FD5002D63DF /* RemoteNotificationController.swift */; };
-		D253DB8126757FD5002D63DF /* RemotePush.apns in Resources */ = {isa = PBXBuildFile; fileRef = D253DB7D26757FD5002D63DF /* RemotePush.apns */; };
-		D253DB8226757FD5002D63DF /* RemoteNotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253DB7E26757FD5002D63DF /* RemoteNotificationModel.swift */; };
-		D253DB8326757FD5002D63DF /* RemoteNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253DB7F26757FD5002D63DF /* RemoteNotificationView.swift */; };
+		D253BF782931885F00027A71 /* Pawsome Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D253BF772931885F00027A71 /* Pawsome Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D253BF7D2931885F00027A71 /* PawsomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253BF7C2931885F00027A71 /* PawsomeApp.swift */; };
+		D253BF7F2931885F00027A71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253BF7E2931885F00027A71 /* ContentView.swift */; };
+		D253BF812931886000027A71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D253BF802931886000027A71 /* Assets.xcassets */; };
+		D253BF842931886000027A71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D253BF832931886000027A71 /* Preview Assets.xcassets */; };
+		D253BF8F2931899100027A71 /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253BF8E2931899100027A71 /* LocalNotifications.swift */; };
+		D253BF9F29318FC500027A71 /* RemoteNotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253BF9B29318FC500027A71 /* RemoteNotificationModel.swift */; };
+		D253BFA029318FC500027A71 /* RemoteNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253BF9C29318FC500027A71 /* RemoteNotificationView.swift */; };
+		D253BFA129318FC500027A71 /* RemoteNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253BF9D29318FC500027A71 /* RemoteNotificationController.swift */; };
+		D253BFA229318FC500027A71 /* RemotePush.apns in Resources */ = {isa = PBXBuildFile; fileRef = D253BF9E29318FC500027A71 /* RemotePush.apns */; };
+		D253BFA929319CCA00027A71 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253BFA829319CCA00027A71 /* NotificationController.swift */; };
+		D253BFAB29319CD900027A71 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253BFAA29319CD900027A71 /* NotificationView.swift */; };
+		D253BFAE2931B70800027A71 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253BFAD2931B70800027A71 /* ExtensionDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D253DB492675783A002D63DF /* PBXContainerItemProxy */ = {
+		D253BF792931885F00027A71 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D253DB3D2675783A002D63DF /* Project object */;
+			containerPortal = D253BF6B2931885F00027A71 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D253DB462675783A002D63DF;
-			remoteInfo = "Pawsome WatchKit App";
-		};
-		D253DB542675783C002D63DF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D253DB3D2675783A002D63DF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D253DB512675783C002D63DF;
-			remoteInfo = "Pawsome WatchKit Extension";
+			remoteGlobalIDString = D253BF762931885F00027A71;
+			remoteInfo = "Pawsome Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D253DB6D2675783D002D63DF /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				D253DB532675783C002D63DF /* Pawsome WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D253DB712675783D002D63DF /* Embed Watch Content */ = {
+		D253BF8A2931886000027A71 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				D253DB482675783A002D63DF /* Pawsome WatchKit App.app in Embed Watch Content */,
+				D253BF782931885F00027A71 /* Pawsome Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,31 +47,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D253DB432675783A002D63DF /* Pawsome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pawsome.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D253DB472675783A002D63DF /* Pawsome WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pawsome WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D253DB4C2675783C002D63DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D253DB522675783C002D63DF /* Pawsome WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pawsome WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D253DB572675783C002D63DF /* PawsomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawsomeApp.swift; sourceTree = "<group>"; };
-		D253DB592675783C002D63DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D253DB5B2675783C002D63DF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		D253DB5D2675783C002D63DF /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
-		D253DB5F2675783C002D63DF /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		D253DB612675783D002D63DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D253DB642675783D002D63DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D253DB662675783D002D63DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D253DB672675783D002D63DF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		D253DB7626757ECE002D63DF /* Pawsome-WatchKit-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pawsome-WatchKit-App-Info.plist"; sourceTree = SOURCE_ROOT; };
-		D253DB7726757F3C002D63DF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		D253DB7926757F6D002D63DF /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
-		D253DB7C26757FD5002D63DF /* RemoteNotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteNotificationController.swift; sourceTree = "<group>"; };
-		D253DB7D26757FD5002D63DF /* RemotePush.apns */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RemotePush.apns; sourceTree = "<group>"; };
-		D253DB7E26757FD5002D63DF /* RemoteNotificationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteNotificationModel.swift; sourceTree = "<group>"; };
-		D253DB7F26757FD5002D63DF /* RemoteNotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteNotificationView.swift; sourceTree = "<group>"; };
-		D2D7B2042675843D0000FF18 /* Pawsome WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pawsome WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		D253BF712931885F00027A71 /* Pawsome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pawsome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D253BF772931885F00027A71 /* Pawsome Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pawsome Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D253BF7C2931885F00027A71 /* PawsomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawsomeApp.swift; sourceTree = "<group>"; };
+		D253BF7E2931885F00027A71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D253BF802931886000027A71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D253BF832931886000027A71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D253BF8E2931899100027A71 /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
+		D253BF9B29318FC500027A71 /* RemoteNotificationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteNotificationModel.swift; sourceTree = "<group>"; };
+		D253BF9C29318FC500027A71 /* RemoteNotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteNotificationView.swift; sourceTree = "<group>"; };
+		D253BF9D29318FC500027A71 /* RemoteNotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteNotificationController.swift; sourceTree = "<group>"; };
+		D253BF9E29318FC500027A71 /* RemotePush.apns */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RemotePush.apns; sourceTree = "<group>"; };
+		D253BFA829319CCA00027A71 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D253BFAA29319CD900027A71 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		D253BFAC2931A27900027A71 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D253BFAD2931B70800027A71 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D253BFAF2931B84300027A71 /* Pawsome Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pawsome Watch App.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D253DB4F2675783C002D63DF /* Frameworks */ = {
+		D253BF742931885F00027A71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -102,71 +76,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D253DB3C2675783A002D63DF = {
+		D253BF6A2931885F00027A71 = {
 			isa = PBXGroup;
 			children = (
-				D253DB4B2675783A002D63DF /* Pawsome WatchKit App */,
-				D253DB562675783C002D63DF /* Pawsome WatchKit Extension */,
-				D253DB442675783A002D63DF /* Products */,
+				D253BF7B2931885F00027A71 /* Pawsome Watch App */,
+				D253BF722931885F00027A71 /* Products */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
 			tabWidth = 2;
 		};
-		D253DB442675783A002D63DF /* Products */ = {
+		D253BF722931885F00027A71 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D253DB432675783A002D63DF /* Pawsome.app */,
-				D253DB472675783A002D63DF /* Pawsome WatchKit App.app */,
-				D253DB522675783C002D63DF /* Pawsome WatchKit Extension.appex */,
+				D253BF712931885F00027A71 /* Pawsome.app */,
+				D253BF772931885F00027A71 /* Pawsome Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D253DB4B2675783A002D63DF /* Pawsome WatchKit App */ = {
+		D253BF7B2931885F00027A71 /* Pawsome Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				D253DB7626757ECE002D63DF /* Pawsome-WatchKit-App-Info.plist */,
-				D253DB4C2675783C002D63DF /* Assets.xcassets */,
+				D253BFAC2931A27900027A71 /* PushNotificationPayload.apns */,
+				D253BFAF2931B84300027A71 /* Pawsome Watch App.entitlements */,
+				D253BF7E2931885F00027A71 /* ContentView.swift */,
+				D253BFAD2931B70800027A71 /* ExtensionDelegate.swift */,
+				D253BF8E2931899100027A71 /* LocalNotifications.swift */,
+				D253BFA829319CCA00027A71 /* NotificationController.swift */,
+				D253BFAA29319CD900027A71 /* NotificationView.swift */,
+				D253BF7C2931885F00027A71 /* PawsomeApp.swift */,
+				D253BF802931886000027A71 /* Assets.xcassets */,
+				D253BF822931886000027A71 /* Preview Content */,
+				D253BF9A29318F8900027A71 /* Remote Notifications */,
 			);
-			path = "Pawsome WatchKit App";
+			path = "Pawsome Watch App";
 			sourceTree = "<group>";
 		};
-		D253DB562675783C002D63DF /* Pawsome WatchKit Extension */ = {
+		D253BF822931886000027A71 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D2D7B2042675843D0000FF18 /* Pawsome WatchKit Extension.entitlements */,
-				D253DB672675783D002D63DF /* PushNotificationPayload.apns */,
-				D253DB662675783D002D63DF /* Info.plist */,
-				D253DB5F2675783C002D63DF /* ComplicationController.swift */,
-				D253DB592675783C002D63DF /* ContentView.swift */,
-				D253DB7726757F3C002D63DF /* ExtensionDelegate.swift */,
-				D253DB7926757F6D002D63DF /* LocalNotifications.swift */,
-				D253DB5B2675783C002D63DF /* NotificationController.swift */,
-				D253DB5D2675783C002D63DF /* NotificationView.swift */,
-				D253DB572675783C002D63DF /* PawsomeApp.swift */,
-				D253DB612675783D002D63DF /* Assets.xcassets */,
-				D253DB632675783D002D63DF /* Preview Content */,
-				D253DB7B26757FD5002D63DF /* Remote Notifications */,
-			);
-			path = "Pawsome WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		D253DB632675783D002D63DF /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D253DB642675783D002D63DF /* Preview Assets.xcassets */,
+				D253BF832931886000027A71 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D253DB7B26757FD5002D63DF /* Remote Notifications */ = {
+		D253BF9A29318F8900027A71 /* Remote Notifications */ = {
 			isa = PBXGroup;
 			children = (
-				D253DB7C26757FD5002D63DF /* RemoteNotificationController.swift */,
-				D253DB7D26757FD5002D63DF /* RemotePush.apns */,
-				D253DB7E26757FD5002D63DF /* RemoteNotificationModel.swift */,
-				D253DB7F26757FD5002D63DF /* RemoteNotificationView.swift */,
+				D253BF9D29318FC500027A71 /* RemoteNotificationController.swift */,
+				D253BF9B29318FC500027A71 /* RemoteNotificationModel.swift */,
+				D253BF9C29318FC500027A71 /* RemoteNotificationView.swift */,
+				D253BF9E29318FC500027A71 /* RemotePush.apns */,
 			);
 			path = "Remote Notifications";
 			sourceTree = "<group>";
@@ -174,168 +135,132 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D253DB422675783A002D63DF /* Pawsome */ = {
+		D253BF702931885F00027A71 /* Pawsome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D253DB722675783D002D63DF /* Build configuration list for PBXNativeTarget "Pawsome" */;
+			buildConfigurationList = D253BF8B2931886000027A71 /* Build configuration list for PBXNativeTarget "Pawsome" */;
 			buildPhases = (
-				D253DB412675783A002D63DF /* Resources */,
-				D253DB712675783D002D63DF /* Embed Watch Content */,
+				D253BF6F2931885F00027A71 /* Resources */,
+				D253BF8A2931886000027A71 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D253DB4A2675783A002D63DF /* PBXTargetDependency */,
+				D253BF7A2931885F00027A71 /* PBXTargetDependency */,
 			);
 			name = Pawsome;
 			productName = Pawsome;
-			productReference = D253DB432675783A002D63DF /* Pawsome.app */;
+			productReference = D253BF712931885F00027A71 /* Pawsome.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		D253DB462675783A002D63DF /* Pawsome WatchKit App */ = {
+		D253BF762931885F00027A71 /* Pawsome Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D253DB6E2675783D002D63DF /* Build configuration list for PBXNativeTarget "Pawsome WatchKit App" */;
+			buildConfigurationList = D253BF872931886000027A71 /* Build configuration list for PBXNativeTarget "Pawsome Watch App" */;
 			buildPhases = (
-				D253DB452675783A002D63DF /* Resources */,
-				D253DB6D2675783D002D63DF /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D253DB552675783C002D63DF /* PBXTargetDependency */,
-			);
-			name = "Pawsome WatchKit App";
-			productName = "Pawsome WatchKit App";
-			productReference = D253DB472675783A002D63DF /* Pawsome WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		D253DB512675783C002D63DF /* Pawsome WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D253DB6A2675783D002D63DF /* Build configuration list for PBXNativeTarget "Pawsome WatchKit Extension" */;
-			buildPhases = (
-				D253DB4E2675783C002D63DF /* Sources */,
-				D253DB4F2675783C002D63DF /* Frameworks */,
-				D253DB502675783C002D63DF /* Resources */,
+				D253BF732931885F00027A71 /* Sources */,
+				D253BF742931885F00027A71 /* Frameworks */,
+				D253BF752931885F00027A71 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pawsome WatchKit Extension";
-			productName = "Pawsome WatchKit Extension";
-			productReference = D253DB522675783C002D63DF /* Pawsome WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
+			name = "Pawsome Watch App";
+			productName = "Pawsome Watch App";
+			productReference = D253BF772931885F00027A71 /* Pawsome Watch App.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D253DB3D2675783A002D63DF /* Project object */ = {
+		D253BF6B2931885F00027A71 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					D253DB422675783A002D63DF = {
-						CreatedOnToolsVersion = 13.0;
+					D253BF702931885F00027A71 = {
+						CreatedOnToolsVersion = 14.1;
 					};
-					D253DB462675783A002D63DF = {
-						CreatedOnToolsVersion = 13.0;
-					};
-					D253DB512675783C002D63DF = {
-						CreatedOnToolsVersion = 13.0;
+					D253BF762931885F00027A71 = {
+						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = D253DB402675783A002D63DF /* Build configuration list for PBXProject "Pawsome" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = D253BF6E2931885F00027A71 /* Build configuration list for PBXProject "Pawsome" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D253DB3C2675783A002D63DF;
-			productRefGroup = D253DB442675783A002D63DF /* Products */;
+			mainGroup = D253BF6A2931885F00027A71;
+			productRefGroup = D253BF722931885F00027A71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D253DB422675783A002D63DF /* Pawsome */,
-				D253DB462675783A002D63DF /* Pawsome WatchKit App */,
-				D253DB512675783C002D63DF /* Pawsome WatchKit Extension */,
+				D253BF702931885F00027A71 /* Pawsome */,
+				D253BF762931885F00027A71 /* Pawsome Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D253DB412675783A002D63DF /* Resources */ = {
+		D253BF6F2931885F00027A71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D253DB452675783A002D63DF /* Resources */ = {
+		D253BF752931885F00027A71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D253DB4D2675783C002D63DF /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D253DB502675783C002D63DF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D253DB652675783D002D63DF /* Preview Assets.xcassets in Resources */,
-				D253DB8126757FD5002D63DF /* RemotePush.apns in Resources */,
-				D253DB622675783D002D63DF /* Assets.xcassets in Resources */,
+				D253BF842931886000027A71 /* Preview Assets.xcassets in Resources */,
+				D253BFA229318FC500027A71 /* RemotePush.apns in Resources */,
+				D253BF812931886000027A71 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D253DB4E2675783C002D63DF /* Sources */ = {
+		D253BF732931885F00027A71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D253DB5C2675783C002D63DF /* NotificationController.swift in Sources */,
-				D253DB8326757FD5002D63DF /* RemoteNotificationView.swift in Sources */,
-				D253DB7A26757F6D002D63DF /* LocalNotifications.swift in Sources */,
-				D253DB5A2675783C002D63DF /* ContentView.swift in Sources */,
-				D253DB7826757F3C002D63DF /* ExtensionDelegate.swift in Sources */,
-				D253DB8226757FD5002D63DF /* RemoteNotificationModel.swift in Sources */,
-				D253DB8026757FD5002D63DF /* RemoteNotificationController.swift in Sources */,
-				D253DB602675783C002D63DF /* ComplicationController.swift in Sources */,
-				D253DB582675783C002D63DF /* PawsomeApp.swift in Sources */,
-				D253DB5E2675783C002D63DF /* NotificationView.swift in Sources */,
+				D253BF9F29318FC500027A71 /* RemoteNotificationModel.swift in Sources */,
+				D253BFA029318FC500027A71 /* RemoteNotificationView.swift in Sources */,
+				D253BFAE2931B70800027A71 /* ExtensionDelegate.swift in Sources */,
+				D253BF8F2931899100027A71 /* LocalNotifications.swift in Sources */,
+				D253BFAB29319CD900027A71 /* NotificationView.swift in Sources */,
+				D253BFA929319CCA00027A71 /* NotificationController.swift in Sources */,
+				D253BF7F2931885F00027A71 /* ContentView.swift in Sources */,
+				D253BFA129318FC500027A71 /* RemoteNotificationController.swift in Sources */,
+				D253BF7D2931885F00027A71 /* PawsomeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D253DB4A2675783A002D63DF /* PBXTargetDependency */ = {
+		D253BF7A2931885F00027A71 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D253DB462675783A002D63DF /* Pawsome WatchKit App */;
-			targetProxy = D253DB492675783A002D63DF /* PBXContainerItemProxy */;
-		};
-		D253DB552675783C002D63DF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D253DB512675783C002D63DF /* Pawsome WatchKit Extension */;
-			targetProxy = D253DB542675783C002D63DF /* PBXContainerItemProxy */;
+			target = D253BF762931885F00027A71 /* Pawsome Watch App */;
+			targetProxy = D253BF792931885F00027A71 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D253DB682675783D002D63DF /* Debug */ = {
+		D253BF852931886000027A71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -382,20 +307,18 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		D253DB692675783D002D63DF /* Release */ = {
+		D253BF862931886000027A71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -435,209 +358,140 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D253BF882931886000027A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Pawsome Watch App/Pawsome Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pawsome Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = BQUPLV7KWS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pawsome;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Pawsome.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		D253BF892931886000027A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Pawsome Watch App/Pawsome Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pawsome Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = BQUPLV7KWS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pawsome;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Pawsome.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
-		D253DB6B2675783D002D63DF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_ENTITLEMENTS = "Pawsome WatchKit Extension/Pawsome WatchKit Extension.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Pawsome WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Pawsome WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Pawsome;
-				INFOPLIST_KEY_CFBundleExecutable = "Pawsome WatchKit Extension";
-				INFOPLIST_KEY_CFBundleName = "Pawsome WatchKit Extension";
-				INFOPLIST_KEY_CFBundleVersion = 1;
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = Pawsome_WatchKit_Extension.ComplicationController;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKWatchOnly = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.Pawsome.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Debug;
-		};
-		D253DB6C2675783D002D63DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_ENTITLEMENTS = "Pawsome WatchKit Extension/Pawsome WatchKit Extension.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Pawsome WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Pawsome WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Pawsome;
-				INFOPLIST_KEY_CFBundleExecutable = "Pawsome WatchKit Extension";
-				INFOPLIST_KEY_CFBundleName = "Pawsome WatchKit Extension";
-				INFOPLIST_KEY_CFBundleVersion = 1;
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = Pawsome_WatchKit_Extension.ComplicationController;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKWatchOnly = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.Pawsome.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Release;
-		};
-		D253DB6F2675783D002D63DF /* Debug */ = {
+		D253BF8C2931886000027A71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = Pawsome_WatchKit_Extension;
-				INFOPLIST_FILE = "Pawsome-WatchKit-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Pawsome;
-				INFOPLIST_KEY_CFBundleExecutable = "Pawsome WatchKit App";
-				INFOPLIST_KEY_CFBundleName = "Pawsome WatchKit App";
-				INFOPLIST_KEY_CFBundleVersion = 1;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.Pawsome.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Pawsome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
-		D253DB702675783D002D63DF /* Release */ = {
+		D253BF8D2931886000027A71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = Pawsome_WatchKit_Extension;
-				INFOPLIST_FILE = "Pawsome-WatchKit-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Pawsome;
-				INFOPLIST_KEY_CFBundleExecutable = "Pawsome WatchKit App";
-				INFOPLIST_KEY_CFBundleName = "Pawsome WatchKit App";
-				INFOPLIST_KEY_CFBundleVersion = 1;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.Pawsome.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Pawsome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Release;
-		};
-		D253DB732675783D002D63DF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.Pawsome;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		D253DB742675783D002D63DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.Pawsome;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D253DB402675783A002D63DF /* Build configuration list for PBXProject "Pawsome" */ = {
+		D253BF6E2931885F00027A71 /* Build configuration list for PBXProject "Pawsome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D253DB682675783D002D63DF /* Debug */,
-				D253DB692675783D002D63DF /* Release */,
+				D253BF852931886000027A71 /* Debug */,
+				D253BF862931886000027A71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D253DB6A2675783D002D63DF /* Build configuration list for PBXNativeTarget "Pawsome WatchKit Extension" */ = {
+		D253BF872931886000027A71 /* Build configuration list for PBXNativeTarget "Pawsome Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D253DB6B2675783D002D63DF /* Debug */,
-				D253DB6C2675783D002D63DF /* Release */,
+				D253BF882931886000027A71 /* Debug */,
+				D253BF892931886000027A71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D253DB6E2675783D002D63DF /* Build configuration list for PBXNativeTarget "Pawsome WatchKit App" */ = {
+		D253BF8B2931886000027A71 /* Build configuration list for PBXNativeTarget "Pawsome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D253DB6F2675783D002D63DF /* Debug */,
-				D253DB702675783D002D63DF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D253DB722675783D002D63DF /* Build configuration list for PBXNativeTarget "Pawsome" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D253DB732675783D002D63DF /* Debug */,
-				D253DB742675783D002D63DF /* Release */,
+				D253BF8C2931886000027A71 /* Debug */,
+				D253BF8D2931886000027A71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D253DB3D2675783A002D63DF /* Project object */;
+	rootObject = D253BF6B2931885F00027A71 /* Project object */;
 }
