@@ -19,7 +19,6 @@ struct MoviesListView: View {
       }
       .listRowBackground(Color.background)
     }
-    .background(Color.background)
   }
 }
 

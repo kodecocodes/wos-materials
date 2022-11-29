@@ -4,27 +4,29 @@ struct PurchasedTicketsListView: View {
   @ObservedObject private var ticketOffice = TicketOffice.shared
 
   var body: some View {
-    List {
-      ForEach(ticketOffice.purchased) { movie in
+    NavigationStack {
+      List {
+        ForEach(ticketOffice.purchased) { movie in
           NavigationLink(value: movie) {
-              MovieRow(movie: movie)
+            MovieRow(movie: movie)
           }
+        }
+        .onDelete(perform: delete)
+        
+        NavigationLink(value: "movies_list") {
+          Image("purchase_tickets")
+            .resizable()
+            .scaledToFit()
+            .padding()
+        }
       }
-      .onDelete(perform: delete)
-
-      NavigationLink(value: "movies_list") {
-        Image("purchase_tickets")
-          .resizable()
-          .scaledToFit()
-          .padding()
-      }
-    }
-    .navigationBarTitle("Purchased Tickets")
-    .navigationDestination(for: Movie.self) { movie in
+      .navigationBarTitle("Purchased Tickets")
+      .navigationDestination(for: Movie.self) { movie in
         MovieDetailsView(movie: movie)
-    }
-    .navigationDestination(for: String.self) { _ in
+      }
+      .navigationDestination(for: String.self) { _ in
         MoviesListView()
+      }
     }
   }
 
