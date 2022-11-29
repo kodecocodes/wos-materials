@@ -6,13 +6,13 @@ struct PurchasedTicketsListView: View {
   var body: some View {
     List {
       ForEach(ticketOffice.purchased) { movie in
-        NavigationLink(destination: MovieDetailsView(movie: movie)) {
-          MovieRow(movie: movie)
-        }
+          NavigationLink(value: movie) {
+              MovieRow(movie: movie)
+          }
       }
       .onDelete(perform: delete)
 
-      NavigationLink(destination: MoviesListView()) {
+      NavigationLink(value: "movies_list") {
         Image("purchase_tickets")
           .resizable()
           .scaledToFit()
@@ -20,6 +20,12 @@ struct PurchasedTicketsListView: View {
       }
     }
     .navigationBarTitle("Purchased Tickets")
+    .navigationDestination(for: Movie.self) { movie in
+        MovieDetailsView(movie: movie)
+    }
+    .navigationDestination(for: String.self) { _ in
+        MoviesListView()
+    }
   }
 
   private func delete(at offsets: IndexSet) {
