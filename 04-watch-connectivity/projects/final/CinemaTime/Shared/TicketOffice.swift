@@ -79,6 +79,7 @@ final class TicketOffice: NSObject, ObservableObject {
 #endif
     
     purchased.remove(atOffsets: offsets)
+    updateCompanion()
   }
   
   private func updateCompanion() {
