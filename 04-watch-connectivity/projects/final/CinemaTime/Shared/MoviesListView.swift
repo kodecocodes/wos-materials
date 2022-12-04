@@ -11,7 +11,7 @@ struct MoviesListView: View {
       ForEach(purchasableMovies.keys.sorted(), id: \.self) { title in
         Section(header: Text(title)) {
           ForEach(purchasableMovies[title]!.sorted(by: { $0.title < $1.title })) { movie in
-            NavigationLink(destination: MovieDetailsView(movie: movie)) {
+            NavigationLink(value: movie) {
               MovieRow(movie: movie)
             }
           }

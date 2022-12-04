@@ -29,8 +29,8 @@
 		D259B68E2918732A00670362 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = D259B67E2918732900670362 /* movies.json */; };
 		D259B68F2918732A00670362 /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B67F2918732A00670362 /* TicketOffice.swift */; };
 		D259B6902918732A00670362 /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B67F2918732A00670362 /* TicketOffice.swift */; };
-		D259B6912918732A00670362 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6802918732A00670362 /* MovieListView.swift */; };
-		D259B6922918732A00670362 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6802918732A00670362 /* MovieListView.swift */; };
+		D259B6912918732A00670362 /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6802918732A00670362 /* MoviesListView.swift */; };
+		D259B6922918732A00670362 /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6802918732A00670362 /* MoviesListView.swift */; };
 		D259B69B2918737800670362 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6932918737800670362 /* MovieRow.swift */; };
 		D259B69D2918737800670362 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6942918737800670362 /* QRCodeView.swift */; };
 		D259B69F2918737800670362 /* PurchasedTicketsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6952918737800670362 /* PurchasedTicketsListView.swift */; };
@@ -88,7 +88,7 @@
 		D259B67D2918732900670362 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		D259B67E2918732900670362 /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
 		D259B67F2918732A00670362 /* TicketOffice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketOffice.swift; sourceTree = "<group>"; };
-		D259B6802918732A00670362 /* MovieListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
+		D259B6802918732A00670362 /* MoviesListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesListView.swift; sourceTree = "<group>"; };
 		D259B6932918737800670362 /* MovieRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
 		D259B6942918737800670362 /* QRCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
 		D259B6952918737800670362 /* PurchasedTicketsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasedTicketsListView.swift; sourceTree = "<group>"; };
@@ -195,7 +195,7 @@
 				D28FB195293009D40065EE5A /* Delivery.swift */,
 				D259B67D2918732900670362 /* Movie.swift */,
 				D259B6792918732900670362 /* MovieInfoView.swift */,
-				D259B6802918732A00670362 /* MovieListView.swift */,
+				D259B6802918732A00670362 /* MoviesListView.swift */,
 				D259B67A2918732900670362 /* PurchaseTicketView.swift */,
 				D259B69A2918737800670362 /* QRCode.swift */,
 				D259B67F2918732A00670362 /* TicketOffice.swift */,
@@ -314,7 +314,7 @@
 				D259B68B2918732A00670362 /* Movie.swift in Sources */,
 				D259B69B2918737800670362 /* MovieRow.swift in Sources */,
 				D259B69D2918737800670362 /* QRCodeView.swift in Sources */,
-				D259B6912918732A00670362 /* MovieListView.swift in Sources */,
+				D259B6912918732A00670362 /* MoviesListView.swift in Sources */,
 				D28FB196293009D40065EE5A /* Delivery.swift in Sources */,
 				D259B6A52918737800670362 /* MovieDetailsView.swift in Sources */,
 				D259B6872918732A00670362 /* ConnectivityUserInfoKey.swift in Sources */,
@@ -336,7 +336,7 @@
 				D259B68C2918732A00670362 /* Movie.swift in Sources */,
 				D259B6B1291873A600670362 /* PurchasedTicketsListView.swift in Sources */,
 				D259B6AF291873A600670362 /* MovieRow.swift in Sources */,
-				D259B6922918732A00670362 /* MovieListView.swift in Sources */,
+				D259B6922918732A00670362 /* MoviesListView.swift in Sources */,
 				D259B6882918732A00670362 /* ConnectivityUserInfoKey.swift in Sources */,
 				D259B6AD291873A600670362 /* MovieDetailsView.swift in Sources */,
 				D259B6842918732A00670362 /* MovieInfoView.swift in Sources */,

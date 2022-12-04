@@ -29,7 +29,7 @@ struct Movie: Identifiable, Equatable {
 
 #if os(watchOS)
   func qrCodeImage() -> Image? {
-    let path = QRCode.url(for: id).absoluteString
+    let path = QRCode.url(for: id).path
     if let image = UIImage(contentsOfFile: path) {
       return Image(uiImage: image)
     } else {
@@ -61,4 +61,10 @@ extension Movie: Decodable {
     let date = Calendar.current.date(from: .init(hour: hour)) ?? Date()
     time = date.formatted(.dateTime.hour().minute())
   }
+}
+
+extension Movie: Hashable {
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
 }
