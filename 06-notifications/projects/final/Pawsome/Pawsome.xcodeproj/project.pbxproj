@@ -63,6 +63,7 @@
 		D253BFAC2931A27900027A71 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		D253BFAD2931B70800027A71 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		D253BFAF2931B84300027A71 /* Pawsome Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pawsome Watch App.entitlements"; sourceTree = "<group>"; };
+		D2BF8625293D5D33006B07B1 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		D253BF6A2931885F00027A71 = {
 			isa = PBXGroup;
 			children = (
+				D2BF8625293D5D33006B07B1 /* LICENSE */,
 				D253BF7B2931885F00027A71 /* Pawsome Watch App */,
 				D253BF722931885F00027A71 /* Products */,
 			);
