@@ -3,43 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D290406626AA09BF00344296 /* FaceSharingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290406526AA09BF00344296 /* FaceSharingApp.swift */; };
-		D290406826AA09BF00344296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290406726AA09BF00344296 /* ContentView.swift */; };
-		D290406A26AA09C000344296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D290406926AA09C000344296 /* Assets.xcassets */; };
-		D290406D26AA09C000344296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D290406C26AA09C000344296 /* Preview Assets.xcassets */; };
-		D290409B26AA119900344296 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290409A26AA119900344296 /* Session.swift */; };
-		D290409F26AA1DAE00344296 /* FaceToShare.watchface in Resources */ = {isa = PBXBuildFile; fileRef = D290409E26AA1DAE00344296 /* FaceToShare.watchface */; };
+		D271CBEE293D662D00F7B34E /* FaceSharingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271CBED293D662D00F7B34E /* FaceSharingApp.swift */; };
+		D271CBF0293D662D00F7B34E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271CBEF293D662D00F7B34E /* ContentView.swift */; };
+		D271CBF2293D662E00F7B34E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D271CBF1293D662E00F7B34E /* Assets.xcassets */; };
+		D271CBF5293D662E00F7B34E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D271CBF4293D662E00F7B34E /* Preview Assets.xcassets */; };
+		D271CBFC293D667200F7B34E /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271CBFB293D667200F7B34E /* Session.swift */; };
+		D271CBFE293D66BE00F7B34E /* FaceToShare.watchface in Resources */ = {isa = PBXBuildFile; fileRef = D271CBFD293D66BE00F7B34E /* FaceToShare.watchface */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		D290409526AA09C300344296 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		D290406226AA09BF00344296 /* FaceSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D290406526AA09BF00344296 /* FaceSharingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceSharingApp.swift; sourceTree = "<group>"; };
-		D290406726AA09BF00344296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D290406926AA09C000344296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D290406C26AA09C000344296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D290409A26AA119900344296 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
-		D290409E26AA1DAE00344296 /* FaceToShare.watchface */ = {isa = PBXFileReference; lastKnownFileType = file; path = FaceToShare.watchface; sourceTree = "<group>"; };
+		D271CBEA293D662D00F7B34E /* FaceSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D271CBED293D662D00F7B34E /* FaceSharingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceSharingApp.swift; sourceTree = "<group>"; };
+		D271CBEF293D662D00F7B34E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D271CBF1293D662E00F7B34E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D271CBF4293D662E00F7B34E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D271CBFB293D667200F7B34E /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		D271CBFD293D66BE00F7B34E /* FaceToShare.watchface */ = {isa = PBXFileReference; lastKnownFileType = file; path = FaceToShare.watchface; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D290405F26AA09BF00344296 /* Frameworks */ = {
+		D271CBE7293D662D00F7B34E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,41 +36,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D290405926AA09BE00344296 = {
+		D271CBE1293D662D00F7B34E = {
 			isa = PBXGroup;
 			children = (
-				D290406426AA09BF00344296 /* FaceSharing */,
-				D290406326AA09BF00344296 /* Products */,
+				D271CBEC293D662D00F7B34E /* FaceSharing */,
+				D271CBEB293D662D00F7B34E /* Products */,
 			);
-			indentWidth = 2;
 			sourceTree = "<group>";
-			tabWidth = 2;
 		};
-		D290406326AA09BF00344296 /* Products */ = {
+		D271CBEB293D662D00F7B34E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D290406226AA09BF00344296 /* FaceSharing.app */,
+				D271CBEA293D662D00F7B34E /* FaceSharing.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D290406426AA09BF00344296 /* FaceSharing */ = {
+		D271CBEC293D662D00F7B34E /* FaceSharing */ = {
 			isa = PBXGroup;
 			children = (
-				D290406726AA09BF00344296 /* ContentView.swift */,
-				D290406526AA09BF00344296 /* FaceSharingApp.swift */,
-				D290409A26AA119900344296 /* Session.swift */,
-				D290409E26AA1DAE00344296 /* FaceToShare.watchface */,
-				D290406926AA09C000344296 /* Assets.xcassets */,
-				D290406B26AA09C000344296 /* Preview Content */,
+				D271CBEF293D662D00F7B34E /* ContentView.swift */,
+				D271CBED293D662D00F7B34E /* FaceSharingApp.swift */,
+				D271CBFB293D667200F7B34E /* Session.swift */,
+				D271CBFD293D66BE00F7B34E /* FaceToShare.watchface */,
+				D271CBF1293D662E00F7B34E /* Assets.xcassets */,
+				D271CBF3293D662E00F7B34E /* Preview Content */,
 			);
+			indentWidth = 2;
 			path = FaceSharing;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
-		D290406B26AA09C000344296 /* Preview Content */ = {
+		D271CBF3293D662E00F7B34E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D290406C26AA09C000344296 /* Preview Assets.xcassets */,
+				D271CBF4293D662E00F7B34E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -91,14 +78,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D290406126AA09BF00344296 /* FaceSharing */ = {
+		D271CBE9293D662D00F7B34E /* FaceSharing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D290409626AA09C300344296 /* Build configuration list for PBXNativeTarget "FaceSharing" */;
+			buildConfigurationList = D271CBF8293D662E00F7B34E /* Build configuration list for PBXNativeTarget "FaceSharing" */;
 			buildPhases = (
-				D290405E26AA09BF00344296 /* Sources */,
-				D290405F26AA09BF00344296 /* Frameworks */,
-				D290406026AA09BF00344296 /* Resources */,
-				D290409526AA09C300344296 /* Embed Watch Content */,
+				D271CBE6293D662D00F7B34E /* Sources */,
+				D271CBE7293D662D00F7B34E /* Frameworks */,
+				D271CBE8293D662D00F7B34E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -106,78 +92,77 @@
 			);
 			name = FaceSharing;
 			productName = FaceSharing;
-			productReference = D290406226AA09BF00344296 /* FaceSharing.app */;
+			productReference = D271CBEA293D662D00F7B34E /* FaceSharing.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D290405A26AA09BE00344296 /* Project object */ = {
+		D271CBE2293D662D00F7B34E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
-				ORGANIZATIONNAME = "Ray Wenderlich";
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				ORGANIZATIONNAME = "Kodeco, Inc";
 				TargetAttributes = {
-					D290406126AA09BF00344296 = {
-						CreatedOnToolsVersion = 13.0;
+					D271CBE9293D662D00F7B34E = {
+						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = D290405D26AA09BE00344296 /* Build configuration list for PBXProject "FaceSharing" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = D271CBE5293D662D00F7B34E /* Build configuration list for PBXProject "FaceSharing" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D290405926AA09BE00344296;
-			productRefGroup = D290406326AA09BF00344296 /* Products */;
+			mainGroup = D271CBE1293D662D00F7B34E;
+			productRefGroup = D271CBEB293D662D00F7B34E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D290406126AA09BF00344296 /* FaceSharing */,
+				D271CBE9293D662D00F7B34E /* FaceSharing */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D290406026AA09BF00344296 /* Resources */ = {
+		D271CBE8293D662D00F7B34E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D290406D26AA09C000344296 /* Preview Assets.xcassets in Resources */,
-				D290409F26AA1DAE00344296 /* FaceToShare.watchface in Resources */,
-				D290406A26AA09C000344296 /* Assets.xcassets in Resources */,
+				D271CBF5293D662E00F7B34E /* Preview Assets.xcassets in Resources */,
+				D271CBFE293D66BE00F7B34E /* FaceToShare.watchface in Resources */,
+				D271CBF2293D662E00F7B34E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D290405E26AA09BF00344296 /* Sources */ = {
+		D271CBE6293D662D00F7B34E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D290406826AA09BF00344296 /* ContentView.swift in Sources */,
-				D290406626AA09BF00344296 /* FaceSharingApp.swift in Sources */,
-				D290409B26AA119900344296 /* Session.swift in Sources */,
+				D271CBF0293D662D00F7B34E /* ContentView.swift in Sources */,
+				D271CBEE293D662D00F7B34E /* FaceSharingApp.swift in Sources */,
+				D271CBFC293D667200F7B34E /* Session.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D290408C26AA09C300344296 /* Debug */ = {
+		D271CBF6293D662E00F7B34E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -221,22 +206,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		D290408D26AA09C300344296 /* Release */ = {
+		D271CBF7293D662E00F7B34E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -274,14 +260,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		D290409726AA09C300344296 /* Debug */ = {
+		D271CBF9293D662E00F7B34E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -289,7 +278,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FaceSharing/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,22 +285,20 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.FaceSharing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FaceSharing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D290409826AA09C300344296 /* Release */ = {
+		D271CBFA293D662E00F7B34E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,7 +306,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FaceSharing/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -328,44 +313,41 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.FaceSharing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FaceSharing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D290405D26AA09BE00344296 /* Build configuration list for PBXProject "FaceSharing" */ = {
+		D271CBE5293D662D00F7B34E /* Build configuration list for PBXProject "FaceSharing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D290408C26AA09C300344296 /* Debug */,
-				D290408D26AA09C300344296 /* Release */,
+				D271CBF6293D662E00F7B34E /* Debug */,
+				D271CBF7293D662E00F7B34E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D290409626AA09C300344296 /* Build configuration list for PBXNativeTarget "FaceSharing" */ = {
+		D271CBF8293D662E00F7B34E /* Build configuration list for PBXNativeTarget "FaceSharing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D290409726AA09C300344296 /* Debug */,
-				D290409826AA09C300344296 /* Release */,
+				D271CBF9293D662E00F7B34E /* Debug */,
+				D271CBFA293D662E00F7B34E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D290405A26AA09BE00344296 /* Project object */;
+	rootObject = D271CBE2293D662D00F7B34E /* Project object */;
 }

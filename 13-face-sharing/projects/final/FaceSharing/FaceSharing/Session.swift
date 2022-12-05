@@ -12,7 +12,7 @@ final class Session: NSObject, ObservableObject {
     let activated = session.activationState == .activated
     let paired = session.isPaired
 
-    DispatchQueue.main.async {
+    Task { @MainActor in
       self.showFaceSharing = activated && paired
     }
   }
@@ -43,10 +43,6 @@ extension Session: WCSessionDelegate {
     activationDidCompleteWith activationState: WCSessionActivationState,
     error: Error?
   ) {
-    updateFaceSharing(session)
-  }
-
-  func sessionWatchStateDidChange(_ session: WCSession) {
     updateFaceSharing(session)
   }
 }

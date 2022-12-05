@@ -17,6 +17,7 @@ struct ContentView: View {
       } else {
         Text("Unable to share watch face")
           .font(.title)
+
         Text("Please pair an Apple Watch first")
           .font(.title3)
       }
@@ -32,6 +33,7 @@ struct ContentView: View {
     }
 
     let library = CLKWatchFaceLibrary()
+
     do {
       try await library.addWatchFace(at: url)
     } catch {
