@@ -100,7 +100,6 @@ extension PongScene {
     physicsBody = border
     physicsWorld.contactDelegate = self
 
-    paddleBeingMoved = rightPaddle
     resetBall(moving: .right)
   }
 
