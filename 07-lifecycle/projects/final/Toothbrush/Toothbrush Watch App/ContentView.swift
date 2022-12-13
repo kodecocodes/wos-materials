@@ -29,6 +29,8 @@ struct ContentView: View {
           }
           .frame(width: 125, height: 125)
           .padding()
+        } else {
+          EmptyView()
         }
       }
     )
