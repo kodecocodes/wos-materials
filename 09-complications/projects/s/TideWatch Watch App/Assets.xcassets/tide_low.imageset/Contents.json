@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "tide_low@2x.png",
+      "idiom" : "watch"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
