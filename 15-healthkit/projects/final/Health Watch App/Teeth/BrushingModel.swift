@@ -61,10 +61,8 @@ extension BrushingModel: WKExtendedRuntimeSessionDelegate {
       device.play(.success)
       
       Task {
-        // 2
         try? await HealthStore.shared.logBrushing(startDate: self.started)
 
-        // 3
         self.session.invalidate()
       }
     }
