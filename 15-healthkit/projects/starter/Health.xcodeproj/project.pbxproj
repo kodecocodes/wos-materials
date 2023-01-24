@@ -46,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		96C6577B297F924900792FA9 /* Health-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Health-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D2D960AC29737BC1003C7E89 /* Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Health.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D960B229737BC1003C7E89 /* Health Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D960B729737BC1003C7E89 /* HealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthApp.swift; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 		D2D960B629737BC1003C7E89 /* Health Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				96C6577B297F924900792FA9 /* Health-Watch-App-Info.plist */,
 				D2D960B929737BC1003C7E89 /* ContentView.swift */,
 				D2D960CC29737D21003C7E89 /* GetReadyView.swift */,
 				D2D960B729737BC1003C7E89 /* HealthApp.swift */,
@@ -377,6 +379,7 @@
 				DEVELOPMENT_TEAM = BQUPLV7KWS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Health-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Health;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -407,6 +410,7 @@
 				DEVELOPMENT_TEAM = BQUPLV7KWS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Health-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Health;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
