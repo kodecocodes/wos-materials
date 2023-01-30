@@ -1,4 +1,5 @@
 import SwiftUI
+import WidgetKit
 
 struct ContentView: View {
   @State private var isPresented = false
@@ -9,6 +10,10 @@ struct ContentView: View {
 
   var body: some View {
     VStack {
+      Button("reload") {
+        WidgetCenter.shared.reloadAllTimelines()
+      }
+
       Text(model.station.name)
         .foregroundColor(.title)
         .font(.headline)
@@ -20,6 +25,9 @@ struct ContentView: View {
       Text(model.station.state)
         .foregroundColor(.text)
         .font(.subheadline)
+
+      Image("waves")
+        .padding(.bottom)
 
       if let tide = model.currentWaterLevel {
         TideDataView(title: "Water Level", value: tide.heightString())

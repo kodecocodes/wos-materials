@@ -40,10 +40,8 @@ final class SessionCache: NSObject {
   func isValid(for stationId: MeasurementStation.ID) -> Bool {
     return sessions[stationId] != nil
   }
-}
 
-extension SessionCache: URLSessionDelegate {
-  func urlSessionDidFinishEvents(forBackgroundURLSession session: URLSession) {
+  func sessionCompleted(session: URLSession) {
     guard let stationId = session.configuration.identifier else {
       return
     }
@@ -54,8 +52,17 @@ extension SessionCache: URLSessionDelegate {
 
     DispatchQueue.main.async {
       sessionData.sessionCompletion?()
+      sessionData.sessionCompletion = nil
+
       sessionData.downloadCompletion?(tides)
+      sessionData.downloadCompletion = nil
     }
+  }
+}
+
+extension SessionCache: URLSessionDelegate {
+  func urlSessionDidFinishEvents(forBackgroundURLSession session: URLSession) {
+    sessionCompleted(session: session)
   }
 }
 
@@ -67,5 +74,11 @@ extension SessionCache: URLSessionDataDelegate {
 
     let sessionData = SessionCache.shared.sessionData(for: stationId)
     sessionData.messageData += data
+  }
+}
+
+extension SessionCache: URLSessionTaskDelegate {
+  func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {
+    sessionCompleted(session: session)
   }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D22D7E5729870A12003B8FE7 /* Calendar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A301329662D4400B2EBFD /* Calendar+Extension.swift */; };
+		D22D7E5829870A2A003B8FE7 /* Notification.Name+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF93BD29678BE9005BBF29 /* Notification.Name+Extension.swift */; };
 		D26BB4CC298587DB0001B291 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26BB4CB298587DB0001B291 /* WidgetKit.framework */; };
 		D26BB4CE298587DB0001B291 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26BB4CD298587DB0001B291 /* SwiftUI.framework */; };
 		D26BB4D1298587DB0001B291 /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26BB4D0298587DB0001B291 /* Widget.swift */; };
@@ -21,7 +23,6 @@
 		D26BB4EA29858C7A0001B291 /* TideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A300B2966246A00B2EBFD /* TideType.swift */; };
 		D26BB4EB29858D360001B291 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A301529662DCC00B2EBFD /* Formatters.swift */; };
 		D26BB4EC29858DB30001B291 /* MeasurementStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A301B2966303B00B2EBFD /* MeasurementStation.swift */; };
-		D26BB4F029858F3A0001B291 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A300D296624AA00B2EBFD /* UserDefaults+Extension.swift */; };
 		D26BB4F32985905D0001B291 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26BB4F1298590550001B291 /* IntentHandler.swift */; };
 		D28B05AD298595900027546B /* AccessoryCircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28B05AC298595900027546B /* AccessoryCircularView.swift */; };
 		D28B05AF298596B00027546B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28B05AE298596B00027546B /* Assets.xcassets */; };
@@ -36,7 +37,6 @@
 		D29A2FFF2966239000B2EBFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D29A2FFE2966239000B2EBFD /* Preview Assets.xcassets */; };
 		D29A300A296623E300B2EBFD /* Tide.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A3009296623E300B2EBFD /* Tide.swift */; };
 		D29A300C2966246A00B2EBFD /* TideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A300B2966246A00B2EBFD /* TideType.swift */; };
-		D29A300E296624AA00B2EBFD /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A300D296624AA00B2EBFD /* UserDefaults+Extension.swift */; };
 		D29A301029662A9400B2EBFD /* Stations.json in Resources */ = {isa = PBXBuildFile; fileRef = D29A300F29662A9400B2EBFD /* Stations.json */; };
 		D29A301229662CE300B2EBFD /* CoOpsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A301129662CE300B2EBFD /* CoOpsApi.swift */; };
 		D29A301429662D4400B2EBFD /* Calendar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A301329662D4400B2EBFD /* Calendar+Extension.swift */; };
@@ -51,9 +51,7 @@
 		D2F0A7032985D69B00CB434C /* TidePrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A301729662EC200B2EBFD /* TidePrediction.swift */; };
 		D2F0A7042985D69B00CB434C /* TidePredictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A301929662EEE00B2EBFD /* TidePredictions.swift */; };
 		D2F0A7052985D69B00CB434C /* CoOpsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A301129662CE300B2EBFD /* CoOpsApi.swift */; };
-		D2F0A7062985D6AB00CB434C /* Calendar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29A301329662D4400B2EBFD /* Calendar+Extension.swift */; };
 		D2F0A7072985D6BA00CB434C /* CurrentTideKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF93C32968D07F005BBF29 /* CurrentTideKeys.swift */; };
-		D2F0A7082985D6C400CB434C /* Notification.Name+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF93BD29678BE9005BBF29 /* Notification.Name+Extension.swift */; };
 		D2F0A70B2985E09200CB434C /* SessionCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F0A70A2985E09200CB434C /* SessionCache.swift */; };
 		D2FF93BE29678BE9005BBF29 /* Notification.Name+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF93BD29678BE9005BBF29 /* Notification.Name+Extension.swift */; };
 		D2FF93C42968D07F005BBF29 /* CurrentTideKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF93C32968D07F005BBF29 /* CurrentTideKeys.swift */; };
@@ -128,7 +126,6 @@
 		D29A2FFE2966239000B2EBFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D29A3009296623E300B2EBFD /* Tide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tide.swift; sourceTree = "<group>"; };
 		D29A300B2966246A00B2EBFD /* TideType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideType.swift; sourceTree = "<group>"; };
-		D29A300D296624AA00B2EBFD /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 		D29A300F29662A9400B2EBFD /* Stations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Stations.json; sourceTree = "<group>"; };
 		D29A301129662CE300B2EBFD /* CoOpsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoOpsApi.swift; sourceTree = "<group>"; };
 		D29A301329662D4400B2EBFD /* Calendar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+Extension.swift"; sourceTree = "<group>"; };
@@ -283,7 +280,6 @@
 			children = (
 				D29A301329662D4400B2EBFD /* Calendar+Extension.swift */,
 				D2FF93BD29678BE9005BBF29 /* Notification.Name+Extension.swift */,
-				D29A300D296624AA00B2EBFD /* UserDefaults+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -441,13 +437,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D28B05B2298597300027546B /* AccessoryCornerView.swift in Sources */,
-				D2F0A7062985D6AB00CB434C /* Calendar+Extension.swift in Sources */,
 				D26BB4E629858A1B0001B291 /* SimpleEntry.swift in Sources */,
 				D26BB4EA29858C7A0001B291 /* TideType.swift in Sources */,
 				D26BB4D6298587DC0001B291 /* Widget.intentdefinition in Sources */,
 				D2F0A70B2985E09200CB434C /* SessionCache.swift in Sources */,
 				D2F0A7022985D1CF00CB434C /* WidgetEntryView.swift in Sources */,
 				D2F0A7052985D69B00CB434C /* CoOpsApi.swift in Sources */,
+				D22D7E5729870A12003B8FE7 /* Calendar+Extension.swift in Sources */,
 				D26BB4EC29858DB30001B291 /* MeasurementStation.swift in Sources */,
 				D2F0A7032985D69B00CB434C /* TidePrediction.swift in Sources */,
 				D2F0A7072985D6BA00CB434C /* CurrentTideKeys.swift in Sources */,
@@ -455,12 +451,11 @@
 				D2F0A7042985D69B00CB434C /* TidePredictions.swift in Sources */,
 				D28B05B629859BAC0027546B /* AccessoryRectangular.swift in Sources */,
 				D26BB4E529858A1B0001B291 /* Provider.swift in Sources */,
+				D22D7E5829870A2A003B8FE7 /* Notification.Name+Extension.swift in Sources */,
 				D26BB4F32985905D0001B291 /* IntentHandler.swift in Sources */,
-				D2F0A7082985D6C400CB434C /* Notification.Name+Extension.swift in Sources */,
 				D26BB4D1298587DB0001B291 /* Widget.swift in Sources */,
 				D28B05AD298595900027546B /* AccessoryCircularView.swift in Sources */,
 				D28B05BB2985A0DA0027546B /* AccessoryInline.swift in Sources */,
-				D26BB4F029858F3A0001B291 /* UserDefaults+Extension.swift in Sources */,
 				D26BB4EB29858D360001B291 /* Formatters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,7 +471,6 @@
 				D29A300A296623E300B2EBFD /* Tide.swift in Sources */,
 				D2FF93C42968D07F005BBF29 /* CurrentTideKeys.swift in Sources */,
 				D29A301629662DCC00B2EBFD /* Formatters.swift in Sources */,
-				D29A300E296624AA00B2EBFD /* UserDefaults+Extension.swift in Sources */,
 				D29A301F2966317300B2EBFD /* ContentModel.swift in Sources */,
 				D29A300C2966246A00B2EBFD /* TideType.swift in Sources */,
 				D26BB4D7298587DC0001B291 /* Widget.intentdefinition in Sources */,

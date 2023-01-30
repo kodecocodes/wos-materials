@@ -2,11 +2,6 @@ import WidgetKit
 import Intents
 
 struct Provider: IntentTimelineProvider {
-  var session: URLSession = {
-    let session = URLSession(configuration: URLSessionConfiguration.background(withIdentifier: ""))
-    return session
-  }()
-
   func placeholder(in context: Context) -> SimpleEntry {
     SimpleEntry.placeholder(configuration: ConfigurationIntent())
   }
@@ -19,21 +14,22 @@ struct Provider: IntentTimelineProvider {
     let stationId = configuration.station!.identifier!
     let sessionData = SessionCache.shared.sessionData(for: stationId)
 
-    let two = Calendar.current.date(byAdding: .minute, value: 5, to: Date.now)!
-    let tide = Tide(on: Date.now, at: 2)
-    completion(.init(entries: [.init(date: Date.now, configuration: configuration, tide: tide)], policy: .after( two)))
-return
+    sessionData.messageData = Data()
 
     sessionData.downloadCompletion = { tides in
-      let entries = tides.map { tide in
+      var entries = tides.map { tide in
         SimpleEntry(date: tide.date, configuration: configuration, tide: tide)
+      }
+
+      if entries.isEmpty {
+        entries = [SimpleEntry(date: Date.now, configuration: configuration, tide: nil)]
       }
 
       let oneHour = Calendar.current.date(byAdding: .hour, value: 1, to: Date.now)!
       completion(.init(entries: entries, policy: .after(oneHour)))
     }
 
-    CoOpsApi.shared.getWidgetData(for: stationId, using: session)
+    CoOpsApi.shared.getWidgetData(for: stationId, using: sessionData.session)
   }
 
   func recommendations() -> [IntentRecommendation<ConfigurationIntent>] {
