@@ -14,8 +14,6 @@ struct Provider: IntentTimelineProvider {
     let stationId = configuration.station!.identifier!
     let sessionData = SessionCache.shared.sessionData(for: stationId)
 
-    sessionData.messageData = Data()
-
     sessionData.downloadCompletion = { tides in
       var entries = tides.map { tide in
         SimpleEntry(date: tide.date, configuration: configuration, tide: tide)

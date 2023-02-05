@@ -5,11 +5,9 @@ final class SessionData {
   let session: URLSession
   var sessionCompletion: (() -> Void)? = nil
   var downloadCompletion: (([Tide]) -> ())? = nil
-  var messageData: Data
 
   init(session: URLSession) {
     self.session = session
-    messageData = Data()
   }
 }
 
@@ -41,14 +39,13 @@ final class SessionCache: NSObject {
     return sessions[stationId] != nil
   }
 
-  func sessionCompleted(session: URLSession) {
+  private func downloadCompleted(for session: URLSession, data: Data? = nil) {
     guard let stationId = session.configuration.identifier else {
       return
     }
 
     let sessionData = SessionCache.shared.sessionData(for: stationId)
-    let tides = CoOpsApi.shared
-      .decodeTideData(data: sessionData.messageData)
+    let tides = data == nil ? [] : CoOpsApi.shared.decodeTideData(data: data)
 
     DispatchQueue.main.async {
       sessionData.sessionCompletion?()
@@ -60,25 +57,29 @@ final class SessionCache: NSObject {
   }
 }
 
-extension SessionCache: URLSessionDelegate {
-  func urlSessionDidFinishEvents(forBackgroundURLSession session: URLSession) {
-    sessionCompleted(session: session)
-  }
-}
-
-extension SessionCache: URLSessionDataDelegate {
-  func urlSession(_ session: URLSession, dataTask: URLSessionDataTask, didReceive data: Data) {
-    guard let stationId = session.configuration.identifier else {
+extension SessionCache: URLSessionDownloadDelegate {
+  func urlSession(
+    _ session: URLSession,
+    downloadTask: URLSessionDownloadTask,
+    didFinishDownloadingTo location: URL
+  ) {
+    guard
+      location.isFileURL,
+      let data = try? Data(contentsOf: location)
+    else {
+      downloadCompleted(for: session)
       return
     }
 
-    let sessionData = SessionCache.shared.sessionData(for: stationId)
-    sessionData.messageData += data
+    downloadCompleted(for: session, data: data)
+  }
+
+  func urlSession(
+    _ session: URLSession,
+    task: URLSessionTask,
+    didCompleteWithError error: Error?
+  ) {
+    downloadCompleted(for: session)
   }
 }
 
-extension SessionCache: URLSessionTaskDelegate {
-  func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {
-    sessionCompleted(session: session)
-  }
-}

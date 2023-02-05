@@ -13,7 +13,7 @@ struct AccessoryRectangular: View {
             .font(.headline)
             .foregroundColor(.blue)
             .widgetAccentable()
-          Text(tide.date.formatted(date: .omitted, time: .shortened))
+          Text("@ \(tide.date.formatted(date: .omitted, time: .shortened))")
             .font(.caption)
 
           if let stationName {

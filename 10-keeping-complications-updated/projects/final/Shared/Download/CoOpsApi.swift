@@ -105,7 +105,7 @@ final class CoOpsApi {
 
     let request = URLRequest(url: components.url!)
     session
-      .dataTask(with: request)
+      .downloadTask(with: request)
       .resume()
   }
 

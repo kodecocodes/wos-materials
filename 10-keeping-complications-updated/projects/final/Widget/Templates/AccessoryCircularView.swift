@@ -2,7 +2,7 @@ import SwiftUI
 import WidgetKit
 
 struct AccessoryCircularView: View {
-  var tide: Tide?
+  let tide: Tide?
 
   var body: some View {
     if let tide {

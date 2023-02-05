@@ -3,7 +3,7 @@ import SwiftUI
 struct WidgetEntryView : View {
   @Environment(\.widgetFamily) var family
 
-  var entry: Provider.Entry
+  let entry: Provider.Entry
 
   var body: some View {
     switch family {
@@ -20,8 +20,11 @@ struct WidgetEntryView : View {
         .widgetURL(url())
 
     case .accessoryRectangular:
-      AccessoryRectangular(tide: entry.tide, stationName: entry.configuration.station?.displayString)
-        .widgetURL(url())
+      AccessoryRectangular(
+        tide: entry.tide,
+        stationName: entry.configuration.station?.displayString
+      )
+      .widgetURL(url())
 
     @unknown default:
       Text("Unsupported widget")
