@@ -49,5 +49,21 @@ struct ContentView: View {
       await model.fetch()
       isLoading = false
     }
+    .onOpenURL { url in
+      let stationId = url.lastPathComponent
+
+      guard
+        url.scheme == "tidewatch",
+        url.host == "station",
+        stationId != "/",
+        !stationId.isEmpty
+      else {
+        return
+      }
+
+      if let station = MeasurementStation.station(for: stationId) {
+        Task { await model.fetch(newStation: station) }
+      }
+    }
   }
 }

@@ -9,18 +9,30 @@ struct EntryView : View {
     switch family {
     case .accessoryCircular:
       AccessoryCircularView(tide: entry.tide)
+        .widgetURL(url())
 
     case .accessoryCorner:
       AccessoryCornerView(tide: entry.tide)
+        .widgetURL(url())
 
     case .accessoryInline:
       AccessoryInlineView(tide: entry.tide)
+        .widgetURL(url())
 
     case .accessoryRectangular:
       AccessoryRectangularView(tide: entry.tide)
+        .widgetURL(url())
 
     @unknown default:
       Text("Unsupported widget")
     }
+  }
+
+  private func url() -> URL {
+    guard let stationId = entry.configuration.station?.identifier else {
+      return URL(string: "tidewatch://station/NOTASTATION")!
+    }
+
+    return URL(string: "tidewatch://station/\(stationId)")!
   }
 }

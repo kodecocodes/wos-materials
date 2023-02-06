@@ -50,6 +50,10 @@ struct MeasurementStation: Codable, Hashable, Identifiable {
     UserDefaults.extensions.set(data, forKey: id)
   }
 
+  static func station(for stationId: MeasurementStation.ID) -> MeasurementStation? {
+    return allStations.first { $0.id == stationId }
+  }
+
   static func getCurrentTide(for stationId: MeasurementStation.ID) -> Tide? {
     let station = MeasurementStation(id: stationId, name: "", state: "")
     return station.tides().last

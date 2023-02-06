@@ -28,8 +28,13 @@ struct Provider: IntentTimelineProvider {
   }
 
   func recommendations() -> [IntentRecommendation<ConfigurationIntent>] {
-    return [
-      IntentRecommendation(intent: ConfigurationIntent(), description: "My Intent Widget")
-    ]
+    return MeasurementStation
+      .allStations
+      .map { station in
+        let intent = ConfigurationIntent()
+        intent.station = StationChoice(identifier: station.id, display: "shitmonkey")
+
+        return IntentRecommendation(intent: intent, description: station.name)
+      }
   }
 }

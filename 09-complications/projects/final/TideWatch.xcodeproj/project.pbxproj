@@ -94,6 +94,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D22E3D3A29907B4B00F5A674 /* TideWatch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TideWatch-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D28B05B72985A0530027546B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D29A2FEC2966238F00B2EBFD /* TideWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TideWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D29A2FF22966238F00B2EBFD /* TideWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TideWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,6 +195,7 @@
 		D29A2FF62966238F00B2EBFD /* TideWatch Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				D22E3D3A29907B4B00F5A674 /* TideWatch-Watch-App-Info.plist */,
 				D2FF93C32968D07F005BBF29 /* CurrentTideKeys.swift */,
 				D29A2FF72966238F00B2EBFD /* TideWatchApp.swift */,
 				D29A2FFB2966239000B2EBFD /* Assets.xcassets */,
@@ -592,6 +594,7 @@
 				DEVELOPMENT_TEAM = BQUPLV7KWS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TideWatch-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = TideWatch;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -623,6 +626,7 @@
 				DEVELOPMENT_TEAM = BQUPLV7KWS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TideWatch-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = TideWatch;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
