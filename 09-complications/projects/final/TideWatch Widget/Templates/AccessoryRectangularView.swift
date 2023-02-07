@@ -2,8 +2,6 @@ import SwiftUI
 import WidgetKit
 
 struct AccessoryRectangularView: View {
-  @Environment(\.redactionReasons) var redactionReasons
-
   let tide: Tide
 
   var body: some View {

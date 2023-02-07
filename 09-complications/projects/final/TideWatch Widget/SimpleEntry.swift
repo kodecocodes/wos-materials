@@ -1,5 +1,4 @@
 import WidgetKit
-import Intents
 
 struct SimpleEntry: TimelineEntry {
   let date: Date

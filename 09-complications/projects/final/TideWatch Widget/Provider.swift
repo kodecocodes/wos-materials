@@ -1,6 +1,4 @@
 import WidgetKit
-import SwiftUI
-import Intents
 
 struct Provider: IntentTimelineProvider {
   func placeholder(in context: Context) -> SimpleEntry {
@@ -32,7 +30,7 @@ struct Provider: IntentTimelineProvider {
       .allStations
       .map { station in
         let intent = ConfigurationIntent()
-        intent.station = StationChoice(identifier: station.id, display: "shitmonkey")
+        intent.station = StationChoice(identifier: station.id, display: station.name)
 
         return IntentRecommendation(intent: intent, description: station.name)
       }
