@@ -1,13 +1,13 @@
 import WidgetKit
-import Intents
 
 struct Provider: IntentTimelineProvider {
   func placeholder(in context: Context) -> SimpleEntry {
-    SimpleEntry.placeholder(configuration: ConfigurationIntent())
+    SimpleEntry(date: Date(), configuration: ConfigurationIntent(), tide: Tide.placeholder())
   }
 
   func getSnapshot(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (SimpleEntry) -> ()) {
-    completion(SimpleEntry.placeholder(configuration: configuration))
+    let entry = SimpleEntry(date: Date(), configuration: configuration, tide: Tide.placeholder())
+    completion(entry)
   }
 
   func getTimeline(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (Timeline<SimpleEntry>) -> ()) {
@@ -41,3 +41,4 @@ struct Provider: IntentTimelineProvider {
       }
   }
 }
+ 

@@ -1,7 +1,7 @@
 import SwiftUI
 import WidgetKit
 
-struct AccessoryRectangular: View {
+struct AccessoryRectangularView: View {
   let tide: Tide
 
   var body: some View {
@@ -16,15 +16,18 @@ struct AccessoryRectangular: View {
         Text(tide.type.rawValue.capitalized)
           .font(.caption)
       }
+
       tide.image()
         .font(.headline.bold())
+        .widgetAccentable()
     }
   }
 }
 
-struct AccessoryRectangular_Previews: PreviewProvider {
+struct AccessoryRectangularView_Previews: PreviewProvider {
   static var previews: some View {
-    AccessoryRectangular(tide: Tide.placeholder())
+    AccessoryRectangularView(tide: Tide.placeholder())
       .previewContext(WidgetPreviewContext(family: .accessoryRectangular))
+
   }
 }

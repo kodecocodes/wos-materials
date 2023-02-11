@@ -5,33 +5,6 @@ struct MeasurementStation: Codable, Hashable, Identifiable {
   let name: String
   let state: String
 
-  func tides() -> [Tide] {
-    guard let data = UserDefaults.standard.data(forKey: id) else {
-      return []
-    }
-
-    let decoder = JSONDecoder()
-    guard var tides = try? decoder.decode([Tide].self, from: data) else {
-      return []
-    }
-
-    if let index = tides.lastIndex(where: { $0.date < Date.now }) {
-      tides.removeSubrange(0 ..< index)
-      UserDefaults.standard.set(tides, forKey: id)
-    }
-
-    return tides
-  }
-
-  func store(_ tides: [Tide]) {
-    let encoder = JSONEncoder()
-    guard let data = try? encoder.encode(tides) else {
-      return
-    }
-
-    UserDefaults.standard.set(data, forKey: id)
-  }
-
   static func forPreview() -> Self {
     .init(id: "1234", name: "Clearwater Beach", state: "FL")
   }
@@ -49,16 +22,45 @@ struct MeasurementStation: Codable, Hashable, Identifiable {
 
     return stations
   }()
-  
+
+  func tides() -> [Tide] {
+    guard let data = UserDefaults.extensions.data(forKey: id) else {
+      return []
+    }
+
+    let decoder = JSONDecoder()
+    guard var tides = try? decoder.decode([Tide].self, from: data) else {
+      return []
+    }
+
+    if let index = tides.lastIndex(where: { $0.date < Date.now }) {
+      tides.removeSubrange(0 ..< index)
+      UserDefaults.extensions.set(tides, forKey: id)
+    }
+
+    return tides
+  }
+
+  func store(_ tides: [Tide]) {
+    let encoder = JSONEncoder()
+    guard let data = try? encoder.encode(tides) else {
+      return
+    }
+
+    UserDefaults.extensions.set(data, forKey: id)
+  }
+
   static func station(for stationId: MeasurementStation.ID) -> MeasurementStation? {
     return allStations.first { $0.id == stationId }
   }
 
   static func getCurrentTide(for stationId: MeasurementStation.ID) -> Tide? {
-    return station(for: stationId)?.tides().last
+    let station = MeasurementStation(id: stationId, name: "", state: "")
+    return station.tides().last
   }
 
   static func tides(for stationId: MeasurementStation.ID) -> [Tide] {
-    return station(for: stationId)?.tides() ?? []
+    let station = MeasurementStation(id: stationId, name: "", state: "")
+    return station.tides()
   }
 }

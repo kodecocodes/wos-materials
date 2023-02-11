@@ -1,5 +1,4 @@
 import SwiftUI
-import WidgetKit
 
 struct ContentView: View {
   @State private var isPresented = false
@@ -10,10 +9,6 @@ struct ContentView: View {
 
   var body: some View {
     VStack {
-      Button("reload") {
-        WidgetCenter.shared.reloadAllTimelines()
-      }
-
       Text(model.station.name)
         .foregroundColor(.title)
         .font(.headline)

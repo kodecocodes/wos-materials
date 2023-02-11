@@ -6,12 +6,12 @@ struct AccessoryCircularView: View {
 
   var body: some View {
     VStack {
-      tide.image().font(.title.bold())
+      tide.image()
+        .font(.title.bold())
 
       Text(tide.heightString())
         .font(.headline)
         .foregroundColor(.blue)
-        .widgetAccentable()
     }
   }
 }

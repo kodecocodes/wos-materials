@@ -61,7 +61,9 @@ struct ContentView: View {
         return
       }
 
-      Task { await model.fetch(newStation: selectedStation) }
+      if let station = MeasurementStation.station(for: stationId) {
+        Task { await model.fetch(newStation: station) }
+      }
     }
   }
 }

@@ -1,7 +1,7 @@
 import SwiftUI
 import WidgetKit
 
-struct AccessoryInline: View {
+struct AccessoryInlineView: View {
   let tide: Tide?
 
   var body: some View {
@@ -21,10 +21,10 @@ struct AccessoryInline: View {
 struct AccessoryInline_Previews: PreviewProvider {
   static var previews: some View {
     Group {
-      AccessoryInline(tide: Tide.placeholder())
+      AccessoryInlineView(tide: Tide.placeholder())
         .previewContext(WidgetPreviewContext(family: .accessoryInline))
 
-      AccessoryInline(tide: nil)
+      AccessoryInlineView(tide: nil)
         .previewContext(WidgetPreviewContext(family: .accessoryInline))
     }
   }

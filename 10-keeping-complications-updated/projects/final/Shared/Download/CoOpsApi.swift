@@ -60,7 +60,7 @@ final class CoOpsApi {
     ].map { .init(name: $0.key, value: $0.value) }
   }
 
-  public func url(for stationId: MeasurementStation.ID) -> URL? {
+  private func url(for stationId: MeasurementStation.ID) -> URL? {
     let now = Calendar.utc.utcHour()
 
     guard
@@ -80,7 +80,7 @@ final class CoOpsApi {
     return components.url
   }
 
-  public func decodeTideData(data: Data?) -> [Tide] {
+  public func decodeTide(_ data: Data?) -> [Tide] {
     let decoder = JSONDecoder()
     decoder.dateDecodingStrategy = .formatted(Formatters.predictionOutputFormatter)
 
@@ -120,12 +120,12 @@ final class CoOpsApi {
     do {
       let (data, response) = try await URLSession.shared.data(from: url)
 
-      guard let resp = response as? HTTPURLResponse, resp.statusCode  == 200, !data.isEmpty else { 
+      guard let resp = response as? HTTPURLResponse, resp.statusCode == 200, !data.isEmpty else {
         return
       }
 
-      let levels = decodeTideData(data: data)
-      
+      let levels = decodeTide(data)
+
       let count = levels.count
 
       for (i, current) in levels.enumerated() {
@@ -201,4 +201,3 @@ final class CoOpsApi {
     }
   }
 }
-

@@ -1,9 +1,9 @@
 import SwiftUI
 
-struct WidgetEntryView : View {
-  @Environment(\.widgetFamily) var family
+struct EntryView : View {
+  @Environment(\.widgetFamily) private var family
 
-  let entry: Provider.Entry
+  var entry: Provider.Entry
 
   var body: some View {
     switch family {
@@ -16,15 +16,12 @@ struct WidgetEntryView : View {
         .widgetURL(url())
 
     case .accessoryInline:
-      AccessoryInline(tide: entry.tide)
+      AccessoryInlineView(tide: entry.tide)
         .widgetURL(url())
 
     case .accessoryRectangular:
-      AccessoryRectangular(
-        tide: entry.tide,
-        stationName: entry.configuration.station?.displayString
-      )
-      .widgetURL(url())
+      AccessoryRectangularView(tide: entry.tide)
+        .widgetURL(url())
 
     @unknown default:
       Text("Unsupported widget")

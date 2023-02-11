@@ -1,7 +1,7 @@
 import SwiftUI
 
-struct WidgetEntryView : View {
-  @Environment(\.widgetFamily) var family
+struct EntryView : View {
+  @Environment(\.widgetFamily) private var family
 
   var entry: Provider.Entry
 
@@ -16,12 +16,15 @@ struct WidgetEntryView : View {
         .widgetURL(url())
 
     case .accessoryInline:
-      AccessoryInline(tide: entry.tide)
+      AccessoryInlineView(tide: entry.tide)
         .widgetURL(url())
 
     case .accessoryRectangular:
-      AccessoryRectangular(tide: entry.tide)
-        .widgetURL(url())
+      AccessoryRectangularView(
+        tide: entry.tide,
+        stationName: entry.configuration.station?.displayString
+      )
+      .widgetURL(url())
 
     @unknown default:
       Text("Unsupported widget")
@@ -30,7 +33,7 @@ struct WidgetEntryView : View {
 
   private func url() -> URL {
     guard let stationId = entry.configuration.station?.identifier else {
-      fatalError()
+      return URL(string: "tidewatch://station/NOTASTATION")!
     }
 
     return URL(string: "tidewatch://station/\(stationId)")!

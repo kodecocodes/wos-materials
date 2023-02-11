@@ -1,7 +1,7 @@
 import SwiftUI
 import WidgetKit
 
-struct AccessoryRectangular: View {
+struct AccessoryRectangularView: View {
   let tide: Tide?
   let stationName: String?
 
@@ -39,10 +39,10 @@ struct AccessoryRectangular: View {
 struct AccessoryRectangular_Previews: PreviewProvider {
   static var previews: some View {
     Group {
-      AccessoryRectangular(tide: Tide.placeholder(), stationName: "Foo")
+      AccessoryRectangularView(tide: Tide.placeholder(), stationName: "Foo")
         .previewContext(WidgetPreviewContext(family: .accessoryRectangular))
 
-      AccessoryRectangular(tide: nil, stationName: "Foo")
+      AccessoryRectangularView(tide: nil, stationName: "Foo")
         .previewContext(WidgetPreviewContext(family: .accessoryRectangular))
     }
   }

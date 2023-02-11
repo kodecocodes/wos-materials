@@ -3,16 +3,15 @@ import SwiftUI
 import Intents
 
 @main
-struct Widget: SwiftUI.Widget {
-  let kind: String = "com.yourcompany.TideWatch1"
+struct TideWatch_Widget: Widget {
+  let kind: String = "TideWatch_Widget"
 
   var body: some WidgetConfiguration {
     IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
-      WidgetEntryView(entry: entry)
+      EntryView(entry: entry)
     }
-    .configurationDisplayName("TideWatch1")
-    .description("See tide conditions.")
-    .supportedFamilies([.accessoryCircular, .accessoryCorner, .accessoryInline, .accessoryRectangular])
+    .configurationDisplayName("TideWatch")
+    .description("Show current tide conditions.")
     .onBackgroundURLSessionEvents { identifier in
       return SessionCache.shared.isValid(for: identifier)
     } _: { identifier, completion in
@@ -22,9 +21,9 @@ struct Widget: SwiftUI.Widget {
   }
 }
 
-struct Widget_Previews: PreviewProvider {
+struct TideWatch_Widget_Previews: PreviewProvider {
   static var previews: some View {
-    WidgetEntryView(entry: SimpleEntry(date: Date(), configuration: ConfigurationIntent(), tide: Tide.placeholder()))
+    EntryView(entry: SimpleEntry(date: Date(), configuration: ConfigurationIntent(), tide: Tide.placeholder()))
       .previewContext(WidgetPreviewContext(family: .accessoryRectangular))
   }
 }
