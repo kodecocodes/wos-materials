@@ -46,13 +46,30 @@ final class SessionCache: NSObject {
 }
 
 extension SessionCache: URLSessionDownloadDelegate {
-  func urlSession(_ session: URLSession, downloadTask: URLSessionDownloadTask, didFinishDownloadingTo location: URL) {
+  func urlSession(
+  _ session: URLSession,
+  downloadTask: URLSessionDownloadTask,
+  didFinishDownloadingTo location: URL
+  ) {
+    guard
+      location.isFileURL,
+      let data = try? Data(contentsOf: location)
+    else {
+      downloadCompleted(for: session)
+      return
+    }
 
+    downloadCompleted(for: session, data: data)
   }
 
-  func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {
-
+  func urlSession(
+    _ session: URLSession,
+    task: URLSessionTask,
+    didCompleteWithError error: Error?
+  ) {
+    downloadCompleted(for: session)
   }
+
 }
 
 
