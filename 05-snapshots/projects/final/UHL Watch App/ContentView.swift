@@ -4,7 +4,6 @@ import Combine
 struct ContentView: View {
   @EnvironmentObject private var season: Season
   @State private var snapshotHandler: (() -> Void)?
-  @State private var selectedMatchId: Match.ID?
   @State private var path: [Destination] = []
 
   private let pushViewForSnapshotPublisher = NotificationCenter
@@ -86,7 +85,17 @@ struct ContentView: View {
     }
 
     snapshotHandler = info.handler
-    selectedMatchId = info.matchId
+
+    path.append(info.destination)
+
+    if let matchId = info.matchId, let match = season.match(with: matchId) {
+      path.append(.matchDetail(match: match))
+    }
+  }
+
+  private func handleSnapshot() {
+    snapshotHandler?()
+    snapshotHandler = nil
   }
 }
 

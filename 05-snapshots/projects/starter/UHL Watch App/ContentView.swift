@@ -3,7 +3,6 @@ import Combine
 
 struct ContentView: View {
   @EnvironmentObject private var season: Season
-  @State private var selectedMatchId: Match.ID?
   @State private var path: [Destination] = []
 
   public enum Destination: Hashable {

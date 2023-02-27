@@ -70,6 +70,10 @@ class Season: NSObject, ObservableObject {
     return matches.filter { $0.date < now }
   }
 
+  func match(with id: Match.ID) -> Match? {
+    return matches.first(where: { $0.id == id })
+  }
+
   func record() -> String {
     let record = pastMatches()
       .reduce((won: 0, lost: 0, tied: 0)) { prev, match in
