@@ -2,8 +2,7 @@
   "images" : [
     {
       "filename" : "waves@2x.png",
-      "idiom" : "watch",
-      "scale" : "2x"
+      "idiom" : "watch"
     }
   ],
   "info" : {
