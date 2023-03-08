@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1410"
+   LastUpgradeVersion = "1420"
    version = "2.0">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D253BF702931885F00027A71"
+               BlueprintIdentifier = "D27BC611289053E900D40248"
                BuildableName = "Pawsome.app"
                BlueprintName = "Pawsome"
                ReferencedContainer = "container:Pawsome.xcodeproj">
@@ -46,7 +46,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D253BF762931885F00027A71"
+            BlueprintIdentifier = "D27BC617289053E900D40248"
             BuildableName = "Pawsome Watch App.app"
             BlueprintName = "Pawsome Watch App"
             ReferencedContainer = "container:Pawsome.xcodeproj">
@@ -55,7 +55,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D253BF702931885F00027A71"
+            BlueprintIdentifier = "D27BC611289053E900D40248"
             BuildableName = "Pawsome.app"
             BlueprintName = "Pawsome"
             ReferencedContainer = "container:Pawsome.xcodeproj">
@@ -67,15 +67,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES"
-      notificationPayloadFile = "Pawsome Watch App/PushNotificationPayload.apns">
+      debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D253BF762931885F00027A71"
-            BuildableName = "Pawsome Watch App.app"
-            BlueprintName = "Pawsome Watch App"
+            BlueprintIdentifier = "D27BC611289053E900D40248"
+            BuildableName = "Pawsome.app"
+            BlueprintName = "Pawsome"
             ReferencedContainer = "container:Pawsome.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

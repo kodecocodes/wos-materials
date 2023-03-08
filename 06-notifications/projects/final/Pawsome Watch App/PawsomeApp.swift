@@ -1,11 +1,13 @@
 import SwiftUI
-import UserNotifications
+import WatchKit
 
 @main
 struct Pawsome_Watch_AppApp: App {
   @WKExtensionDelegateAdaptor(ExtensionDelegate.self)
   private var extensionDelegate
   
+  private let local = LocalNotifications()
+
   var body: some Scene {
     WindowGroup {
       ContentView()

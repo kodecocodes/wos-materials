@@ -27,7 +27,7 @@ final class LocalNotifications: NSObject {
 
     let action = UNNotificationAction(
       identifier: self.actionIdentifier,
-      title: " s!",
+      title: "More Cats!",
       options: .foreground)
 
     let category = UNNotificationCategory(
