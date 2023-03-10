@@ -45,4 +45,8 @@ extension Session: WCSessionDelegate {
   ) {
     updateFaceSharing(session)
   }
+  
+  func sessionWatchStateDidChange(_ session: WCSession) {
+    updateFaceSharing(session)
+  }
 }
