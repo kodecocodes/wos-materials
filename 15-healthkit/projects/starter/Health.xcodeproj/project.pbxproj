@@ -3,64 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D28CD90326EEA5AD00A1DE0F /* Health WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D28CD90226EEA5AD00A1DE0F /* Health WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D28CD90826EEA5AE00A1DE0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28CD90726EEA5AE00A1DE0F /* Assets.xcassets */; };
-		D28CD90E26EEA5AF00A1DE0F /* Health WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D28CD90D26EEA5AF00A1DE0F /* Health WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D28CD91326EEA5AF00A1DE0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28CD91226EEA5AF00A1DE0F /* ContentView.swift */; };
-		D28CD91526EEA5AF00A1DE0F /* HealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28CD91426EEA5AF00A1DE0F /* HealthApp.swift */; };
-		D28CD91726EEA5AF00A1DE0F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28CD91626EEA5AF00A1DE0F /* ComplicationController.swift */; };
-		D28CD91926EEA5B000A1DE0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28CD91826EEA5B000A1DE0F /* Assets.xcassets */; };
-		D28CD91C26EEA5B000A1DE0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28CD91B26EEA5B000A1DE0F /* Preview Assets.xcassets */; };
-		D28CD93126EEA5F100A1DE0F /* BrushingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28CD93026EEA5F100A1DE0F /* BrushingModel.swift */; };
-		D28CD93326EEA60D00A1DE0F /* BrushingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28CD93226EEA60D00A1DE0F /* BrushingTimerView.swift */; };
-		D28CD93526EEA64200A1DE0F /* GetReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28CD93426EEA64200A1DE0F /* GetReadyView.swift */; };
-		D28CD93926EEA68600A1DE0F /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = D28CD93826EEA68600A1DE0F /* SwiftUICharts */; };
-		D28CD94326EEC72100A1DE0F /* Notification.Name+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28CD94226EEC72100A1DE0F /* Notification.Name+Extension.swift */; };
-		D28CD94726EED4BA00A1DE0F /* LogWaterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28CD94626EED4BA00A1DE0F /* LogWaterButton.swift */; };
-		D28CD94B26EEF56900A1DE0F /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28CD94A26EEF56900A1DE0F /* BarChart.swift */; };
-		D28CD94D26EEF58100A1DE0F /* WaterGraphData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28CD94C26EEF58100A1DE0F /* WaterGraphData.swift */; };
+		D2D960B329737BC1003C7E89 /* Health Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D2D960B229737BC1003C7E89 /* Health Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2D960B829737BC1003C7E89 /* HealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D960B729737BC1003C7E89 /* HealthApp.swift */; };
+		D2D960BA29737BC1003C7E89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D960B929737BC1003C7E89 /* ContentView.swift */; };
+		D2D960BC29737BC2003C7E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D960BB29737BC2003C7E89 /* Assets.xcassets */; };
+		D2D960BF29737BC2003C7E89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2D960BE29737BC2003C7E89 /* Preview Assets.xcassets */; };
+		D2D960D429737D21003C7E89 /* Notification.Name+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D960CB29737D21003C7E89 /* Notification.Name+Extension.swift */; };
+		D2D960D529737D21003C7E89 /* GetReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D960CC29737D21003C7E89 /* GetReadyView.swift */; };
+		D2D960D629737D21003C7E89 /* BrushingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D960CE29737D21003C7E89 /* BrushingTimerView.swift */; };
+		D2D960D729737D21003C7E89 /* BrushingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D960CF29737D21003C7E89 /* BrushingModel.swift */; };
+		D2D960D829737D21003C7E89 /* LogWaterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D960D129737D21003C7E89 /* LogWaterButton.swift */; };
+		D2D960D929737D21003C7E89 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D960D229737D21003C7E89 /* BarChart.swift */; };
+		D2D960DA29737D21003C7E89 /* WaterGraphData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D960D329737D21003C7E89 /* WaterGraphData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D28CD90426EEA5AD00A1DE0F /* PBXContainerItemProxy */ = {
+		D2D960B429737BC1003C7E89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D28CD8F826EEA5AC00A1DE0F /* Project object */;
+			containerPortal = D2D960A629737BC1003C7E89 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D28CD90126EEA5AD00A1DE0F;
-			remoteInfo = "Health WatchKit App";
-		};
-		D28CD90F26EEA5AF00A1DE0F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D28CD8F826EEA5AC00A1DE0F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D28CD90C26EEA5AF00A1DE0F;
-			remoteInfo = "Health WatchKit Extension";
+			remoteGlobalIDString = D2D960B129737BC1003C7E89;
+			remoteInfo = "Health Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D28CD92326EEA5B000A1DE0F /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				D28CD90E26EEA5AF00A1DE0F /* Health WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D28CD92726EEA5B000A1DE0F /* Embed Watch Content */ = {
+		D2D960C529737BC2003C7E89 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				D28CD90326EEA5AD00A1DE0F /* Health WatchKit App.app in Embed Watch Content */,
+				D2D960B329737BC1003C7E89 /* Health Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,108 +46,93 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D28CD8FE26EEA5AC00A1DE0F /* Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Health.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D28CD90226EEA5AD00A1DE0F /* Health WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D28CD90726EEA5AE00A1DE0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D28CD90D26EEA5AF00A1DE0F /* Health WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Health WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D28CD91226EEA5AF00A1DE0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D28CD91426EEA5AF00A1DE0F /* HealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthApp.swift; sourceTree = "<group>"; };
-		D28CD91626EEA5AF00A1DE0F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		D28CD91826EEA5B000A1DE0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D28CD91B26EEA5B000A1DE0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D28CD91D26EEA5B000A1DE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D28CD93026EEA5F100A1DE0F /* BrushingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrushingModel.swift; sourceTree = "<group>"; };
-		D28CD93226EEA60D00A1DE0F /* BrushingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrushingTimerView.swift; sourceTree = "<group>"; };
-		D28CD93426EEA64200A1DE0F /* GetReadyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetReadyView.swift; sourceTree = "<group>"; };
-		D28CD94226EEC72100A1DE0F /* Notification.Name+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+Extension.swift"; sourceTree = "<group>"; };
-		D28CD94626EED4BA00A1DE0F /* LogWaterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogWaterButton.swift; sourceTree = "<group>"; };
-		D28CD94A26EEF56900A1DE0F /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
-		D28CD94C26EEF58100A1DE0F /* WaterGraphData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterGraphData.swift; sourceTree = "<group>"; };
-		D28CD95626EF080800A1DE0F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		96C6577B297F924900792FA9 /* Health-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Health-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D2D960AC29737BC1003C7E89 /* Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Health.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D960B229737BC1003C7E89 /* Health Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D960B729737BC1003C7E89 /* HealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthApp.swift; sourceTree = "<group>"; };
+		D2D960B929737BC1003C7E89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2D960BB29737BC2003C7E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2D960BE29737BC2003C7E89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2D960C929737BF0003C7E89 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D2D960CB29737D21003C7E89 /* Notification.Name+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification.Name+Extension.swift"; sourceTree = "<group>"; };
+		D2D960CC29737D21003C7E89 /* GetReadyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetReadyView.swift; sourceTree = "<group>"; };
+		D2D960CE29737D21003C7E89 /* BrushingTimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrushingTimerView.swift; sourceTree = "<group>"; };
+		D2D960CF29737D21003C7E89 /* BrushingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrushingModel.swift; sourceTree = "<group>"; };
+		D2D960D129737D21003C7E89 /* LogWaterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogWaterButton.swift; sourceTree = "<group>"; };
+		D2D960D229737D21003C7E89 /* BarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		D2D960D329737D21003C7E89 /* WaterGraphData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterGraphData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D28CD90A26EEA5AF00A1DE0F /* Frameworks */ = {
+		D2D960AF29737BC1003C7E89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D28CD93926EEA68600A1DE0F /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D28CD8F726EEA5AC00A1DE0F = {
+		D2D960A529737BC1003C7E89 = {
 			isa = PBXGroup;
 			children = (
-				D28CD95626EF080800A1DE0F /* LICENSE */,
-				D28CD90626EEA5AD00A1DE0F /* Health WatchKit App */,
-				D28CD91126EEA5AF00A1DE0F /* Health WatchKit Extension */,
-				D28CD8FF26EEA5AC00A1DE0F /* Products */,
+				D2D960C929737BF0003C7E89 /* LICENSE */,
+				D2D960B629737BC1003C7E89 /* Health Watch App */,
+				D2D960AD29737BC1003C7E89 /* Products */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
 			tabWidth = 2;
 		};
-		D28CD8FF26EEA5AC00A1DE0F /* Products */ = {
+		D2D960AD29737BC1003C7E89 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D28CD8FE26EEA5AC00A1DE0F /* Health.app */,
-				D28CD90226EEA5AD00A1DE0F /* Health WatchKit App.app */,
-				D28CD90D26EEA5AF00A1DE0F /* Health WatchKit Extension.appex */,
+				D2D960AC29737BC1003C7E89 /* Health.app */,
+				D2D960B229737BC1003C7E89 /* Health Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D28CD90626EEA5AD00A1DE0F /* Health WatchKit App */ = {
+		D2D960B629737BC1003C7E89 /* Health Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				D28CD90726EEA5AE00A1DE0F /* Assets.xcassets */,
+				96C6577B297F924900792FA9 /* Health-Watch-App-Info.plist */,
+				D2D960B929737BC1003C7E89 /* ContentView.swift */,
+				D2D960CC29737D21003C7E89 /* GetReadyView.swift */,
+				D2D960B729737BC1003C7E89 /* HealthApp.swift */,
+				D2D960CB29737D21003C7E89 /* Notification.Name+Extension.swift */,
+				D2D960BB29737BC2003C7E89 /* Assets.xcassets */,
+				D2D960BD29737BC2003C7E89 /* Preview Content */,
+				D2D960CD29737D21003C7E89 /* Teeth */,
+				D2D960D029737D21003C7E89 /* Water */,
 			);
-			path = "Health WatchKit App";
+			path = "Health Watch App";
 			sourceTree = "<group>";
 		};
-		D28CD91126EEA5AF00A1DE0F /* Health WatchKit Extension */ = {
+		D2D960BD29737BC2003C7E89 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D28CD91D26EEA5B000A1DE0F /* Info.plist */,
-				D28CD91626EEA5AF00A1DE0F /* ComplicationController.swift */,
-				D28CD91226EEA5AF00A1DE0F /* ContentView.swift */,
-				D28CD93426EEA64200A1DE0F /* GetReadyView.swift */,
-				D28CD91426EEA5AF00A1DE0F /* HealthApp.swift */,
-				D28CD91826EEA5B000A1DE0F /* Assets.xcassets */,
-				D28CD91A26EEA5B000A1DE0F /* Preview Content */,
-				D28CD92B26EEA5C000A1DE0F /* Teeth */,
-				D28CD93626EEA65200A1DE0F /* Water */,
-				D28CD94226EEC72100A1DE0F /* Notification.Name+Extension.swift */,
-			);
-			path = "Health WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		D28CD91A26EEA5B000A1DE0F /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D28CD91B26EEA5B000A1DE0F /* Preview Assets.xcassets */,
+				D2D960BE29737BC2003C7E89 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D28CD92B26EEA5C000A1DE0F /* Teeth */ = {
+		D2D960CD29737D21003C7E89 /* Teeth */ = {
 			isa = PBXGroup;
 			children = (
-				D28CD93026EEA5F100A1DE0F /* BrushingModel.swift */,
-				D28CD93226EEA60D00A1DE0F /* BrushingTimerView.swift */,
+				D2D960CE29737D21003C7E89 /* BrushingTimerView.swift */,
+				D2D960CF29737D21003C7E89 /* BrushingModel.swift */,
 			);
 			path = Teeth;
 			sourceTree = "<group>";
 		};
-		D28CD93626EEA65200A1DE0F /* Water */ = {
+		D2D960D029737D21003C7E89 /* Water */ = {
 			isa = PBXGroup;
 			children = (
-				D28CD94A26EEF56900A1DE0F /* BarChart.swift */,
-				D28CD94626EED4BA00A1DE0F /* LogWaterButton.swift */,
-				D28CD94C26EEF58100A1DE0F /* WaterGraphData.swift */,
+				D2D960D129737D21003C7E89 /* LogWaterButton.swift */,
+				D2D960D229737D21003C7E89 /* BarChart.swift */,
+				D2D960D329737D21003C7E89 /* WaterGraphData.swift */,
 			);
 			path = Water;
 			sourceTree = "<group>";
@@ -177,174 +140,132 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D28CD8FD26EEA5AC00A1DE0F /* Health */ = {
+		D2D960AB29737BC1003C7E89 /* Health */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D28CD92826EEA5B000A1DE0F /* Build configuration list for PBXNativeTarget "Health" */;
+			buildConfigurationList = D2D960C629737BC2003C7E89 /* Build configuration list for PBXNativeTarget "Health" */;
 			buildPhases = (
-				D28CD8FC26EEA5AC00A1DE0F /* Resources */,
-				D28CD92726EEA5B000A1DE0F /* Embed Watch Content */,
+				D2D960AA29737BC1003C7E89 /* Resources */,
+				D2D960C529737BC2003C7E89 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D28CD90526EEA5AD00A1DE0F /* PBXTargetDependency */,
+				D2D960B529737BC1003C7E89 /* PBXTargetDependency */,
 			);
 			name = Health;
 			productName = Health;
-			productReference = D28CD8FE26EEA5AC00A1DE0F /* Health.app */;
+			productReference = D2D960AC29737BC1003C7E89 /* Health.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		D28CD90126EEA5AD00A1DE0F /* Health WatchKit App */ = {
+		D2D960B129737BC1003C7E89 /* Health Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D28CD92426EEA5B000A1DE0F /* Build configuration list for PBXNativeTarget "Health WatchKit App" */;
+			buildConfigurationList = D2D960C229737BC2003C7E89 /* Build configuration list for PBXNativeTarget "Health Watch App" */;
 			buildPhases = (
-				D28CD90026EEA5AD00A1DE0F /* Resources */,
-				D28CD92326EEA5B000A1DE0F /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D28CD91026EEA5AF00A1DE0F /* PBXTargetDependency */,
-			);
-			name = "Health WatchKit App";
-			productName = "Health WatchKit App";
-			productReference = D28CD90226EEA5AD00A1DE0F /* Health WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		D28CD90C26EEA5AF00A1DE0F /* Health WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D28CD92026EEA5B000A1DE0F /* Build configuration list for PBXNativeTarget "Health WatchKit Extension" */;
-			buildPhases = (
-				D28CD90926EEA5AF00A1DE0F /* Sources */,
-				D28CD90A26EEA5AF00A1DE0F /* Frameworks */,
-				D28CD90B26EEA5AF00A1DE0F /* Resources */,
+				D2D960AE29737BC1003C7E89 /* Sources */,
+				D2D960AF29737BC1003C7E89 /* Frameworks */,
+				D2D960B029737BC1003C7E89 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Health WatchKit Extension";
-			packageProductDependencies = (
-				D28CD93826EEA68600A1DE0F /* SwiftUICharts */,
-			);
-			productName = "Health WatchKit Extension";
-			productReference = D28CD90D26EEA5AF00A1DE0F /* Health WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
+			name = "Health Watch App";
+			productName = "Health Watch App";
+			productReference = D2D960B229737BC1003C7E89 /* Health Watch App.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D28CD8F826EEA5AC00A1DE0F /* Project object */ = {
+		D2D960A629737BC1003C7E89 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
-				ORGANIZATIONNAME = "Ray Wenderlich";
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = "Kodeco, Inc.";
 				TargetAttributes = {
-					D28CD8FD26EEA5AC00A1DE0F = {
-						CreatedOnToolsVersion = 13.0;
+					D2D960AB29737BC1003C7E89 = {
+						CreatedOnToolsVersion = 14.2;
 					};
-					D28CD90126EEA5AD00A1DE0F = {
-						CreatedOnToolsVersion = 13.0;
-					};
-					D28CD90C26EEA5AF00A1DE0F = {
-						CreatedOnToolsVersion = 13.0;
+					D2D960B129737BC1003C7E89 = {
+						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = D28CD8FB26EEA5AC00A1DE0F /* Build configuration list for PBXProject "Health" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = D2D960A929737BC1003C7E89 /* Build configuration list for PBXProject "Health" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D28CD8F726EEA5AC00A1DE0F;
-			packageReferences = (
-				D28CD93726EEA68600A1DE0F /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
-			);
-			productRefGroup = D28CD8FF26EEA5AC00A1DE0F /* Products */;
+			mainGroup = D2D960A529737BC1003C7E89;
+			productRefGroup = D2D960AD29737BC1003C7E89 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D28CD8FD26EEA5AC00A1DE0F /* Health */,
-				D28CD90126EEA5AD00A1DE0F /* Health WatchKit App */,
-				D28CD90C26EEA5AF00A1DE0F /* Health WatchKit Extension */,
+				D2D960AB29737BC1003C7E89 /* Health */,
+				D2D960B129737BC1003C7E89 /* Health Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D28CD8FC26EEA5AC00A1DE0F /* Resources */ = {
+		D2D960AA29737BC1003C7E89 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D28CD90026EEA5AD00A1DE0F /* Resources */ = {
+		D2D960B029737BC1003C7E89 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D28CD90826EEA5AE00A1DE0F /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D28CD90B26EEA5AF00A1DE0F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D28CD91C26EEA5B000A1DE0F /* Preview Assets.xcassets in Resources */,
-				D28CD91926EEA5B000A1DE0F /* Assets.xcassets in Resources */,
+				D2D960BF29737BC2003C7E89 /* Preview Assets.xcassets in Resources */,
+				D2D960BC29737BC2003C7E89 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D28CD90926EEA5AF00A1DE0F /* Sources */ = {
+		D2D960AE29737BC1003C7E89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D28CD94D26EEF58100A1DE0F /* WaterGraphData.swift in Sources */,
-				D28CD94726EED4BA00A1DE0F /* LogWaterButton.swift in Sources */,
-				D28CD94B26EEF56900A1DE0F /* BarChart.swift in Sources */,
-				D28CD93326EEA60D00A1DE0F /* BrushingTimerView.swift in Sources */,
-				D28CD94326EEC72100A1DE0F /* Notification.Name+Extension.swift in Sources */,
-				D28CD93526EEA64200A1DE0F /* GetReadyView.swift in Sources */,
-				D28CD91326EEA5AF00A1DE0F /* ContentView.swift in Sources */,
-				D28CD93126EEA5F100A1DE0F /* BrushingModel.swift in Sources */,
-				D28CD91526EEA5AF00A1DE0F /* HealthApp.swift in Sources */,
-				D28CD91726EEA5AF00A1DE0F /* ComplicationController.swift in Sources */,
+				D2D960D929737D21003C7E89 /* BarChart.swift in Sources */,
+				D2D960D629737D21003C7E89 /* BrushingTimerView.swift in Sources */,
+				D2D960DA29737D21003C7E89 /* WaterGraphData.swift in Sources */,
+				D2D960D429737D21003C7E89 /* Notification.Name+Extension.swift in Sources */,
+				D2D960D529737D21003C7E89 /* GetReadyView.swift in Sources */,
+				D2D960BA29737BC1003C7E89 /* ContentView.swift in Sources */,
+				D2D960B829737BC1003C7E89 /* HealthApp.swift in Sources */,
+				D2D960D729737D21003C7E89 /* BrushingModel.swift in Sources */,
+				D2D960D829737D21003C7E89 /* LogWaterButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D28CD90526EEA5AD00A1DE0F /* PBXTargetDependency */ = {
+		D2D960B529737BC1003C7E89 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D28CD90126EEA5AD00A1DE0F /* Health WatchKit App */;
-			targetProxy = D28CD90426EEA5AD00A1DE0F /* PBXContainerItemProxy */;
-		};
-		D28CD91026EEA5AF00A1DE0F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D28CD90C26EEA5AF00A1DE0F /* Health WatchKit Extension */;
-			targetProxy = D28CD90F26EEA5AF00A1DE0F /* PBXContainerItemProxy */;
+			target = D2D960B129737BC1003C7E89 /* Health Watch App */;
+			targetProxy = D2D960B429737BC1003C7E89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D28CD91E26EEA5B000A1DE0F /* Debug */ = {
+		D2D960C029737BC2003C7E89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -391,20 +312,18 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		D28CD91F26EEA5B000A1DE0F /* Release */ = {
+		D2D960C129737BC2003C7E89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -444,212 +363,140 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D2D960C329737BC2003C7E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Health Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = BQUPLV7KWS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Health-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Health;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Health.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		D2D960C429737BC2003C7E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Health Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = BQUPLV7KWS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Health-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Health;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Health.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
-		D28CD92126EEA5B000A1DE0F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Health WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Health WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Health WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = Health_WatchKit_Extension.ComplicationController;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKWatchOnly = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Health.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Debug;
-		};
-		D28CD92226EEA5B000A1DE0F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Health WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Health WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Health WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = Health_WatchKit_Extension.ComplicationController;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKWatchOnly = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Health.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Release;
-		};
-		D28CD92526EEA5B000A1DE0F /* Debug */ = {
+		D2D960C729737BC2003C7E89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = Health_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "Health WatchKit App";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_CFBundleDisplayName = Health;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Health.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Health;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
-		D28CD92626EEA5B000A1DE0F /* Release */ = {
+		D2D960C829737BC2003C7E89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = Health_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "Health WatchKit App";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_CFBundleDisplayName = Health;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Health.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Health;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Release;
-		};
-		D28CD92926EEA5B000A1DE0F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Health;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		D28CD92A26EEA5B000A1DE0F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Health;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D28CD8FB26EEA5AC00A1DE0F /* Build configuration list for PBXProject "Health" */ = {
+		D2D960A929737BC1003C7E89 /* Build configuration list for PBXProject "Health" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D28CD91E26EEA5B000A1DE0F /* Debug */,
-				D28CD91F26EEA5B000A1DE0F /* Release */,
+				D2D960C029737BC2003C7E89 /* Debug */,
+				D2D960C129737BC2003C7E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D28CD92026EEA5B000A1DE0F /* Build configuration list for PBXNativeTarget "Health WatchKit Extension" */ = {
+		D2D960C229737BC2003C7E89 /* Build configuration list for PBXNativeTarget "Health Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D28CD92126EEA5B000A1DE0F /* Debug */,
-				D28CD92226EEA5B000A1DE0F /* Release */,
+				D2D960C329737BC2003C7E89 /* Debug */,
+				D2D960C429737BC2003C7E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D28CD92426EEA5B000A1DE0F /* Build configuration list for PBXNativeTarget "Health WatchKit App" */ = {
+		D2D960C629737BC2003C7E89 /* Build configuration list for PBXNativeTarget "Health" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D28CD92526EEA5B000A1DE0F /* Debug */,
-				D28CD92626EEA5B000A1DE0F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D28CD92826EEA5B000A1DE0F /* Build configuration list for PBXNativeTarget "Health" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D28CD92926EEA5B000A1DE0F /* Debug */,
-				D28CD92A26EEA5B000A1DE0F /* Release */,
+				D2D960C729737BC2003C7E89 /* Debug */,
+				D2D960C829737BC2003C7E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		D28CD93726EEA68600A1DE0F /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mecid/SwiftUICharts";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D28CD93826EEA68600A1DE0F /* SwiftUICharts */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D28CD93726EEA68600A1DE0F /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
-			productName = SwiftUICharts;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = D28CD8F826EEA5AC00A1DE0F /* Project object */;
+	rootObject = D2D960A629737BC1003C7E89 /* Project object */;
 }
