@@ -4,17 +4,17 @@ struct PurchasedTicketsListView: View {
   @ObservedObject private var ticketOffice = TicketOffice.shared
 
   var body: some View {
-    NavigationView {
+    NavigationStack {
       List {
         ForEach(ticketOffice.purchased) { movie in
-          NavigationLink(destination: MovieDetailsView(movie: movie)) {
+          NavigationLink(value: movie) {
             MovieRow(movie: movie)
           }
           .listRowBackground(Color.background)
         }
         .onDelete(perform: delete)
 
-        NavigationLink(destination: MoviesListView()) {
+        NavigationLink(value: "movie_list") {
           Image("purchase_tickets")
             .resizable()
             .scaledToFit()
@@ -26,6 +26,12 @@ struct PurchasedTicketsListView: View {
       }
       .navigationBarTitle("Purchased Tickets")
       .navigationBarTitleDisplayMode(.inline)
+      .navigationDestination(for: Movie.self) { movie in
+          MovieDetailsView(movie: movie)
+      }
+      .navigationDestination(for: String.self) { _ in
+          MoviesListView()
+      }
     }
   }
 

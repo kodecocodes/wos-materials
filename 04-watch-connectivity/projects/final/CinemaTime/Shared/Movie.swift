@@ -27,17 +27,16 @@ struct Movie: Identifiable, Equatable {
       actors: "Bud Abbot, Lou Costello")
   }
 
-  #if os(watchOS)
+#if os(watchOS)
   func qrCodeImage() -> Image? {
     let path = QRCode.url(for: id).path
-
     if let image = UIImage(contentsOfFile: path) {
       return Image(uiImage: image)
     } else {
       return Image(systemName: "xmark.circle")
     }
   }
-  #endif
+#endif
 }
 
 extension Movie: Decodable {
@@ -56,10 +55,16 @@ extension Movie: Decodable {
 
     let names = try values.decode([String].self, forKey: .actors)
     actors = names.joined(separator: ", ")
-
+    
     let hour = try values.decode(Int.self, forKey: .hour)
 
     let date = Calendar.current.date(from: .init(hour: hour)) ?? Date()
     time = date.formatted(.dateTime.hour().minute())
   }
+}
+
+extension Movie: Hashable {
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
 }

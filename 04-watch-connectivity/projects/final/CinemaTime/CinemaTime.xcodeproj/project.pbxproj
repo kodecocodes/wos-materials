@@ -3,89 +3,68 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D258D5D12637283000178F43 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258D5D02637283000178F43 /* Connectivity.swift */; };
-		D258D5D52637285600178F43 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258D5D02637283000178F43 /* Connectivity.swift */; };
-		D258D5D92637297700178F43 /* ConnectivityUserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F435EB26350F3E00EBF172 /* ConnectivityUserInfoKey.swift */; };
-		D258D5E226377C8E00178F43 /* Delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258D5E126377C8E00178F43 /* Delivery.swift */; };
-		D258D5E626377C9900178F43 /* Delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258D5E126377C8E00178F43 /* Delivery.swift */; };
-		D258D5ED2637868800178F43 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B78A6C2634B5AF009E3B39 /* QRCode.swift */; };
-		D2B78A342634B545009E3B39 /* CinemaTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B78A332634B545009E3B39 /* CinemaTimeApp.swift */; };
-		D2B78A382634B548009E3B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B78A372634B548009E3B39 /* Assets.xcassets */; };
-		D2B78A3B2634B548009E3B39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B78A3A2634B548009E3B39 /* Preview Assets.xcassets */; };
-		D2B78A402634B548009E3B39 /* CinemaTime WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D2B78A3F2634B548009E3B39 /* CinemaTime WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D2B78A452634B548009E3B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B78A442634B548009E3B39 /* Assets.xcassets */; };
-		D2B78A4C2634B549009E3B39 /* CinemaTime WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D2B78A4B2634B549009E3B39 /* CinemaTime WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D2B78A532634B549009E3B39 /* CinemaTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B78A522634B549009E3B39 /* CinemaTimeApp.swift */; };
-		D2B78A552634B549009E3B39 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B78A542634B549009E3B39 /* ComplicationController.swift */; };
-		D2B78A572634B549009E3B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B78A562634B549009E3B39 /* Assets.xcassets */; };
-		D2B78A5A2634B549009E3B39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B78A592634B549009E3B39 /* Preview Assets.xcassets */; };
-		D2B78A6D2634B5AF009E3B39 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B78A6C2634B5AF009E3B39 /* QRCode.swift */; };
-		D2B78A722634B5CF009E3B39 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B78A712634B5CF009E3B39 /* Movie.swift */; };
-		D2F434DA2634BB6800EBF172 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = D2F434D92634BB6800EBF172 /* movies.json */; };
-		D2F434DF2634BCFE00EBF172 /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F434DE2634BCFE00EBF172 /* TicketOffice.swift */; };
-		D2F434E32634BD7200EBF172 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B78A712634B5CF009E3B39 /* Movie.swift */; };
-		D2F434E42634BD7200EBF172 /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F434DE2634BCFE00EBF172 /* TicketOffice.swift */; };
-		D2F434E52634BD7200EBF172 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = D2F434D92634BB6800EBF172 /* movies.json */; };
-		D2F434EA2634BD7C00EBF172 /* PurchasedTicketsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F434E92634BD7C00EBF172 /* PurchasedTicketsListView.swift */; };
-		D2F434EF2634BDA600EBF172 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F434EE2634BDA600EBF172 /* MovieRow.swift */; };
-		D2F434F42634BDBB00EBF172 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F434F32634BDBB00EBF172 /* Color+Extension.swift */; };
-		D2F434F82634BDBF00EBF172 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F434F32634BDBB00EBF172 /* Color+Extension.swift */; };
-		D2F434FD2634BDE400EBF172 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F434FC2634BDE400EBF172 /* MovieListView.swift */; };
-		D2F435022634BE0C00EBF172 /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F435012634BE0C00EBF172 /* MovieDetailsView.swift */; };
-		D2F435072634BE3100EBF172 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F435062634BE3100EBF172 /* QRCodeView.swift */; };
-		D2F4350C2634BE5100EBF172 /* MovieInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F4350B2634BE5100EBF172 /* MovieInfoView.swift */; };
-		D2F435112634BE7200EBF172 /* PurchaseTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F435102634BE7200EBF172 /* PurchaseTicketView.swift */; };
-		D2F435192634C13C00EBF172 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F435182634C13B00EBF172 /* Colors.xcassets */; };
-		D2F4351E2634D6C600EBF172 /* PurchasedTicketsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F4351D2634D6C600EBF172 /* PurchasedTicketsListView.swift */; };
-		D2F435232634D6DC00EBF172 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F435222634D6DC00EBF172 /* MovieRow.swift */; };
-		D2F435752634D79F00EBF172 /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F435742634D79F00EBF172 /* MovieDetailsView.swift */; };
-		D2F4357C2634D7C000EBF172 /* MovieInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F4350B2634BE5100EBF172 /* MovieInfoView.swift */; };
-		D2F4357D2634D7C000EBF172 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F435182634C13B00EBF172 /* Colors.xcassets */; };
-		D2F4357E2634D7C000EBF172 /* PurchaseTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F435102634BE7200EBF172 /* PurchaseTicketView.swift */; };
-		D2F435D22634F5B700EBF172 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F434FC2634BDE400EBF172 /* MovieListView.swift */; };
-		D2F435EC26350F3E00EBF172 /* ConnectivityUserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F435EB26350F3E00EBF172 /* ConnectivityUserInfoKey.swift */; };
+		D259B6342918716D00670362 /* CinemaTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6332918716D00670362 /* CinemaTimeApp.swift */; };
+		D259B63B2918716E00670362 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D259B63A2918716E00670362 /* Preview Assets.xcassets */; };
+		D259B6412918716E00670362 /* CinemaTime Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D259B6402918716E00670362 /* CinemaTime Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D259B6462918716E00670362 /* CinemaTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6452918716E00670362 /* CinemaTimeApp.swift */; };
+		D259B64A2918716E00670362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D259B6492918716E00670362 /* Assets.xcassets */; };
+		D259B64D2918716E00670362 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D259B64C2918716E00670362 /* Preview Assets.xcassets */; };
+		D259B6812918732A00670362 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6782918732800670362 /* Color+Extension.swift */; };
+		D259B6822918732A00670362 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6782918732800670362 /* Color+Extension.swift */; };
+		D259B6832918732A00670362 /* MovieInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6792918732900670362 /* MovieInfoView.swift */; };
+		D259B6842918732A00670362 /* MovieInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6792918732900670362 /* MovieInfoView.swift */; };
+		D259B6852918732A00670362 /* PurchaseTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B67A2918732900670362 /* PurchaseTicketView.swift */; };
+		D259B6862918732A00670362 /* PurchaseTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B67A2918732900670362 /* PurchaseTicketView.swift */; };
+		D259B6872918732A00670362 /* ConnectivityUserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B67B2918732900670362 /* ConnectivityUserInfoKey.swift */; };
+		D259B6882918732A00670362 /* ConnectivityUserInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B67B2918732900670362 /* ConnectivityUserInfoKey.swift */; };
+		D259B6892918732A00670362 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D259B67C2918732900670362 /* Colors.xcassets */; };
+		D259B68A2918732A00670362 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D259B67C2918732900670362 /* Colors.xcassets */; };
+		D259B68B2918732A00670362 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B67D2918732900670362 /* Movie.swift */; };
+		D259B68C2918732A00670362 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B67D2918732900670362 /* Movie.swift */; };
+		D259B68D2918732A00670362 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = D259B67E2918732900670362 /* movies.json */; };
+		D259B68E2918732A00670362 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = D259B67E2918732900670362 /* movies.json */; };
+		D259B68F2918732A00670362 /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B67F2918732A00670362 /* TicketOffice.swift */; };
+		D259B6902918732A00670362 /* TicketOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B67F2918732A00670362 /* TicketOffice.swift */; };
+		D259B6912918732A00670362 /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6802918732A00670362 /* MoviesListView.swift */; };
+		D259B6922918732A00670362 /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6802918732A00670362 /* MoviesListView.swift */; };
+		D259B69B2918737800670362 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6932918737800670362 /* MovieRow.swift */; };
+		D259B69D2918737800670362 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6942918737800670362 /* QRCodeView.swift */; };
+		D259B69F2918737800670362 /* PurchasedTicketsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6952918737800670362 /* PurchasedTicketsListView.swift */; };
+		D259B6A52918737800670362 /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6992918737800670362 /* MovieDetailsView.swift */; };
+		D259B6A72918737800670362 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B69A2918737800670362 /* QRCode.swift */; };
+		D259B6AD291873A600670362 /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6A9291873A500670362 /* MovieDetailsView.swift */; };
+		D259B6AF291873A600670362 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6AA291873A500670362 /* MovieRow.swift */; };
+		D259B6B1291873A600670362 /* PurchasedTicketsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B6AB291873A500670362 /* PurchasedTicketsListView.swift */; };
+		D259B6B3291873E900670362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D259B6B2291873E900670362 /* Assets.xcassets */; };
+		D28FB196293009D40065EE5A /* Delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB195293009D40065EE5A /* Delivery.swift */; };
+		D28FB197293009D40065EE5A /* Delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FB195293009D40065EE5A /* Delivery.swift */; };
+		D28FB19829300F300065EE5A /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259B69A2918737800670362 /* QRCode.swift */; };
+		D2D67CB12918799E00E0CCD2 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D67CB02918799E00E0CCD2 /* Connectivity.swift */; };
+		D2D67CB22918799E00E0CCD2 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D67CB02918799E00E0CCD2 /* Connectivity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D2B78A412634B548009E3B39 /* PBXContainerItemProxy */ = {
+		D259B6422918716E00670362 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D2B78A282634B545009E3B39 /* Project object */;
+			containerPortal = D259B6282918716D00670362 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D2B78A3E2634B548009E3B39;
-			remoteInfo = "CinemaTime WatchKit App";
-		};
-		D2B78A4D2634B549009E3B39 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D2B78A282634B545009E3B39 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2B78A4A2634B549009E3B39;
-			remoteInfo = "CinemaTime WatchKit Extension";
+			remoteGlobalIDString = D259B63F2918716E00670362;
+			remoteInfo = "CinemaTime Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D2B78A612634B549009E3B39 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				D2B78A4C2634B549009E3B39 /* CinemaTime WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2B78A652634B549009E3B39 /* Embed Watch Content */ = {
+		D259B6532918716E00670362 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				D2B78A402634B548009E3B39 /* CinemaTime WatchKit App.app in Embed Watch Content */,
+				D259B6412918716E00670362 /* CinemaTime Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,50 +72,45 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D258D5D02637283000178F43 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
-		D258D5E126377C8E00178F43 /* Delivery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delivery.swift; sourceTree = "<group>"; };
-		D2B78A302634B545009E3B39 /* CinemaTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinemaTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2B78A332634B545009E3B39 /* CinemaTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaTimeApp.swift; sourceTree = "<group>"; };
-		D2B78A372634B548009E3B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2B78A3A2634B548009E3B39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D2B78A3C2634B548009E3B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2B78A3F2634B548009E3B39 /* CinemaTime WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CinemaTime WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2B78A442634B548009E3B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2B78A462634B548009E3B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2B78A4B2634B549009E3B39 /* CinemaTime WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CinemaTime WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2B78A522634B549009E3B39 /* CinemaTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaTimeApp.swift; sourceTree = "<group>"; };
-		D2B78A542634B549009E3B39 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		D2B78A562634B549009E3B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2B78A592634B549009E3B39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D2B78A5B2634B549009E3B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2B78A6C2634B5AF009E3B39 /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
-		D2B78A712634B5CF009E3B39 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		D2F434D92634BB6800EBF172 /* movies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
-		D2F434DE2634BCFE00EBF172 /* TicketOffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketOffice.swift; sourceTree = "<group>"; };
-		D2F434E92634BD7C00EBF172 /* PurchasedTicketsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedTicketsListView.swift; sourceTree = "<group>"; };
-		D2F434EE2634BDA600EBF172 /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
-		D2F434F32634BDBB00EBF172 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
-		D2F434FC2634BDE400EBF172 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
-		D2F435012634BE0C00EBF172 /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
-		D2F435062634BE3100EBF172 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
-		D2F4350B2634BE5100EBF172 /* MovieInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoView.swift; sourceTree = "<group>"; };
-		D2F435102634BE7200EBF172 /* PurchaseTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseTicketView.swift; sourceTree = "<group>"; };
-		D2F435182634C13B00EBF172 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		D2F4351D2634D6C600EBF172 /* PurchasedTicketsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedTicketsListView.swift; sourceTree = "<group>"; };
-		D2F435222634D6DC00EBF172 /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
-		D2F435742634D79F00EBF172 /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
-		D2F435EB26350F3E00EBF172 /* ConnectivityUserInfoKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityUserInfoKey.swift; sourceTree = "<group>"; };
+		D259B6302918716D00670362 /* CinemaTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinemaTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D259B6332918716D00670362 /* CinemaTimeApp.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = CinemaTimeApp.swift; sourceTree = "<group>"; tabWidth = 2; };
+		D259B63A2918716E00670362 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D259B6402918716E00670362 /* CinemaTime Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CinemaTime Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D259B6452918716E00670362 /* CinemaTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaTimeApp.swift; sourceTree = "<group>"; };
+		D259B6492918716E00670362 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D259B64C2918716E00670362 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D259B657291872AD00670362 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D259B6782918732800670362 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		D259B6792918732900670362 /* MovieInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieInfoView.swift; sourceTree = "<group>"; };
+		D259B67A2918732900670362 /* PurchaseTicketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseTicketView.swift; sourceTree = "<group>"; };
+		D259B67B2918732900670362 /* ConnectivityUserInfoKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityUserInfoKey.swift; sourceTree = "<group>"; };
+		D259B67C2918732900670362 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		D259B67D2918732900670362 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		D259B67E2918732900670362 /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
+		D259B67F2918732A00670362 /* TicketOffice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketOffice.swift; sourceTree = "<group>"; };
+		D259B6802918732A00670362 /* MoviesListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesListView.swift; sourceTree = "<group>"; };
+		D259B6932918737800670362 /* MovieRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
+		D259B6942918737800670362 /* QRCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		D259B6952918737800670362 /* PurchasedTicketsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasedTicketsListView.swift; sourceTree = "<group>"; };
+		D259B6992918737800670362 /* MovieDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		D259B69A2918737800670362 /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		D259B6A9291873A500670362 /* MovieDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		D259B6AA291873A500670362 /* MovieRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
+		D259B6AB291873A500670362 /* PurchasedTicketsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasedTicketsListView.swift; sourceTree = "<group>"; };
+		D259B6B2291873E900670362 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D28FB195293009D40065EE5A /* Delivery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delivery.swift; sourceTree = "<group>"; };
+		D2D67CB02918799E00E0CCD2 /* Connectivity.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; tabWidth = 2; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D2B78A2D2634B545009E3B39 /* Frameworks */ = {
+		D259B62D2918716D00670362 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2B78A482634B549009E3B39 /* Frameworks */ = {
+		D259B63D2918716E00670362 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -146,99 +120,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D2B78A272634B545009E3B39 = {
+		D259B6272918716D00670362 = {
 			isa = PBXGroup;
 			children = (
-				D2B78A762634B5DB009E3B39 /* Shared */,
-				D2B78A322634B545009E3B39 /* CinemaTime */,
-				D2B78A432634B548009E3B39 /* CinemaTime WatchKit App */,
-				D2B78A4F2634B549009E3B39 /* CinemaTime WatchKit Extension */,
-				D2B78A312634B545009E3B39 /* Products */,
+				D259B657291872AD00670362 /* LICENSE */,
+				D259B6772918731000670362 /* Shared */,
+				D259B6322918716D00670362 /* CinemaTime */,
+				D259B6442918716E00670362 /* CinemaTime Watch App */,
+				D259B6312918716D00670362 /* Products */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
 			tabWidth = 2;
 		};
-		D2B78A312634B545009E3B39 /* Products */ = {
+		D259B6312918716D00670362 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2B78A302634B545009E3B39 /* CinemaTime.app */,
-				D2B78A3F2634B548009E3B39 /* CinemaTime WatchKit App.app */,
-				D2B78A4B2634B549009E3B39 /* CinemaTime WatchKit Extension.appex */,
+				D259B6302918716D00670362 /* CinemaTime.app */,
+				D259B6402918716E00670362 /* CinemaTime Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2B78A322634B545009E3B39 /* CinemaTime */ = {
+		D259B6322918716D00670362 /* CinemaTime */ = {
 			isa = PBXGroup;
 			children = (
-				D2B78A3C2634B548009E3B39 /* Info.plist */,
-				D2B78A332634B545009E3B39 /* CinemaTimeApp.swift */,
-				D2F435012634BE0C00EBF172 /* MovieDetailsView.swift */,
-				D2F434EE2634BDA600EBF172 /* MovieRow.swift */,
-				D2F434E92634BD7C00EBF172 /* PurchasedTicketsListView.swift */,
-				D2F435062634BE3100EBF172 /* QRCodeView.swift */,
-				D2B78A372634B548009E3B39 /* Assets.xcassets */,
-				D2B78A392634B548009E3B39 /* Preview Content */,
+				D259B6332918716D00670362 /* CinemaTimeApp.swift */,
+				D259B6992918737800670362 /* MovieDetailsView.swift */,
+				D259B6932918737800670362 /* MovieRow.swift */,
+				D259B6952918737800670362 /* PurchasedTicketsListView.swift */,
+				D259B6942918737800670362 /* QRCodeView.swift */,
+				D259B6B2291873E900670362 /* Assets.xcassets */,
+				D259B6392918716E00670362 /* Preview Content */,
 			);
 			path = CinemaTime;
 			sourceTree = "<group>";
 		};
-		D2B78A392634B548009E3B39 /* Preview Content */ = {
+		D259B6392918716E00670362 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D2B78A3A2634B548009E3B39 /* Preview Assets.xcassets */,
+				D259B63A2918716E00670362 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D2B78A432634B548009E3B39 /* CinemaTime WatchKit App */ = {
+		D259B6442918716E00670362 /* CinemaTime Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				D2B78A442634B548009E3B39 /* Assets.xcassets */,
-				D2B78A462634B548009E3B39 /* Info.plist */,
+				D259B6452918716E00670362 /* CinemaTimeApp.swift */,
+				D259B6A9291873A500670362 /* MovieDetailsView.swift */,
+				D259B6AA291873A500670362 /* MovieRow.swift */,
+				D259B6AB291873A500670362 /* PurchasedTicketsListView.swift */,
+				D259B6492918716E00670362 /* Assets.xcassets */,
+				D259B64B2918716E00670362 /* Preview Content */,
 			);
-			path = "CinemaTime WatchKit App";
+			path = "CinemaTime Watch App";
 			sourceTree = "<group>";
 		};
-		D2B78A4F2634B549009E3B39 /* CinemaTime WatchKit Extension */ = {
+		D259B64B2918716E00670362 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D2B78A522634B549009E3B39 /* CinemaTimeApp.swift */,
-				D2B78A542634B549009E3B39 /* ComplicationController.swift */,
-				D2B78A562634B549009E3B39 /* Assets.xcassets */,
-				D2B78A5B2634B549009E3B39 /* Info.plist */,
-				D2B78A582634B549009E3B39 /* Preview Content */,
-				D2F4351D2634D6C600EBF172 /* PurchasedTicketsListView.swift */,
-				D2F435222634D6DC00EBF172 /* MovieRow.swift */,
-				D2F435742634D79F00EBF172 /* MovieDetailsView.swift */,
-			);
-			path = "CinemaTime WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		D2B78A582634B549009E3B39 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D2B78A592634B549009E3B39 /* Preview Assets.xcassets */,
+				D259B64C2918716E00670362 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D2B78A762634B5DB009E3B39 /* Shared */ = {
+		D259B6772918731000670362 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D2F434D92634BB6800EBF172 /* movies.json */,
-				D2F434F32634BDBB00EBF172 /* Color+Extension.swift */,
-				D258D5D02637283000178F43 /* Connectivity.swift */,
-				D2F435EB26350F3E00EBF172 /* ConnectivityUserInfoKey.swift */,
-				D258D5E126377C8E00178F43 /* Delivery.swift */,
-				D2B78A712634B5CF009E3B39 /* Movie.swift */,
-				D2F4350B2634BE5100EBF172 /* MovieInfoView.swift */,
-				D2F434FC2634BDE400EBF172 /* MovieListView.swift */,
-				D2F435102634BE7200EBF172 /* PurchaseTicketView.swift */,
-				D2B78A6C2634B5AF009E3B39 /* QRCode.swift */,
-				D2F434DE2634BCFE00EBF172 /* TicketOffice.swift */,
-				D2F435182634C13B00EBF172 /* Colors.xcassets */,
+				D259B67E2918732900670362 /* movies.json */,
+				D259B6782918732800670362 /* Color+Extension.swift */,
+				D2D67CB02918799E00E0CCD2 /* Connectivity.swift */,
+				D259B67B2918732900670362 /* ConnectivityUserInfoKey.swift */,
+				D28FB195293009D40065EE5A /* Delivery.swift */,
+				D259B67D2918732900670362 /* Movie.swift */,
+				D259B6792918732900670362 /* MovieInfoView.swift */,
+				D259B6802918732A00670362 /* MoviesListView.swift */,
+				D259B67A2918732900670362 /* PurchaseTicketView.swift */,
+				D259B69A2918737800670362 /* QRCode.swift */,
+				D259B67F2918732A00670362 /* TicketOffice.swift */,
+				D259B67C2918732900670362 /* Colors.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -246,201 +207,167 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2B78A2F2634B545009E3B39 /* CinemaTime */ = {
+		D259B62F2918716D00670362 /* CinemaTime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2B78A662634B549009E3B39 /* Build configuration list for PBXNativeTarget "CinemaTime" */;
+			buildConfigurationList = D259B6542918716E00670362 /* Build configuration list for PBXNativeTarget "CinemaTime" */;
 			buildPhases = (
-				D2B78A2C2634B545009E3B39 /* Sources */,
-				D2B78A2D2634B545009E3B39 /* Frameworks */,
-				D2B78A2E2634B545009E3B39 /* Resources */,
-				D2B78A652634B549009E3B39 /* Embed Watch Content */,
+				D259B62C2918716D00670362 /* Sources */,
+				D259B62D2918716D00670362 /* Frameworks */,
+				D259B62E2918716D00670362 /* Resources */,
+				D259B6532918716E00670362 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D2B78A422634B548009E3B39 /* PBXTargetDependency */,
+				D259B6432918716E00670362 /* PBXTargetDependency */,
 			);
 			name = CinemaTime;
 			productName = CinemaTime;
-			productReference = D2B78A302634B545009E3B39 /* CinemaTime.app */;
+			productReference = D259B6302918716D00670362 /* CinemaTime.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D2B78A3E2634B548009E3B39 /* CinemaTime WatchKit App */ = {
+		D259B63F2918716E00670362 /* CinemaTime Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2B78A622634B549009E3B39 /* Build configuration list for PBXNativeTarget "CinemaTime WatchKit App" */;
+			buildConfigurationList = D259B6502918716E00670362 /* Build configuration list for PBXNativeTarget "CinemaTime Watch App" */;
 			buildPhases = (
-				D2B78A3D2634B548009E3B39 /* Resources */,
-				D2B78A612634B549009E3B39 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D2B78A4E2634B549009E3B39 /* PBXTargetDependency */,
-			);
-			name = "CinemaTime WatchKit App";
-			productName = "CinemaTime WatchKit App";
-			productReference = D2B78A3F2634B548009E3B39 /* CinemaTime WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		D2B78A4A2634B549009E3B39 /* CinemaTime WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D2B78A5E2634B549009E3B39 /* Build configuration list for PBXNativeTarget "CinemaTime WatchKit Extension" */;
-			buildPhases = (
-				D2B78A472634B549009E3B39 /* Sources */,
-				D2B78A482634B549009E3B39 /* Frameworks */,
-				D2B78A492634B549009E3B39 /* Resources */,
+				D259B63C2918716E00670362 /* Sources */,
+				D259B63D2918716E00670362 /* Frameworks */,
+				D259B63E2918716E00670362 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "CinemaTime WatchKit Extension";
-			productName = "CinemaTime WatchKit Extension";
-			productReference = D2B78A4B2634B549009E3B39 /* CinemaTime WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
+			name = "CinemaTime Watch App";
+			productName = "CinemaTime Watch App";
+			productReference = D259B6402918716E00670362 /* CinemaTime Watch App.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D2B78A282634B545009E3B39 /* Project object */ = {
+		D259B6282918716D00670362 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				ORGANIZATIONNAME = Kodeco;
 				TargetAttributes = {
-					D2B78A2F2634B545009E3B39 = {
-						CreatedOnToolsVersion = 12.4;
+					D259B62F2918716D00670362 = {
+						CreatedOnToolsVersion = 14.1;
 					};
-					D2B78A3E2634B548009E3B39 = {
-						CreatedOnToolsVersion = 12.4;
-					};
-					D2B78A4A2634B549009E3B39 = {
-						CreatedOnToolsVersion = 12.4;
+					D259B63F2918716E00670362 = {
+						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = D2B78A2B2634B545009E3B39 /* Build configuration list for PBXProject "CinemaTime" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = D259B62B2918716D00670362 /* Build configuration list for PBXProject "CinemaTime" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D2B78A272634B545009E3B39;
-			productRefGroup = D2B78A312634B545009E3B39 /* Products */;
+			mainGroup = D259B6272918716D00670362;
+			productRefGroup = D259B6312918716D00670362 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2B78A2F2634B545009E3B39 /* CinemaTime */,
-				D2B78A3E2634B548009E3B39 /* CinemaTime WatchKit App */,
-				D2B78A4A2634B549009E3B39 /* CinemaTime WatchKit Extension */,
+				D259B62F2918716D00670362 /* CinemaTime */,
+				D259B63F2918716E00670362 /* CinemaTime Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D2B78A2E2634B545009E3B39 /* Resources */ = {
+		D259B62E2918716D00670362 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F434DA2634BB6800EBF172 /* movies.json in Resources */,
-				D2F435192634C13C00EBF172 /* Colors.xcassets in Resources */,
-				D2B78A3B2634B548009E3B39 /* Preview Assets.xcassets in Resources */,
-				D2B78A382634B548009E3B39 /* Assets.xcassets in Resources */,
+				D259B6892918732A00670362 /* Colors.xcassets in Resources */,
+				D259B68D2918732A00670362 /* movies.json in Resources */,
+				D259B6B3291873E900670362 /* Assets.xcassets in Resources */,
+				D259B63B2918716E00670362 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2B78A3D2634B548009E3B39 /* Resources */ = {
+		D259B63E2918716E00670362 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2B78A452634B548009E3B39 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2B78A492634B549009E3B39 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2F434E52634BD7200EBF172 /* movies.json in Resources */,
-				D2F4357D2634D7C000EBF172 /* Colors.xcassets in Resources */,
-				D2B78A5A2634B549009E3B39 /* Preview Assets.xcassets in Resources */,
-				D2B78A572634B549009E3B39 /* Assets.xcassets in Resources */,
+				D259B68A2918732A00670362 /* Colors.xcassets in Resources */,
+				D259B64D2918716E00670362 /* Preview Assets.xcassets in Resources */,
+				D259B68E2918732A00670362 /* movies.json in Resources */,
+				D259B64A2918716E00670362 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D2B78A2C2634B545009E3B39 /* Sources */ = {
+		D259B62C2918716D00670362 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F434EA2634BD7C00EBF172 /* PurchasedTicketsListView.swift in Sources */,
-				D258D5D92637297700178F43 /* ConnectivityUserInfoKey.swift in Sources */,
-				D2F434FD2634BDE400EBF172 /* MovieListView.swift in Sources */,
-				D2F435072634BE3100EBF172 /* QRCodeView.swift in Sources */,
-				D258D5E226377C8E00178F43 /* Delivery.swift in Sources */,
-				D2B78A342634B545009E3B39 /* CinemaTimeApp.swift in Sources */,
-				D2F435022634BE0C00EBF172 /* MovieDetailsView.swift in Sources */,
-				D2B78A722634B5CF009E3B39 /* Movie.swift in Sources */,
-				D2F434EF2634BDA600EBF172 /* MovieRow.swift in Sources */,
-				D2F434DF2634BCFE00EBF172 /* TicketOffice.swift in Sources */,
-				D258D5D12637283000178F43 /* Connectivity.swift in Sources */,
-				D2B78A6D2634B5AF009E3B39 /* QRCode.swift in Sources */,
-				D2F4350C2634BE5100EBF172 /* MovieInfoView.swift in Sources */,
-				D2F435112634BE7200EBF172 /* PurchaseTicketView.swift in Sources */,
-				D2F434F42634BDBB00EBF172 /* Color+Extension.swift in Sources */,
+				D259B68B2918732A00670362 /* Movie.swift in Sources */,
+				D259B69B2918737800670362 /* MovieRow.swift in Sources */,
+				D259B69D2918737800670362 /* QRCodeView.swift in Sources */,
+				D259B6912918732A00670362 /* MoviesListView.swift in Sources */,
+				D28FB196293009D40065EE5A /* Delivery.swift in Sources */,
+				D259B6A52918737800670362 /* MovieDetailsView.swift in Sources */,
+				D259B6872918732A00670362 /* ConnectivityUserInfoKey.swift in Sources */,
+				D2D67CB12918799E00E0CCD2 /* Connectivity.swift in Sources */,
+				D259B6A72918737800670362 /* QRCode.swift in Sources */,
+				D259B69F2918737800670362 /* PurchasedTicketsListView.swift in Sources */,
+				D259B6832918732A00670362 /* MovieInfoView.swift in Sources */,
+				D259B6852918732A00670362 /* PurchaseTicketView.swift in Sources */,
+				D259B68F2918732A00670362 /* TicketOffice.swift in Sources */,
+				D259B6812918732A00670362 /* Color+Extension.swift in Sources */,
+				D259B6342918716D00670362 /* CinemaTimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2B78A472634B549009E3B39 /* Sources */ = {
+		D259B63C2918716E00670362 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F435232634D6DC00EBF172 /* MovieRow.swift in Sources */,
-				D2F435D22634F5B700EBF172 /* MovieListView.swift in Sources */,
-				D2F434F82634BDBF00EBF172 /* Color+Extension.swift in Sources */,
-				D2B78A532634B549009E3B39 /* CinemaTimeApp.swift in Sources */,
-				D2F434E32634BD7200EBF172 /* Movie.swift in Sources */,
-				D258D5E626377C9900178F43 /* Delivery.swift in Sources */,
-				D2F434E42634BD7200EBF172 /* TicketOffice.swift in Sources */,
-				D2F435752634D79F00EBF172 /* MovieDetailsView.swift in Sources */,
-				D2F435EC26350F3E00EBF172 /* ConnectivityUserInfoKey.swift in Sources */,
-				D258D5D52637285600178F43 /* Connectivity.swift in Sources */,
-				D2F4351E2634D6C600EBF172 /* PurchasedTicketsListView.swift in Sources */,
-				D2F4357E2634D7C000EBF172 /* PurchaseTicketView.swift in Sources */,
-				D2B78A552634B549009E3B39 /* ComplicationController.swift in Sources */,
-				D2F4357C2634D7C000EBF172 /* MovieInfoView.swift in Sources */,
-				D258D5ED2637868800178F43 /* QRCode.swift in Sources */,
+				D259B68C2918732A00670362 /* Movie.swift in Sources */,
+				D259B6B1291873A600670362 /* PurchasedTicketsListView.swift in Sources */,
+				D259B6AF291873A600670362 /* MovieRow.swift in Sources */,
+				D259B6922918732A00670362 /* MoviesListView.swift in Sources */,
+				D259B6882918732A00670362 /* ConnectivityUserInfoKey.swift in Sources */,
+				D259B6AD291873A600670362 /* MovieDetailsView.swift in Sources */,
+				D259B6842918732A00670362 /* MovieInfoView.swift in Sources */,
+				D28FB19829300F300065EE5A /* QRCode.swift in Sources */,
+				D259B6862918732A00670362 /* PurchaseTicketView.swift in Sources */,
+				D2D67CB22918799E00E0CCD2 /* Connectivity.swift in Sources */,
+				D259B6902918732A00670362 /* TicketOffice.swift in Sources */,
+				D259B6822918732A00670362 /* Color+Extension.swift in Sources */,
+				D259B6462918716E00670362 /* CinemaTimeApp.swift in Sources */,
+				D28FB197293009D40065EE5A /* Delivery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D2B78A422634B548009E3B39 /* PBXTargetDependency */ = {
+		D259B6432918716E00670362 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2B78A3E2634B548009E3B39 /* CinemaTime WatchKit App */;
-			targetProxy = D2B78A412634B548009E3B39 /* PBXContainerItemProxy */;
-		};
-		D2B78A4E2634B549009E3B39 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2B78A4A2634B549009E3B39 /* CinemaTime WatchKit Extension */;
-			targetProxy = D2B78A4D2634B549009E3B39 /* PBXContainerItemProxy */;
+			target = D259B63F2918716E00670362 /* CinemaTime Watch App */;
+			targetProxy = D259B6422918716E00670362 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D2B78A5C2634B549009E3B39 /* Debug */ = {
+		D259B64E2918716E00670362 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -492,14 +419,13 @@
 			};
 			name = Debug;
 		};
-		D2B78A5D2634B549009E3B39 /* Release */ = {
+		D259B64F2918716E00670362 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -544,137 +470,130 @@
 			};
 			name = Release;
 		};
-		D2B78A5F2634B549009E3B39 /* Debug */ = {
+		D259B6512918716E00670362 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CinemaTime WatchKit Extension/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CinemaTime Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "CinemaTime WatchKit Extension/Info.plist";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CinemaTime;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.yourcompany.CinemaTime;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.CinemaTime.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CinemaTime.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
 		};
-		D2B78A602634B549009E3B39 /* Release */ = {
+		D259B6522918716E00670362 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CinemaTime WatchKit Extension/Preview Content\"";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CinemaTime Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "CinemaTime WatchKit Extension/Info.plist";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CinemaTime;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.yourcompany.CinemaTime;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.CinemaTime.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CinemaTime.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
-		D2B78A632634B549009E3B39 /* Debug */ = {
+		D259B6552918716E00670362 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				IBSC_MODULE = CinemaTime_WatchKit_Extension;
-				INFOPLIST_FILE = "CinemaTime WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.CinemaTime.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Debug;
-		};
-		D2B78A642634B549009E3B39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				IBSC_MODULE = CinemaTime_WatchKit_Extension;
-				INFOPLIST_FILE = "CinemaTime WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.CinemaTime.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Release;
-		};
-		D2B78A672634B549009E3B39 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CinemaTime/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CinemaTime/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CinemaTime;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.CinemaTime;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CinemaTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D2B78A682634B549009E3B39 /* Release */ = {
+		D259B6562918716E00670362 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CinemaTime/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CinemaTime/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CinemaTime;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.CinemaTime;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CinemaTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -684,43 +603,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2B78A2B2634B545009E3B39 /* Build configuration list for PBXProject "CinemaTime" */ = {
+		D259B62B2918716D00670362 /* Build configuration list for PBXProject "CinemaTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2B78A5C2634B549009E3B39 /* Debug */,
-				D2B78A5D2634B549009E3B39 /* Release */,
+				D259B64E2918716E00670362 /* Debug */,
+				D259B64F2918716E00670362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2B78A5E2634B549009E3B39 /* Build configuration list for PBXNativeTarget "CinemaTime WatchKit Extension" */ = {
+		D259B6502918716E00670362 /* Build configuration list for PBXNativeTarget "CinemaTime Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2B78A5F2634B549009E3B39 /* Debug */,
-				D2B78A602634B549009E3B39 /* Release */,
+				D259B6512918716E00670362 /* Debug */,
+				D259B6522918716E00670362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2B78A622634B549009E3B39 /* Build configuration list for PBXNativeTarget "CinemaTime WatchKit App" */ = {
+		D259B6542918716E00670362 /* Build configuration list for PBXNativeTarget "CinemaTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2B78A632634B549009E3B39 /* Debug */,
-				D2B78A642634B549009E3B39 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D2B78A662634B549009E3B39 /* Build configuration list for PBXNativeTarget "CinemaTime" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D2B78A672634B549009E3B39 /* Debug */,
-				D2B78A682634B549009E3B39 /* Release */,
+				D259B6552918716E00670362 /* Debug */,
+				D259B6562918716E00670362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D2B78A282634B545009E3B39 /* Project object */;
+	rootObject = D259B6282918716D00670362 /* Project object */;
 }
