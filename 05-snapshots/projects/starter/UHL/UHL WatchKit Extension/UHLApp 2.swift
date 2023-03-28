@@ -1,17 +1,17 @@
 import SwiftUI
 
 @main
-struct UpdatesApp: App {
+struct UHLApp: App {
+  // swiftlint:disable weak_delegate
   @WKExtensionDelegateAdaptor(ExtensionDelegate.self)
-  // swiftlint:disable:next weak_delegate
   private var extensionDelegate
-
-  private let push = PushNotificationProvider()
+  
   var body: some Scene {
     WindowGroup {
       NavigationView {
         ContentView()
       }
+      .environmentObject(Season.shared)
     }
   }
 }

@@ -1,0 +1,101 @@
+[
+    {
+        "id": 31413,
+        "title": "Angel On My Shoulder",
+        "director": "Archie Mayo",
+        "actors": [
+            "Paul Muni", "Anne Baxter", "Claude Rains"
+        ],
+        "synopsis": "The devil (Claude Rains) offers a deceased gangster (Paul Muni) the chance to return in the body of a judge. Black & White.",
+        "poster": "angel_on_my_shoulder",
+        "hour": 13
+    },
+    {
+        "id": 23415,
+        "title": "Baby Face Morgan",
+        "director": "Arthur Dreifuss",
+        "actors": [
+            "Robert Armstrong", "Mary Carlisle", "Richard Cromwell"
+        ],
+        "synopsis": "Aging mobsters try to bring back the good old days by setting up a naive yokel as the kingpin. Black & White.",
+        "poster": "baby_face_morgan",
+        "hour": 14
+    },
+    {
+        "id": 23523,
+        "title": "Africa Screams",
+        "director": "Charles Barton",
+        "actors": [
+            "Bud Abbott", "Lou Costello"
+        ],
+        "synopsis": "Basic crazy Abbott and Costello movie that also features a couple of the three stooges. Black & White.",
+        "poster": "africa_screams",
+        "hour": 15
+    },
+    {
+        "id": 87934,
+        "title": "The Flying Deuces",
+        "director": "A. Edward Sullivan",
+        "actors": [
+            "Stan Laurel", "Oliver Hardy"
+        ],
+        "synopsis": "Oliver's heart is broken when he finds that his love Georgette is already married to Francois, a dashing Foreign Legion officer. He runs off to join the Foreign Legion, taking Stanley with him. Their zany antics get them charged with desertion and sentenced to a firing squad. Black & White.",
+        "poster": "the_flying_deuces",
+        "hour": 16
+    },
+    {
+        "id": 34340,
+        "title": "The General",
+        "director": "Clyde Bruckman",
+        "actors": [
+            "Marion Mack", "Charles Henry Smity", "Richard Allen", "Buster Keaton"
+        ],
+        "synopsis": "Civil War film. The General is a locomotive, and Buster Keaton is its engineer. Union soliders steal the locomotive, and Buster is on the chase--not knowing that his girl friend is being held captive aboard The General. Black & White. Silent.",
+        "poster": "the_general",
+        "hour": 17
+    },
+    {
+        "id": 99900,
+        "title": "One Body Too Many",
+        "director": "Frank McDonald",
+        "actors": [
+            "Jack Haley", "Jean Parker", "Bela Lugosi"
+        ],
+        "synopsis": "An insurance saleman is hired to protect a millionaire. Black & White.",
+        "poster": "one_body_too_many",
+        "hour": 18
+    },
+    {
+        "id": 77788,
+        "title": "The Royal Bed",
+        "director": "Lowell Sherman",
+        "actors": [
+            "Lowell Sherman", "Mary Astor"
+        ],
+        "synopsis": "A comic farce among the royalty. Black & White.",
+        "poster": "the_royal_bed",
+        "hour": 19
+    },
+    {
+        "id": 858555,
+        "title": "Something to Sing About",
+        "director": "Victor Schertzinger",
+        "actors": [
+            "James Cagney", "Evelyn Daw", "William Frawley"
+        ],
+        "synopsis": "Cagney stars as a New York bandleader who moves to California and butts heads with the Hollywood star making machine. Black & White.",
+        "poster": "something_to_sing_about",
+        "hour": 20
+    },
+    {
+        "id": 4443355,
+        "title": "Speak Easily",
+        "director": "Eward Sedgwick",
+        "actors": [
+            "Buster Keaton", "Jimmy Durante"
+        ],
+        "synopsis": "A college professor uses inherited to back a Broadway musical in the hopes of winning the love of the star. Black & White.",
+        "poster": "speak_easily",
+        "hour": 21
+    }
+]

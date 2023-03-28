@@ -7,6 +7,7 @@ struct UpdatesApp: App {
   private var extensionDelegate
 
   private let push = PushNotificationProvider()
+  
   var body: some Scene {
     WindowGroup {
       NavigationView {

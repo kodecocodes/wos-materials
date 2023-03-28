@@ -4,7 +4,5 @@
 <dict>
 	<key>aps-environment</key>
 	<string>development</string>
-	<key>IDEDidComputeMac32BitWarning</key>
-	<true/>
 </dict>
 </plist>
