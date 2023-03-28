@@ -3,6 +3,8 @@ import SwiftUI
 struct MovieDetailsView: View {
   let movie: Movie
 
+  @ObservedObject private var ticketOffice = TicketOffice.shared
+
   var body: some View {
     VStack(alignment: .leading) {
       HStack(alignment: .top) {
@@ -19,7 +21,7 @@ struct MovieDetailsView: View {
         .foregroundColor(.text)
 
       VStack(alignment: .center) {
-        if TicketOffice.shared.isPurchased(movie) {
+        if ticketOffice.isPurchased(movie) {
           QRCodeView(movie: movie)
             .frame(width: 200, height: 200)
             .padding(.top)

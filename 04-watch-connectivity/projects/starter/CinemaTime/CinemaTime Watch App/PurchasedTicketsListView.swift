@@ -10,22 +10,17 @@ struct PurchasedTicketsListView: View {
           NavigationLink(value: movie) {
             MovieRow(movie: movie)
           }
-          .listRowBackground(Color.background)
         }
         .onDelete(perform: delete)
-
-        NavigationLink(value: "movie_list") {
+        
+        NavigationLink(value: "movies_list") {
           Image("purchase_tickets")
             .resizable()
             .scaledToFit()
             .padding()
         }
-        .isDetailLink(false)
-        .listRowBackground(Color.background)
-        .padding(.top)
       }
       .navigationBarTitle("Purchased Tickets")
-      .navigationBarTitleDisplayMode(.inline)
       .navigationDestination(for: Movie.self) { movie in
         MovieDetailsView(movie: movie)
       }

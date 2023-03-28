@@ -51,3 +51,9 @@ extension Movie: Decodable {
     time = date.formatted(.dateTime.hour().minute())
   }
 }
+
+extension Movie: Hashable {
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+}
