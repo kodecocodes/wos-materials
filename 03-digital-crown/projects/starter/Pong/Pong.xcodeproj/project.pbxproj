@@ -3,58 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D223080526A5F82400A4A1E2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D223080426A5F82400A4A1E2 /* LICENSE */; };
-		D2F827722692227200CFE1A4 /* Pong WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D2F827712692227200CFE1A4 /* Pong WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D2F827772692227300CFE1A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F827762692227300CFE1A4 /* Assets.xcassets */; };
-		D2F8277D2692227300CFE1A4 /* Pong WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D2F8277C2692227300CFE1A4 /* Pong WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D2F827822692227300CFE1A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F827812692227300CFE1A4 /* ContentView.swift */; };
-		D2F827842692227300CFE1A4 /* PongApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F827832692227300CFE1A4 /* PongApp.swift */; };
-		D2F827862692227300CFE1A4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F827852692227300CFE1A4 /* ComplicationController.swift */; };
-		D2F827882692227400CFE1A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F827872692227400CFE1A4 /* Assets.xcassets */; };
-		D2F8278B2692227400CFE1A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F8278A2692227400CFE1A4 /* Preview Assets.xcassets */; };
-		D2F8279D269222E800CFE1A4 /* PongScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F8279C269222E800CFE1A4 /* PongScene.swift */; };
+		D2594E5629186E1800A391CA /* Pong Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D2594E5529186E1800A391CA /* Pong Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2594E5B29186E1800A391CA /* PongApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2594E5A29186E1800A391CA /* PongApp.swift */; };
+		D2594E5D29186E1800A391CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2594E5C29186E1800A391CA /* ContentView.swift */; };
+		D2594E5F29186E1800A391CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2594E5E29186E1800A391CA /* Assets.xcassets */; };
+		D2594E6229186E1800A391CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2594E6129186E1800A391CA /* Preview Assets.xcassets */; };
+		D2594E6D29186E5700A391CA /* PongScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2594E6C29186E5700A391CA /* PongScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D2F827732692227200CFE1A4 /* PBXContainerItemProxy */ = {
+		D2594E5729186E1800A391CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D2F827672692227100CFE1A4 /* Project object */;
+			containerPortal = D2594E4929186E1800A391CA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D2F827702692227200CFE1A4;
-			remoteInfo = "Pong WatchKit App";
-		};
-		D2F8277E2692227300CFE1A4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D2F827672692227100CFE1A4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2F8277B2692227300CFE1A4;
-			remoteInfo = "Pong WatchKit Extension";
+			remoteGlobalIDString = D2594E5429186E1800A391CA;
+			remoteInfo = "Pong Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D2F827922692227400CFE1A4 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				D2F8277D2692227300CFE1A4 /* Pong WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2F827962692227400CFE1A4 /* Embed Watch Content */ = {
+		D2594E6829186E1800A391CA /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				D2F827722692227200CFE1A4 /* Pong WatchKit App.app in Embed Watch Content */,
+				D2594E5629186E1800A391CA /* Pong Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,23 +40,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D223080426A5F82400A4A1E2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		D2F8276D2692227100CFE1A4 /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2F827712692227200CFE1A4 /* Pong WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pong WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2F827762692227300CFE1A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2F8277C2692227300CFE1A4 /* Pong WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pong WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2F827812692227300CFE1A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D2F827832692227300CFE1A4 /* PongApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongApp.swift; sourceTree = "<group>"; };
-		D2F827852692227300CFE1A4 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		D2F827872692227400CFE1A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2F8278A2692227400CFE1A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D2F8278C2692227400CFE1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2F8279C269222E800CFE1A4 /* PongScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongScene.swift; sourceTree = "<group>"; };
-		D2F8279F26922C9C00CFE1A4 /* Pong-WatchKit-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pong-WatchKit-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D2594E4F29186E1800A391CA /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2594E5529186E1800A391CA /* Pong Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pong Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2594E5A29186E1800A391CA /* PongApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongApp.swift; sourceTree = "<group>"; };
+		D2594E5C29186E1800A391CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2594E5E29186E1800A391CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2594E6129186E1800A391CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2594E6C29186E5700A391CA /* PongScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PongScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D2F827792692227300CFE1A4 /* Frameworks */ = {
+		D2594E5229186E1800A391CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,55 +60,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D2F827662692227100CFE1A4 = {
+		D2594E4829186E1800A391CA = {
 			isa = PBXGroup;
 			children = (
-				D223080426A5F82400A4A1E2 /* LICENSE */,
-				D2F827752692227200CFE1A4 /* Pong WatchKit App */,
-				D2F827802692227300CFE1A4 /* Pong WatchKit Extension */,
-				D2F8276E2692227100CFE1A4 /* Products */,
+				D2594E5929186E1800A391CA /* Pong Watch App */,
+				D2594E5029186E1800A391CA /* Products */,
 			);
-			indentWidth = 2;
 			sourceTree = "<group>";
-			tabWidth = 2;
 		};
-		D2F8276E2692227100CFE1A4 /* Products */ = {
+		D2594E5029186E1800A391CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2F8276D2692227100CFE1A4 /* Pong.app */,
-				D2F827712692227200CFE1A4 /* Pong WatchKit App.app */,
-				D2F8277C2692227300CFE1A4 /* Pong WatchKit Extension.appex */,
+				D2594E4F29186E1800A391CA /* Pong.app */,
+				D2594E5529186E1800A391CA /* Pong Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2F827752692227200CFE1A4 /* Pong WatchKit App */ = {
+		D2594E5929186E1800A391CA /* Pong Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				D2F8279F26922C9C00CFE1A4 /* Pong-WatchKit-App-Info.plist */,
-				D2F827762692227300CFE1A4 /* Assets.xcassets */,
+				D2594E5C29186E1800A391CA /* ContentView.swift */,
+				D2594E5A29186E1800A391CA /* PongApp.swift */,
+				D2594E6C29186E5700A391CA /* PongScene.swift */,
+				D2594E5E29186E1800A391CA /* Assets.xcassets */,
+				D2594E6029186E1800A391CA /* Preview Content */,
 			);
-			path = "Pong WatchKit App";
+			path = "Pong Watch App";
 			sourceTree = "<group>";
 		};
-		D2F827802692227300CFE1A4 /* Pong WatchKit Extension */ = {
+		D2594E6029186E1800A391CA /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D2F8278C2692227400CFE1A4 /* Info.plist */,
-				D2F827852692227300CFE1A4 /* ComplicationController.swift */,
-				D2F827812692227300CFE1A4 /* ContentView.swift */,
-				D2F827832692227300CFE1A4 /* PongApp.swift */,
-				D2F8279C269222E800CFE1A4 /* PongScene.swift */,
-				D2F827872692227400CFE1A4 /* Assets.xcassets */,
-				D2F827892692227400CFE1A4 /* Preview Content */,
-			);
-			path = "Pong WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		D2F827892692227400CFE1A4 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D2F8278A2692227400CFE1A4 /* Preview Assets.xcassets */,
+				D2594E6129186E1800A391CA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -144,185 +100,125 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2F8276C2692227100CFE1A4 /* Pong */ = {
+		D2594E4E29186E1800A391CA /* Pong */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2F827972692227400CFE1A4 /* Build configuration list for PBXNativeTarget "Pong" */;
+			buildConfigurationList = D2594E6929186E1800A391CA /* Build configuration list for PBXNativeTarget "Pong" */;
 			buildPhases = (
-				D2F8276B2692227100CFE1A4 /* Resources */,
-				D2F827962692227400CFE1A4 /* Embed Watch Content */,
+				D2594E4D29186E1800A391CA /* Resources */,
+				D2594E6829186E1800A391CA /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D2F827742692227200CFE1A4 /* PBXTargetDependency */,
+				D2594E5829186E1800A391CA /* PBXTargetDependency */,
 			);
 			name = Pong;
 			productName = Pong;
-			productReference = D2F8276D2692227100CFE1A4 /* Pong.app */;
+			productReference = D2594E4F29186E1800A391CA /* Pong.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		D2F827702692227200CFE1A4 /* Pong WatchKit App */ = {
+		D2594E5429186E1800A391CA /* Pong Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2F827932692227400CFE1A4 /* Build configuration list for PBXNativeTarget "Pong WatchKit App" */;
+			buildConfigurationList = D2594E6529186E1800A391CA /* Build configuration list for PBXNativeTarget "Pong Watch App" */;
 			buildPhases = (
-				D2F8276F2692227200CFE1A4 /* Resources */,
-				D2F827922692227400CFE1A4 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D2F8277F2692227300CFE1A4 /* PBXTargetDependency */,
-			);
-			name = "Pong WatchKit App";
-			productName = "Pong WatchKit App";
-			productReference = D2F827712692227200CFE1A4 /* Pong WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		D2F8277B2692227300CFE1A4 /* Pong WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D2F8278F2692227400CFE1A4 /* Build configuration list for PBXNativeTarget "Pong WatchKit Extension" */;
-			buildPhases = (
-				D2F827782692227300CFE1A4 /* Sources */,
-				D2F827792692227300CFE1A4 /* Frameworks */,
-				D2F8277A2692227300CFE1A4 /* Resources */,
-				D2F8279E2692245000CFE1A4 /* Swiftlint */,
+				D2594E5129186E1800A391CA /* Sources */,
+				D2594E5229186E1800A391CA /* Frameworks */,
+				D2594E5329186E1800A391CA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pong WatchKit Extension";
-			productName = "Pong WatchKit Extension";
-			productReference = D2F8277C2692227300CFE1A4 /* Pong WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
+			name = "Pong Watch App";
+			productName = "Pong Watch App";
+			productReference = D2594E5529186E1800A391CA /* Pong Watch App.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D2F827672692227100CFE1A4 /* Project object */ = {
+		D2594E4929186E1800A391CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
-				ORGANIZATIONNAME = "Ray Wenderlich";
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					D2F8276C2692227100CFE1A4 = {
-						CreatedOnToolsVersion = 13.0;
+					D2594E4E29186E1800A391CA = {
+						CreatedOnToolsVersion = 14.1;
 					};
-					D2F827702692227200CFE1A4 = {
-						CreatedOnToolsVersion = 13.0;
-					};
-					D2F8277B2692227300CFE1A4 = {
-						CreatedOnToolsVersion = 13.0;
+					D2594E5429186E1800A391CA = {
+						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = D2F8276A2692227100CFE1A4 /* Build configuration list for PBXProject "Pong" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = D2594E4C29186E1800A391CA /* Build configuration list for PBXProject "Pong" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D2F827662692227100CFE1A4;
-			productRefGroup = D2F8276E2692227100CFE1A4 /* Products */;
+			mainGroup = D2594E4829186E1800A391CA;
+			productRefGroup = D2594E5029186E1800A391CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2F8276C2692227100CFE1A4 /* Pong */,
-				D2F827702692227200CFE1A4 /* Pong WatchKit App */,
-				D2F8277B2692227300CFE1A4 /* Pong WatchKit Extension */,
+				D2594E4E29186E1800A391CA /* Pong */,
+				D2594E5429186E1800A391CA /* Pong Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D2F8276B2692227100CFE1A4 /* Resources */ = {
+		D2594E4D29186E1800A391CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D223080526A5F82400A4A1E2 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2F8276F2692227200CFE1A4 /* Resources */ = {
+		D2594E5329186E1800A391CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F827772692227300CFE1A4 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2F8277A2692227300CFE1A4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2F8278B2692227400CFE1A4 /* Preview Assets.xcassets in Resources */,
-				D2F827882692227400CFE1A4 /* Assets.xcassets in Resources */,
+				D2594E6229186E1800A391CA /* Preview Assets.xcassets in Resources */,
+				D2594E5F29186E1800A391CA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		D2F8279E2692245000CFE1A4 /* Swiftlint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = Swiftlint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n    for yml in ~/.com.raywenderlich.swiftlint.yml ~/com.raywenderlich.swiftlint.yml  \n    do\n        if [ -f $yml ]; then\n            swiftlint --no-cache --config $yml\n            break\n        fi\n    done\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		D2F827782692227300CFE1A4 /* Sources */ = {
+		D2594E5129186E1800A391CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F8279D269222E800CFE1A4 /* PongScene.swift in Sources */,
-				D2F827822692227300CFE1A4 /* ContentView.swift in Sources */,
-				D2F827842692227300CFE1A4 /* PongApp.swift in Sources */,
-				D2F827862692227300CFE1A4 /* ComplicationController.swift in Sources */,
+				D2594E6D29186E5700A391CA /* PongScene.swift in Sources */,
+				D2594E5D29186E1800A391CA /* ContentView.swift in Sources */,
+				D2594E5B29186E1800A391CA /* PongApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D2F827742692227200CFE1A4 /* PBXTargetDependency */ = {
+		D2594E5829186E1800A391CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2F827702692227200CFE1A4 /* Pong WatchKit App */;
-			targetProxy = D2F827732692227200CFE1A4 /* PBXContainerItemProxy */;
-		};
-		D2F8277F2692227300CFE1A4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2F8277B2692227300CFE1A4 /* Pong WatchKit Extension */;
-			targetProxy = D2F8277E2692227300CFE1A4 /* PBXContainerItemProxy */;
+			target = D2594E5429186E1800A391CA /* Pong Watch App */;
+			targetProxy = D2594E5729186E1800A391CA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D2F8278D2692227400CFE1A4 /* Debug */ = {
+		D2594E6329186E1800A391CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -369,20 +265,18 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		D2F8278E2692227400CFE1A4 /* Release */ = {
+		D2594E6429186E1800A391CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -422,207 +316,132 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D2594E6629186E1800A391CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pong Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pong;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Pong.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		D2594E6729186E1800A391CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pong Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pong;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Pong.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
-		D2F827902692227400CFE1A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Pong WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Pong WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Pong;
-				INFOPLIST_KEY_CFBundleExecutable = "Pong WatchKit Extension";
-				INFOPLIST_KEY_CFBundleName = "Pong WatchKit Extension";
-				INFOPLIST_KEY_CFBundleVersion = 1;
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = Pong_WatchKit_Extension.ComplicationController;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKWatchOnly = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.Pong.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Debug;
-		};
-		D2F827912692227400CFE1A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Pong WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Pong WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Pong;
-				INFOPLIST_KEY_CFBundleExecutable = "Pong WatchKit Extension";
-				INFOPLIST_KEY_CFBundleName = "Pong WatchKit Extension";
-				INFOPLIST_KEY_CFBundleVersion = 1;
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = Pong_WatchKit_Extension.ComplicationController;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKWatchOnly = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.Pong.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Release;
-		};
-		D2F827942692227400CFE1A4 /* Debug */ = {
+		D2594E6A29186E1800A391CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = Pong_WatchKit_Extension;
-				INFOPLIST_FILE = "Pong-WatchKit-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Pong;
-				INFOPLIST_KEY_CFBundleExecutable = "Pong WatchKit App";
-				INFOPLIST_KEY_CFBundleName = "Pong WatchKit App";
-				INFOPLIST_KEY_CFBundleVersion = 1;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.Pong.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Pong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
-		D2F827952692227400CFE1A4 /* Release */ = {
+		D2594E6B29186E1800A391CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = Pong_WatchKit_Extension;
-				INFOPLIST_FILE = "Pong-WatchKit-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Pong;
-				INFOPLIST_KEY_CFBundleExecutable = "Pong WatchKit App";
-				INFOPLIST_KEY_CFBundleName = "Pong WatchKit App";
-				INFOPLIST_KEY_CFBundleVersion = 1;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.Pong.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Pong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Release;
-		};
-		D2F827982692227400CFE1A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.Pong;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		D2F827992692227400CFE1A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.Pong;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2F8276A2692227100CFE1A4 /* Build configuration list for PBXProject "Pong" */ = {
+		D2594E4C29186E1800A391CA /* Build configuration list for PBXProject "Pong" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2F8278D2692227400CFE1A4 /* Debug */,
-				D2F8278E2692227400CFE1A4 /* Release */,
+				D2594E6329186E1800A391CA /* Debug */,
+				D2594E6429186E1800A391CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2F8278F2692227400CFE1A4 /* Build configuration list for PBXNativeTarget "Pong WatchKit Extension" */ = {
+		D2594E6529186E1800A391CA /* Build configuration list for PBXNativeTarget "Pong Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2F827902692227400CFE1A4 /* Debug */,
-				D2F827912692227400CFE1A4 /* Release */,
+				D2594E6629186E1800A391CA /* Debug */,
+				D2594E6729186E1800A391CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2F827932692227400CFE1A4 /* Build configuration list for PBXNativeTarget "Pong WatchKit App" */ = {
+		D2594E6929186E1800A391CA /* Build configuration list for PBXNativeTarget "Pong" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2F827942692227400CFE1A4 /* Debug */,
-				D2F827952692227400CFE1A4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D2F827972692227400CFE1A4 /* Build configuration list for PBXNativeTarget "Pong" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D2F827982692227400CFE1A4 /* Debug */,
-				D2F827992692227400CFE1A4 /* Release */,
+				D2594E6A29186E1800A391CA /* Debug */,
+				D2594E6B29186E1800A391CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D2F827672692227100CFE1A4 /* Project object */;
+	rootObject = D2594E4929186E1800A391CA /* Project object */;
 }

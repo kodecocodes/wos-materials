@@ -3,57 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2F827E2269B5EB300CFE1A4 /* NumberScroller WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D2F827E1269B5EB300CFE1A4 /* NumberScroller WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D2F827E7269B5EB400CFE1A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F827E6269B5EB400CFE1A4 /* Assets.xcassets */; };
-		D2F827ED269B5EB500CFE1A4 /* NumberScroller WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D2F827EC269B5EB500CFE1A4 /* NumberScroller WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D2F827F2269B5EB500CFE1A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F827F1269B5EB500CFE1A4 /* ContentView.swift */; };
-		D2F827F4269B5EB500CFE1A4 /* NumberScrollerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F827F3269B5EB500CFE1A4 /* NumberScrollerApp.swift */; };
-		D2F827F6269B5EB500CFE1A4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F827F5269B5EB500CFE1A4 /* ComplicationController.swift */; };
-		D2F827F8269B5EB600CFE1A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F827F7269B5EB600CFE1A4 /* Assets.xcassets */; };
-		D2F827FB269B5EB600CFE1A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F827FA269B5EB600CFE1A4 /* Preview Assets.xcassets */; };
-		D2F8280B269B5F4D00CFE1A4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D2F8280A269B5F4D00CFE1A4 /* LICENSE */; };
+		D28ABFA729186B0E001D028F /* NumberScroller Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D28ABFA629186B0E001D028F /* NumberScroller Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D28ABFAC29186B0E001D028F /* NumberScrollerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28ABFAB29186B0E001D028F /* NumberScrollerApp.swift */; };
+		D28ABFAE29186B0E001D028F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28ABFAD29186B0E001D028F /* ContentView.swift */; };
+		D28ABFB029186B0F001D028F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28ABFAF29186B0F001D028F /* Assets.xcassets */; };
+		D28ABFB329186B0F001D028F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28ABFB229186B0F001D028F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D2F827E3269B5EB300CFE1A4 /* PBXContainerItemProxy */ = {
+		D28ABFA829186B0E001D028F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D2F827D7269B5EB300CFE1A4 /* Project object */;
+			containerPortal = D28ABF9A29186B0E001D028F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D2F827E0269B5EB300CFE1A4;
-			remoteInfo = "NumberScroller WatchKit App";
-		};
-		D2F827EE269B5EB500CFE1A4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D2F827D7269B5EB300CFE1A4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2F827EB269B5EB500CFE1A4;
-			remoteInfo = "NumberScroller WatchKit Extension";
+			remoteGlobalIDString = D28ABFA529186B0E001D028F;
+			remoteInfo = "NumberScroller Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D2F82802269B5EB600CFE1A4 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				D2F827ED269B5EB500CFE1A4 /* NumberScroller WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2F82806269B5EB600CFE1A4 /* Embed Watch Content */ = {
+		D28ABFB929186B0F001D028F /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				D2F827E2269B5EB300CFE1A4 /* NumberScroller WatchKit App.app in Embed Watch Content */,
+				D28ABFA729186B0E001D028F /* NumberScroller Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,21 +39,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D2F827DD269B5EB300CFE1A4 /* NumberScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2F827E1269B5EB300CFE1A4 /* NumberScroller WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NumberScroller WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2F827E6269B5EB400CFE1A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2F827EC269B5EB500CFE1A4 /* NumberScroller WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NumberScroller WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2F827F1269B5EB500CFE1A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D2F827F3269B5EB500CFE1A4 /* NumberScrollerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberScrollerApp.swift; sourceTree = "<group>"; };
-		D2F827F5269B5EB500CFE1A4 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		D2F827F7269B5EB600CFE1A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2F827FA269B5EB600CFE1A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D2F827FC269B5EB600CFE1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2F8280A269B5F4D00CFE1A4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D28ABFA029186B0E001D028F /* NumberScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28ABFA629186B0E001D028F /* NumberScroller Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NumberScroller Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28ABFAB29186B0E001D028F /* NumberScrollerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberScrollerApp.swift; sourceTree = "<group>"; };
+		D28ABFAD29186B0E001D028F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D28ABFAF29186B0F001D028F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D28ABFB229186B0F001D028F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D28ABFBD29186B3B001D028F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D2F827E9269B5EB500CFE1A4 /* Frameworks */ = {
+		D28ABFA329186B0E001D028F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,53 +59,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D2F827D6269B5EB300CFE1A4 = {
+		D28ABF9929186B0E001D028F = {
 			isa = PBXGroup;
 			children = (
-				D2F8280A269B5F4D00CFE1A4 /* LICENSE */,
-				D2F827E5269B5EB300CFE1A4 /* NumberScroller WatchKit App */,
-				D2F827F0269B5EB500CFE1A4 /* NumberScroller WatchKit Extension */,
-				D2F827DE269B5EB300CFE1A4 /* Products */,
+				D28ABFBD29186B3B001D028F /* LICENSE */,
+				D28ABFAA29186B0E001D028F /* NumberScroller Watch App */,
+				D28ABFA129186B0E001D028F /* Products */,
 			);
-			indentWidth = 2;
 			sourceTree = "<group>";
-			tabWidth = 2;
 		};
-		D2F827DE269B5EB300CFE1A4 /* Products */ = {
+		D28ABFA129186B0E001D028F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2F827DD269B5EB300CFE1A4 /* NumberScroller.app */,
-				D2F827E1269B5EB300CFE1A4 /* NumberScroller WatchKit App.app */,
-				D2F827EC269B5EB500CFE1A4 /* NumberScroller WatchKit Extension.appex */,
+				D28ABFA029186B0E001D028F /* NumberScroller.app */,
+				D28ABFA629186B0E001D028F /* NumberScroller Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2F827E5269B5EB300CFE1A4 /* NumberScroller WatchKit App */ = {
+		D28ABFAA29186B0E001D028F /* NumberScroller Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				D2F827E6269B5EB400CFE1A4 /* Assets.xcassets */,
+				D28ABFAB29186B0E001D028F /* NumberScrollerApp.swift */,
+				D28ABFAD29186B0E001D028F /* ContentView.swift */,
+				D28ABFAF29186B0F001D028F /* Assets.xcassets */,
+				D28ABFB129186B0F001D028F /* Preview Content */,
 			);
-			path = "NumberScroller WatchKit App";
+			path = "NumberScroller Watch App";
 			sourceTree = "<group>";
 		};
-		D2F827F0269B5EB500CFE1A4 /* NumberScroller WatchKit Extension */ = {
+		D28ABFB129186B0F001D028F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D2F827FC269B5EB600CFE1A4 /* Info.plist */,
-				D2F827F5269B5EB500CFE1A4 /* ComplicationController.swift */,
-				D2F827F1269B5EB500CFE1A4 /* ContentView.swift */,
-				D2F827F3269B5EB500CFE1A4 /* NumberScrollerApp.swift */,
-				D2F827F7269B5EB600CFE1A4 /* Assets.xcassets */,
-				D2F827F9269B5EB600CFE1A4 /* Preview Content */,
-			);
-			path = "NumberScroller WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		D2F827F9269B5EB600CFE1A4 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D2F827FA269B5EB600CFE1A4 /* Preview Assets.xcassets */,
+				D28ABFB229186B0F001D028F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -139,162 +99,125 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2F827DC269B5EB300CFE1A4 /* NumberScroller */ = {
+		D28ABF9F29186B0E001D028F /* NumberScroller */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2F82807269B5EB600CFE1A4 /* Build configuration list for PBXNativeTarget "NumberScroller" */;
+			buildConfigurationList = D28ABFBA29186B0F001D028F /* Build configuration list for PBXNativeTarget "NumberScroller" */;
 			buildPhases = (
-				D2F827DB269B5EB300CFE1A4 /* Resources */,
-				D2F82806269B5EB600CFE1A4 /* Embed Watch Content */,
+				D28ABF9E29186B0E001D028F /* Resources */,
+				D28ABFB929186B0F001D028F /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D2F827E4269B5EB300CFE1A4 /* PBXTargetDependency */,
+				D28ABFA929186B0E001D028F /* PBXTargetDependency */,
 			);
 			name = NumberScroller;
 			productName = NumberScroller;
-			productReference = D2F827DD269B5EB300CFE1A4 /* NumberScroller.app */;
+			productReference = D28ABFA029186B0E001D028F /* NumberScroller.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		D2F827E0269B5EB300CFE1A4 /* NumberScroller WatchKit App */ = {
+		D28ABFA529186B0E001D028F /* NumberScroller Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2F82803269B5EB600CFE1A4 /* Build configuration list for PBXNativeTarget "NumberScroller WatchKit App" */;
+			buildConfigurationList = D28ABFB629186B0F001D028F /* Build configuration list for PBXNativeTarget "NumberScroller Watch App" */;
 			buildPhases = (
-				D2F827DF269B5EB300CFE1A4 /* Resources */,
-				D2F82802269B5EB600CFE1A4 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D2F827EF269B5EB500CFE1A4 /* PBXTargetDependency */,
-			);
-			name = "NumberScroller WatchKit App";
-			productName = "NumberScroller WatchKit App";
-			productReference = D2F827E1269B5EB300CFE1A4 /* NumberScroller WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		D2F827EB269B5EB500CFE1A4 /* NumberScroller WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D2F827FF269B5EB600CFE1A4 /* Build configuration list for PBXNativeTarget "NumberScroller WatchKit Extension" */;
-			buildPhases = (
-				D2F827E8269B5EB500CFE1A4 /* Sources */,
-				D2F827E9269B5EB500CFE1A4 /* Frameworks */,
-				D2F827EA269B5EB500CFE1A4 /* Resources */,
+				D28ABFA229186B0E001D028F /* Sources */,
+				D28ABFA329186B0E001D028F /* Frameworks */,
+				D28ABFA429186B0E001D028F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "NumberScroller WatchKit Extension";
-			productName = "NumberScroller WatchKit Extension";
-			productReference = D2F827EC269B5EB500CFE1A4 /* NumberScroller WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
+			name = "NumberScroller Watch App";
+			productName = "NumberScroller Watch App";
+			productReference = D28ABFA629186B0E001D028F /* NumberScroller Watch App.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D2F827D7269B5EB300CFE1A4 /* Project object */ = {
+		D28ABF9A29186B0E001D028F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
-				ORGANIZATIONNAME = "Ray Wenderlich";
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				ORGANIZATIONNAME = Kodeco;
 				TargetAttributes = {
-					D2F827DC269B5EB300CFE1A4 = {
-						CreatedOnToolsVersion = 13.0;
+					D28ABF9F29186B0E001D028F = {
+						CreatedOnToolsVersion = 14.1;
 					};
-					D2F827E0269B5EB300CFE1A4 = {
-						CreatedOnToolsVersion = 13.0;
-					};
-					D2F827EB269B5EB500CFE1A4 = {
-						CreatedOnToolsVersion = 13.0;
+					D28ABFA529186B0E001D028F = {
+						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = D2F827DA269B5EB300CFE1A4 /* Build configuration list for PBXProject "NumberScroller" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = D28ABF9D29186B0E001D028F /* Build configuration list for PBXProject "NumberScroller" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D2F827D6269B5EB300CFE1A4;
-			productRefGroup = D2F827DE269B5EB300CFE1A4 /* Products */;
+			mainGroup = D28ABF9929186B0E001D028F;
+			productRefGroup = D28ABFA129186B0E001D028F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2F827DC269B5EB300CFE1A4 /* NumberScroller */,
-				D2F827E0269B5EB300CFE1A4 /* NumberScroller WatchKit App */,
-				D2F827EB269B5EB500CFE1A4 /* NumberScroller WatchKit Extension */,
+				D28ABF9F29186B0E001D028F /* NumberScroller */,
+				D28ABFA529186B0E001D028F /* NumberScroller Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D2F827DB269B5EB300CFE1A4 /* Resources */ = {
+		D28ABF9E29186B0E001D028F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F8280B269B5F4D00CFE1A4 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2F827DF269B5EB300CFE1A4 /* Resources */ = {
+		D28ABFA429186B0E001D028F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F827E7269B5EB400CFE1A4 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2F827EA269B5EB500CFE1A4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2F827FB269B5EB600CFE1A4 /* Preview Assets.xcassets in Resources */,
-				D2F827F8269B5EB600CFE1A4 /* Assets.xcassets in Resources */,
+				D28ABFB329186B0F001D028F /* Preview Assets.xcassets in Resources */,
+				D28ABFB029186B0F001D028F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D2F827E8269B5EB500CFE1A4 /* Sources */ = {
+		D28ABFA229186B0E001D028F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F827F4269B5EB500CFE1A4 /* NumberScrollerApp.swift in Sources */,
-				D2F827F2269B5EB500CFE1A4 /* ContentView.swift in Sources */,
-				D2F827F6269B5EB500CFE1A4 /* ComplicationController.swift in Sources */,
+				D28ABFAE29186B0E001D028F /* ContentView.swift in Sources */,
+				D28ABFAC29186B0E001D028F /* NumberScrollerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D2F827E4269B5EB300CFE1A4 /* PBXTargetDependency */ = {
+		D28ABFA929186B0E001D028F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2F827E0269B5EB300CFE1A4 /* NumberScroller WatchKit App */;
-			targetProxy = D2F827E3269B5EB300CFE1A4 /* PBXContainerItemProxy */;
-		};
-		D2F827EF269B5EB500CFE1A4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2F827EB269B5EB500CFE1A4 /* NumberScroller WatchKit Extension */;
-			targetProxy = D2F827EE269B5EB500CFE1A4 /* PBXContainerItemProxy */;
+			target = D28ABFA529186B0E001D028F /* NumberScroller Watch App */;
+			targetProxy = D28ABFA829186B0E001D028F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D2F827FD269B5EB600CFE1A4 /* Debug */ = {
+		D28ABFB429186B0F001D028F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -341,20 +264,18 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		D2F827FE269B5EB600CFE1A4 /* Release */ = {
+		D28ABFB529186B0F001D028F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -394,193 +315,134 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D28ABFB729186B0F001D028F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NumberScroller Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NumberScroller;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.NumberScroller.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		D28ABFB829186B0F001D028F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NumberScroller Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NumberScroller;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.NumberScroller.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
-		D2F82800269B5EB600CFE1A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NumberScroller WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "NumberScroller WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "NumberScroller WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKWatchOnly = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.NumberScroller.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Debug;
-		};
-		D2F82801269B5EB600CFE1A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NumberScroller WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "NumberScroller WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "NumberScroller WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKWatchOnly = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.NumberScroller.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Release;
-		};
-		D2F82804269B5EB600CFE1A4 /* Debug */ = {
+		D28ABFBB29186B0F001D028F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = NumberScroller_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "NumberScroller WatchKit App";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_CFBundleDisplayName = NumberScroller;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.NumberScroller.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.NumberScroller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
-		D2F82805269B5EB600CFE1A4 /* Release */ = {
+		D28ABFBC29186B0F001D028F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = NumberScroller_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "NumberScroller WatchKit App";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_CFBundleDisplayName = NumberScroller;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.NumberScroller.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.NumberScroller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Release;
-		};
-		D2F82808269B5EB600CFE1A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.NumberScroller;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		D2F82809269B5EB600CFE1A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BQUPLV7KWS;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.NumberScroller;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2F827DA269B5EB300CFE1A4 /* Build configuration list for PBXProject "NumberScroller" */ = {
+		D28ABF9D29186B0E001D028F /* Build configuration list for PBXProject "NumberScroller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2F827FD269B5EB600CFE1A4 /* Debug */,
-				D2F827FE269B5EB600CFE1A4 /* Release */,
+				D28ABFB429186B0F001D028F /* Debug */,
+				D28ABFB529186B0F001D028F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2F827FF269B5EB600CFE1A4 /* Build configuration list for PBXNativeTarget "NumberScroller WatchKit Extension" */ = {
+		D28ABFB629186B0F001D028F /* Build configuration list for PBXNativeTarget "NumberScroller Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2F82800269B5EB600CFE1A4 /* Debug */,
-				D2F82801269B5EB600CFE1A4 /* Release */,
+				D28ABFB729186B0F001D028F /* Debug */,
+				D28ABFB829186B0F001D028F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2F82803269B5EB600CFE1A4 /* Build configuration list for PBXNativeTarget "NumberScroller WatchKit App" */ = {
+		D28ABFBA29186B0F001D028F /* Build configuration list for PBXNativeTarget "NumberScroller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2F82804269B5EB600CFE1A4 /* Debug */,
-				D2F82805269B5EB600CFE1A4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D2F82807269B5EB600CFE1A4 /* Build configuration list for PBXNativeTarget "NumberScroller" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D2F82808269B5EB600CFE1A4 /* Debug */,
-				D2F82809269B5EB600CFE1A4 /* Release */,
+				D28ABFBB29186B0F001D028F /* Debug */,
+				D28ABFBC29186B0F001D028F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D2F827D7269B5EB300CFE1A4 /* Project object */;
+	rootObject = D28ABF9A29186B0E001D028F /* Project object */;
 }
