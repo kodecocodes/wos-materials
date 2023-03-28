@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2523C832700E0FB002C6299 /* CalendarComplication.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D2523C822700E0FB002C6299 /* CalendarComplication.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2523C882700E0FE002C6299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2523C872700E0FE002C6299 /* Assets.xcassets */; };
+		D2523C8E2700E0FE002C6299 /* CalendarComplication WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D2523C8D2700E0FE002C6299 /* CalendarComplication WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2523C952700E0FE002C6299 /* CalendarComplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2523C942700E0FE002C6299 /* CalendarComplicationApp.swift */; };
+		D2523C972700E0FE002C6299 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2523C962700E0FE002C6299 /* ComplicationController.swift */; };
+		D2523C992700E0FF002C6299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2523C982700E0FF002C6299 /* Assets.xcassets */; };
+		D2523C9C2700E0FF002C6299 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2523C9B2700E0FF002C6299 /* Preview Assets.xcassets */; };
+		D2523CAC2700E96B002C6299 /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2523CAB2700E96B002C6299 /* EventStore.swift */; };
+		D2523CAE2700EBF1002C6299 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2523CAD2700EBF1002C6299 /* EventView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2523C842700E0FB002C6299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2523C782700E0FB002C6299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2523C812700E0FB002C6299;
+			remoteInfo = "CalendarComplication WatchKit App";
+		};
+		D2523C8F2700E0FE002C6299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2523C782700E0FB002C6299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2523C8C2700E0FE002C6299;
+			remoteInfo = "CalendarComplication WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D2523CA32700E0FF002C6299 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D2523C8E2700E0FE002C6299 /* CalendarComplication WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2523CA72700E0FF002C6299 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D2523C832700E0FB002C6299 /* CalendarComplication.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D2523C7E2700E0FB002C6299 /* CalendarComplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarComplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2523C822700E0FB002C6299 /* CalendarComplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarComplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2523C872700E0FE002C6299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2523C8D2700E0FE002C6299 /* CalendarComplication WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CalendarComplication WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2523C942700E0FE002C6299 /* CalendarComplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarComplicationApp.swift; sourceTree = "<group>"; };
+		D2523C962700E0FE002C6299 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		D2523C982700E0FF002C6299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2523C9B2700E0FF002C6299 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2523C9D2700E0FF002C6299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2523CAB2700E96B002C6299 /* EventStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStore.swift; sourceTree = "<group>"; };
+		D2523CAD2700EBF1002C6299 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		D2C0A729270A300D004173F4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2523C8A2700E0FE002C6299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2523C772700E0FB002C6299 = {
+			isa = PBXGroup;
+			children = (
+				D2C0A729270A300D004173F4 /* LICENSE */,
+				D2523C862700E0FB002C6299 /* CalendarComplication WatchKit App */,
+				D2523C912700E0FE002C6299 /* CalendarComplication WatchKit Extension */,
+				D2523C7F2700E0FB002C6299 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		D2523C7F2700E0FB002C6299 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2523C7E2700E0FB002C6299 /* CalendarComplication.app */,
+				D2523C822700E0FB002C6299 /* CalendarComplication.app */,
+				D2523C8D2700E0FE002C6299 /* CalendarComplication WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2523C862700E0FB002C6299 /* CalendarComplication WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D2523C872700E0FE002C6299 /* Assets.xcassets */,
+			);
+			path = "CalendarComplication WatchKit App";
+			sourceTree = "<group>";
+		};
+		D2523C912700E0FE002C6299 /* CalendarComplication WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D2523C9D2700E0FF002C6299 /* Info.plist */,
+				D2523C942700E0FE002C6299 /* CalendarComplicationApp.swift */,
+				D2523C962700E0FE002C6299 /* ComplicationController.swift */,
+				D2523CAB2700E96B002C6299 /* EventStore.swift */,
+				D2523CAD2700EBF1002C6299 /* EventView.swift */,
+				D2523C982700E0FF002C6299 /* Assets.xcassets */,
+				D2523C9A2700E0FF002C6299 /* Preview Content */,
+			);
+			path = "CalendarComplication WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D2523C9A2700E0FF002C6299 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D2523C9B2700E0FF002C6299 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2523C7D2700E0FB002C6299 /* CalendarComplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2523CA82700E0FF002C6299 /* Build configuration list for PBXNativeTarget "CalendarComplication" */;
+			buildPhases = (
+				D2523C7C2700E0FB002C6299 /* Resources */,
+				D2523CA72700E0FF002C6299 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2523C852700E0FB002C6299 /* PBXTargetDependency */,
+			);
+			name = CalendarComplication;
+			productName = CalendarComplication;
+			productReference = D2523C7E2700E0FB002C6299 /* CalendarComplication.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D2523C812700E0FB002C6299 /* CalendarComplication WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2523CA42700E0FF002C6299 /* Build configuration list for PBXNativeTarget "CalendarComplication WatchKit App" */;
+			buildPhases = (
+				D2523C802700E0FB002C6299 /* Resources */,
+				D2523CA32700E0FF002C6299 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2523C902700E0FE002C6299 /* PBXTargetDependency */,
+			);
+			name = "CalendarComplication WatchKit App";
+			productName = "CalendarComplication WatchKit App";
+			productReference = D2523C822700E0FB002C6299 /* CalendarComplication.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D2523C8C2700E0FE002C6299 /* CalendarComplication WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2523CA02700E0FF002C6299 /* Build configuration list for PBXNativeTarget "CalendarComplication WatchKit Extension" */;
+			buildPhases = (
+				D2523C892700E0FE002C6299 /* Sources */,
+				D2523C8A2700E0FE002C6299 /* Frameworks */,
+				D2523C8B2700E0FE002C6299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalendarComplication WatchKit Extension";
+			productName = "CalendarComplication WatchKit Extension";
+			productReference = D2523C8D2700E0FE002C6299 /* CalendarComplication WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2523C782700E0FB002C6299 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					D2523C7D2700E0FB002C6299 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					D2523C812700E0FB002C6299 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					D2523C8C2700E0FE002C6299 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = D2523C7B2700E0FB002C6299 /* Build configuration list for PBXProject "CalendarComplication" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2523C772700E0FB002C6299;
+			productRefGroup = D2523C7F2700E0FB002C6299 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2523C7D2700E0FB002C6299 /* CalendarComplication */,
+				D2523C812700E0FB002C6299 /* CalendarComplication WatchKit App */,
+				D2523C8C2700E0FE002C6299 /* CalendarComplication WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2523C7C2700E0FB002C6299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2523C802700E0FB002C6299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2523C882700E0FE002C6299 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2523C8B2700E0FE002C6299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2523C9C2700E0FF002C6299 /* Preview Assets.xcassets in Resources */,
+				D2523C992700E0FF002C6299 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2523C892700E0FE002C6299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2523C952700E0FE002C6299 /* CalendarComplicationApp.swift in Sources */,
+				D2523CAC2700E96B002C6299 /* EventStore.swift in Sources */,
+				D2523C972700E0FE002C6299 /* ComplicationController.swift in Sources */,
+				D2523CAE2700EBF1002C6299 /* EventView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2523C852700E0FB002C6299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2523C812700E0FB002C6299 /* CalendarComplication WatchKit App */;
+			targetProxy = D2523C842700E0FB002C6299 /* PBXContainerItemProxy */;
+		};
+		D2523C902700E0FE002C6299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2523C8C2700E0FE002C6299 /* CalendarComplication WatchKit Extension */;
+			targetProxy = D2523C8F2700E0FE002C6299 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D2523C9E2700E0FF002C6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2523C9F2700E0FF002C6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2523CA12700E0FF002C6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalendarComplication WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CalendarComplication WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CalendarComplication WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = CalendarComplication_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Show in complication.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.CalendarComplication.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		D2523CA22700E0FF002C6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalendarComplication WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CalendarComplication WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CalendarComplication WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = CalendarComplication_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Show in complication.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.CalendarComplication.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		D2523CA52700E0FF002C6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = CalendarComplication_WatchKit_Extension;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.CalendarComplication.watchkitapp;
+				PRODUCT_NAME = CalendarComplication;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		D2523CA62700E0FF002C6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = CalendarComplication_WatchKit_Extension;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.CalendarComplication.watchkitapp;
+				PRODUCT_NAME = CalendarComplication;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		D2523CA92700E0FF002C6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.CalendarComplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2523CAA2700E0FF002C6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.CalendarComplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2523C7B2700E0FB002C6299 /* Build configuration list for PBXProject "CalendarComplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2523C9E2700E0FF002C6299 /* Debug */,
+				D2523C9F2700E0FF002C6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2523CA02700E0FF002C6299 /* Build configuration list for PBXNativeTarget "CalendarComplication WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2523CA12700E0FF002C6299 /* Debug */,
+				D2523CA22700E0FF002C6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2523CA42700E0FF002C6299 /* Build configuration list for PBXNativeTarget "CalendarComplication WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2523CA52700E0FF002C6299 /* Debug */,
+				D2523CA62700E0FF002C6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2523CA82700E0FF002C6299 /* Build configuration list for PBXNativeTarget "CalendarComplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2523CA92700E0FF002C6299 /* Debug */,
+				D2523CAA2700E0FF002C6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2523C782700E0FB002C6299 /* Project object */;
+}

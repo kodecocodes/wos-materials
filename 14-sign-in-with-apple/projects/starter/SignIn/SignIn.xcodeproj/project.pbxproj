@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D25D9FD0267562D8005A3980 /* SignIn WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D25D9FCF267562D8005A3980 /* SignIn WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D25D9FD5267562D9005A3980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25D9FD4267562D9005A3980 /* Assets.xcassets */; };
+		D25D9FDB267562D9005A3980 /* SignIn WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D25D9FDA267562D9005A3980 /* SignIn WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D25D9FE0267562D9005A3980 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25D9FDF267562D9005A3980 /* ContentView.swift */; };
+		D25D9FE2267562D9005A3980 /* SignInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25D9FE1267562D9005A3980 /* SignInApp.swift */; };
+		D25D9FE4267562D9005A3980 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25D9FE3267562D9005A3980 /* ComplicationController.swift */; };
+		D25D9FE6267562DA005A3980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25D9FE5267562DA005A3980 /* Assets.xcassets */; };
+		D25D9FE9267562DA005A3980 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25D9FE8267562DA005A3980 /* Preview Assets.xcassets */; };
+		D25DA004267563D0005A3980 /* ProtectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25D9FFF267563D0005A3980 /* ProtectedView.swift */; };
+		D25DA005267563D0005A3980 /* UnprotectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25DA000267563D0005A3980 /* UnprotectedView.swift */; };
+		D25DA006267563D0005A3980 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25DA002267563D0005A3980 /* SignInView.swift */; };
+		D25DA007267563D0005A3980 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25DA003267563D0005A3980 /* PasswordView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D25D9FD1267562D8005A3980 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D25D9FC5267562D8005A3980 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D25D9FCE267562D8005A3980;
+			remoteInfo = "SignIn WatchKit App";
+		};
+		D25D9FDC267562D9005A3980 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D25D9FC5267562D8005A3980 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D25D9FD9267562D9005A3980;
+			remoteInfo = "SignIn WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D25D9FF0267562DA005A3980 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D25D9FDB267562D9005A3980 /* SignIn WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25D9FF4267562DA005A3980 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D25D9FD0267562D8005A3980 /* SignIn WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D25D9FCB267562D8005A3980 /* SignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25D9FCF267562D8005A3980 /* SignIn WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SignIn WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25D9FD4267562D9005A3980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D25D9FDA267562D9005A3980 /* SignIn WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SignIn WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25D9FDF267562D9005A3980 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D25D9FE1267562D9005A3980 /* SignInApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInApp.swift; sourceTree = "<group>"; };
+		D25D9FE3267562D9005A3980 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		D25D9FE5267562DA005A3980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D25D9FE8267562DA005A3980 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D25D9FEA267562DA005A3980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D25D9FF826756300005A3980 /* SignIn-WatchKit-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SignIn-WatchKit-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D25D9FFF267563D0005A3980 /* ProtectedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectedView.swift; sourceTree = "<group>"; };
+		D25DA000267563D0005A3980 /* UnprotectedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnprotectedView.swift; sourceTree = "<group>"; };
+		D25DA002267563D0005A3980 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		D25DA003267563D0005A3980 /* PasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D25D9FD7267562D9005A3980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D25D9FC4267562D8005A3980 = {
+			isa = PBXGroup;
+			children = (
+				D25D9FD3267562D8005A3980 /* SignIn WatchKit App */,
+				D25D9FDE267562D9005A3980 /* SignIn WatchKit Extension */,
+				D25D9FCC267562D8005A3980 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		D25D9FCC267562D8005A3980 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D25D9FCB267562D8005A3980 /* SignIn.app */,
+				D25D9FCF267562D8005A3980 /* SignIn WatchKit App.app */,
+				D25D9FDA267562D9005A3980 /* SignIn WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D25D9FD3267562D8005A3980 /* SignIn WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D25D9FF826756300005A3980 /* SignIn-WatchKit-App-Info.plist */,
+				D25D9FD4267562D9005A3980 /* Assets.xcassets */,
+			);
+			path = "SignIn WatchKit App";
+			sourceTree = "<group>";
+		};
+		D25D9FDE267562D9005A3980 /* SignIn WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D25D9FE5267562DA005A3980 /* Assets.xcassets */,
+				D25DA001267563D0005A3980 /* Authenticating */,
+				D25D9FE3267562D9005A3980 /* ComplicationController.swift */,
+				D25D9FDF267562D9005A3980 /* ContentView.swift */,
+				D25D9FEA267562DA005A3980 /* Info.plist */,
+				D25D9FE7267562DA005A3980 /* Preview Content */,
+				D25D9FFF267563D0005A3980 /* ProtectedView.swift */,
+				D25D9FE1267562D9005A3980 /* SignInApp.swift */,
+				D25DA000267563D0005A3980 /* UnprotectedView.swift */,
+			);
+			path = "SignIn WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D25D9FE7267562DA005A3980 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D25D9FE8267562DA005A3980 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D25DA001267563D0005A3980 /* Authenticating */ = {
+			isa = PBXGroup;
+			children = (
+				D25DA002267563D0005A3980 /* SignInView.swift */,
+				D25DA003267563D0005A3980 /* PasswordView.swift */,
+			);
+			path = Authenticating;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D25D9FCA267562D8005A3980 /* SignIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25D9FF5267562DA005A3980 /* Build configuration list for PBXNativeTarget "SignIn" */;
+			buildPhases = (
+				D25D9FC9267562D8005A3980 /* Resources */,
+				D25D9FF4267562DA005A3980 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D25D9FD2267562D8005A3980 /* PBXTargetDependency */,
+			);
+			name = SignIn;
+			productName = SignIn;
+			productReference = D25D9FCB267562D8005A3980 /* SignIn.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D25D9FCE267562D8005A3980 /* SignIn WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25D9FF1267562DA005A3980 /* Build configuration list for PBXNativeTarget "SignIn WatchKit App" */;
+			buildPhases = (
+				D25D9FCD267562D8005A3980 /* Resources */,
+				D25D9FF0267562DA005A3980 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D25D9FDD267562D9005A3980 /* PBXTargetDependency */,
+			);
+			name = "SignIn WatchKit App";
+			productName = "SignIn WatchKit App";
+			productReference = D25D9FCF267562D8005A3980 /* SignIn WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D25D9FD9267562D9005A3980 /* SignIn WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25D9FED267562DA005A3980 /* Build configuration list for PBXNativeTarget "SignIn WatchKit Extension" */;
+			buildPhases = (
+				74C69E1F267AAB0B00200681 /* ShellScript */,
+				D25D9FD6267562D9005A3980 /* Sources */,
+				D25D9FD7267562D9005A3980 /* Frameworks */,
+				D25D9FD8267562D9005A3980 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SignIn WatchKit Extension";
+			productName = "SignIn WatchKit Extension";
+			productReference = D25D9FDA267562D9005A3980 /* SignIn WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D25D9FC5267562D8005A3980 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "Ray Wenderlich";
+				TargetAttributes = {
+					D25D9FCA267562D8005A3980 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					D25D9FCE267562D8005A3980 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					D25D9FD9267562D9005A3980 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = D25D9FC8267562D8005A3980 /* Build configuration list for PBXProject "SignIn" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D25D9FC4267562D8005A3980;
+			productRefGroup = D25D9FCC267562D8005A3980 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D25D9FCA267562D8005A3980 /* SignIn */,
+				D25D9FCE267562D8005A3980 /* SignIn WatchKit App */,
+				D25D9FD9267562D9005A3980 /* SignIn WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D25D9FC9267562D8005A3980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25D9FCD267562D8005A3980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25D9FD5267562D9005A3980 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25D9FD8267562D9005A3980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25D9FE9267562DA005A3980 /* Preview Assets.xcassets in Resources */,
+				D25D9FE6267562DA005A3980 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74C69E1F267AAB0B00200681 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PATH=/opt/homebrew/bin:$PATH\nif [ -f ~/com.raywenderlich.swiftlint.yml ]; then\n  if which swiftlint >/dev/null; then\n    swiftlint --no-cache --config ~/com.raywenderlich.swiftlint.yml\n  fi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D25D9FD6267562D9005A3980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25DA006267563D0005A3980 /* SignInView.swift in Sources */,
+				D25DA007267563D0005A3980 /* PasswordView.swift in Sources */,
+				D25D9FE0267562D9005A3980 /* ContentView.swift in Sources */,
+				D25D9FE2267562D9005A3980 /* SignInApp.swift in Sources */,
+				D25D9FE4267562D9005A3980 /* ComplicationController.swift in Sources */,
+				D25DA004267563D0005A3980 /* ProtectedView.swift in Sources */,
+				D25DA005267563D0005A3980 /* UnprotectedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D25D9FD2267562D8005A3980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D25D9FCE267562D8005A3980 /* SignIn WatchKit App */;
+			targetProxy = D25D9FD1267562D8005A3980 /* PBXContainerItemProxy */;
+		};
+		D25D9FDD267562D9005A3980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D25D9FD9267562D9005A3980 /* SignIn WatchKit Extension */;
+			targetProxy = D25D9FDC267562D9005A3980 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D25D9FEB267562DA005A3980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D25D9FEC267562DA005A3980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D25D9FEE267562DA005A3980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SignIn WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = BQUPLV7KWS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SignIn WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SignIn;
+				INFOPLIST_KEY_CFBundleExecutable = "SignIn WatchKit Extension";
+				INFOPLIST_KEY_CFBundleName = "SignIn WatchKit Extension";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = SignIn_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.SignIn.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		D25D9FEF267562DA005A3980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SignIn WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = BQUPLV7KWS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SignIn WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SignIn;
+				INFOPLIST_KEY_CFBundleExecutable = "SignIn WatchKit Extension";
+				INFOPLIST_KEY_CFBundleName = "SignIn WatchKit Extension";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = SignIn_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.SignIn.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		D25D9FF2267562DA005A3980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQUPLV7KWS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = SignIn_WatchKit_Extension;
+				INFOPLIST_FILE = "SignIn-WatchKit-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SignIn;
+				INFOPLIST_KEY_CFBundleExecutable = "SignIn WatchKit App";
+				INFOPLIST_KEY_CFBundleName = "SignIn WatchKit App";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.SignIn.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		D25D9FF3267562DA005A3980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQUPLV7KWS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = SignIn_WatchKit_Extension;
+				INFOPLIST_FILE = "SignIn-WatchKit-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SignIn;
+				INFOPLIST_KEY_CFBundleExecutable = "SignIn WatchKit App";
+				INFOPLIST_KEY_CFBundleName = "SignIn WatchKit App";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.SignIn.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		D25D9FF6267562DA005A3980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQUPLV7KWS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.SignIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D25D9FF7267562DA005A3980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQUPLV7KWS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gargoylesoft.SignIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D25D9FC8267562D8005A3980 /* Build configuration list for PBXProject "SignIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25D9FEB267562DA005A3980 /* Debug */,
+				D25D9FEC267562DA005A3980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25D9FED267562DA005A3980 /* Build configuration list for PBXNativeTarget "SignIn WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25D9FEE267562DA005A3980 /* Debug */,
+				D25D9FEF267562DA005A3980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25D9FF1267562DA005A3980 /* Build configuration list for PBXNativeTarget "SignIn WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25D9FF2267562DA005A3980 /* Debug */,
+				D25D9FF3267562DA005A3980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25D9FF5267562DA005A3980 /* Build configuration list for PBXNativeTarget "SignIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25D9FF6267562DA005A3980 /* Debug */,
+				D25D9FF7267562DA005A3980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D25D9FC5267562D8005A3980 /* Project object */;
+}
