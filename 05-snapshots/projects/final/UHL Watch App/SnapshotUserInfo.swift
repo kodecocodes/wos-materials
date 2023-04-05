@@ -33,7 +33,7 @@ struct SnapshotUserInfo {
 
   static func from(notification: Notification) throws -> Self {
     guard let userInfo = notification.userInfo else {
-      throw SnapshotError.noUserInfo
+      throw SnapshotError.noHandler
     }
 
     guard let handler = userInfo[Keys.handler.rawValue] as? () -> Void else {

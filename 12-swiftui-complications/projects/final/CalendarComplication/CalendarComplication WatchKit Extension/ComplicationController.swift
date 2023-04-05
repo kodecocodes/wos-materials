@@ -6,7 +6,7 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
   func complicationDescriptors() async -> [CLKComplicationDescriptor] {
     return [
       .init(
-        identifier: "com.raywenderlich.CalendarComplication",
+        identifier: "com.kodeco.CalendarComplication",
         displayName: "Calendar",
         supportedFamilies: [.graphicRectangular]
       )

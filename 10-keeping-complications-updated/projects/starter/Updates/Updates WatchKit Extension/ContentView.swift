@@ -1,12 +1,9 @@
 import SwiftUI
 
 struct ContentView: View {
-  @EnvironmentObject private var session: Session
-
   var body: some View {
-    VStack {
-      Image("FacePreview")
-    }
+    Text("Hello, World!")
+      .padding()
   }
 }
 

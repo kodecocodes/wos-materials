@@ -3,13 +3,11 @@ import SwiftUI
 struct MovieDetailsView: View {
   let movie: Movie
 
-  @ObservedObject private var ticketOffice = TicketOffice.shared
-
   var body: some View {
     ScrollView {
       MovieInfoView(movie: movie)
 
-      if !ticketOffice.isPurchased(movie) {
+      if !TicketOffice.shared.isPurchased(movie) {
         PurchaseTicketView(movie: movie)
       } else {
         movie.qrCodeImage()

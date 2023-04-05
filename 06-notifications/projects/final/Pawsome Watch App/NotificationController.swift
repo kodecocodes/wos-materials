@@ -15,7 +15,9 @@ class NotificationController: WKUserNotificationHostingController<NotificationVi
     message = content.body
 
     let validRange = 1...20
-    if let imageNumber = content.userInfo["imageNumber"] as? Int,
+
+    if
+      let imageNumber = content.userInfo["imageNumber"] as? Int,
       validRange ~= imageNumber {
       image = Image("cat\(imageNumber)")
     } else {

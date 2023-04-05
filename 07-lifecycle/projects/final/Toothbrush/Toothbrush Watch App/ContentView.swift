@@ -15,8 +15,8 @@ struct ContentView: View {
       .padding()
 
       if let endOfBrushing = model.endOfBrushing,
-         let endOfRound = model.endOfRound {
-        Text("Rounds Left: \(model.roundsLeft - 1)") 
+        let endOfRound = model.endOfRound {
+        Text("Rounds Left: \(model.roundsLeft - 1)")
         Text("Total time left: \(endOfBrushing, style: .timer)")
         Text("This round time left: \(endOfRound, style: .timer)")
       }

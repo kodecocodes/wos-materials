@@ -45,17 +45,8 @@ extension Session: WCSessionDelegate {
   ) {
     updateFaceSharing(session)
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d252f9a (TE: add missing code.)
   
   func sessionWatchStateDidChange(_ session: WCSession) {
     updateFaceSharing(session)
   }
-<<<<<<< HEAD
-=======
->>>>>>> 4f486b7 (Updated for 2nd edition)
-=======
->>>>>>> d252f9a (TE: add missing code.)
 }

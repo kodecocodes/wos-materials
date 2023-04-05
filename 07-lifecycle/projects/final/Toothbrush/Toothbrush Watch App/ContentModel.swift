@@ -17,6 +17,8 @@ final class ContentModel: NSObject, ObservableObject {
   }
 }
 
+// MARK: - WKExtendedRuntimeSessionDelegate
+
 extension ContentModel: WKExtendedRuntimeSessionDelegate {
   func extendedRuntimeSessionDidStart(
     _ extendedRuntimeSession: WKExtendedRuntimeSession
@@ -64,7 +66,7 @@ extension ContentModel: WKExtendedRuntimeSessionDelegate {
     didInvalidateWith reason: WKExtendedRuntimeSessionInvalidationReason,
     error: Error?
   ) {
-    timer.invalidate()
+    timer?.invalidate()
     timer = nil
 
     endOfRound = nil

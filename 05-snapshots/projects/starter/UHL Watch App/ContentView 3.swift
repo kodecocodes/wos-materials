@@ -3,13 +3,7 @@ import Combine
 
 struct ContentView: View {
   @EnvironmentObject private var season: Season
-  @State private var snapshotHandler: (() -> Void)?
-  @State private var selectedMatchId: Match.ID?
   @State private var path: [Destination] = []
-
-  private let pushViewForSnapshotPublisher = NotificationCenter
-    .default
-    .publisher(for: .pushViewForSnapshot)
 
   public enum Destination: Hashable {
     case record
@@ -54,7 +48,6 @@ struct ContentView: View {
             }
           }
         }
-
         NavigationLink(value: Destination.record) {
           HStack {
             Text("Record: ")
@@ -63,30 +56,18 @@ struct ContentView: View {
               .font(.body)
           }
         }
-        .onReceive(pushViewForSnapshotPublisher) {
-          pushViewForSnapshot($0)
-        }
       }
       .navigationDestination(for: Destination.self) { destination in
         switch destination {
         case .schedule:
-          ScheduleView(snapshotHandler: snapshotHandler)
+          ScheduleView()
         case .record:
-          RecordView(snapshotHandler: snapshotHandler)
+          RecordView()
         case .matchDetail(let match):
-          ScheduleDetailView(match: match, snapshotHandler: snapshotHandler)
+          ScheduleDetailView(match: match)
         }
       }
     }
-  }
-
-  private func pushViewForSnapshot(_ notification: Notification) {
-    guard let info = try? SnapshotUserInfo.from(notification: notification) else {
-      return
-    }
-
-    snapshotHandler = info.handler
-    selectedMatchId = info.matchId
   }
 }
 

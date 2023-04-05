@@ -8,14 +8,18 @@ final class ExtensionDelegate: NSObject, WKExtensionDelegate {
 
   func applicationDidFinishLaunching() {
     Task {
-      let success = try await UNUserNotificationCenter
-        .current()
-        .requestAuthorization(options: [.badge, .sound, .alert])
+      do {
+        let success = try await UNUserNotificationCenter
+          .current()
+          .requestAuthorization(options: [.badge, .sound, .alert])
 
-      guard success else { return }
+        guard success else { return }
 
-      await MainActor.run {
-        WKExtension.shared().registerForRemoteNotifications()
+        await MainActor.run {
+          WKExtension.shared().registerForRemoteNotifications()
+        }
+      } catch {
+        print(error.localizedDescription)
       }
     }
   }

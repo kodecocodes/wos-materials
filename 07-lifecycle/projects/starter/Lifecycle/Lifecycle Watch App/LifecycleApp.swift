@@ -1,15 +1,16 @@
 import SwiftUI
 
 @main
-struct Lifecycle_Watch_AppApp: App {
+struct LifecycleApp: App {
   @Environment(\.scenePhase) private var scenePhase
-
   @WKExtensionDelegateAdaptor(ExtensionDelegate.self)
   private var extensionDelegate
 
   var body: some Scene {
     WindowGroup {
-      ContentView()
+      NavigationView {
+        ContentView()
+      }
     }
     .onChange(of: scenePhase) {
       print("onChange: \($0)")

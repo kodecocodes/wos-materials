@@ -26,7 +26,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.raywenderlich.CinemaTime</string>
+	<string>com.kodeco.CinemaTime</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

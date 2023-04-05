@@ -1,10 +1,12 @@
 import SwiftUI
 
 @main
-struct Toothbrush_Watch_AppApp: App {
+struct ToothbrushApp: App {
   var body: some Scene {
     WindowGroup {
-      ContentView()
+      NavigationView {
+        ContentView()
+      }
     }
   }
 }

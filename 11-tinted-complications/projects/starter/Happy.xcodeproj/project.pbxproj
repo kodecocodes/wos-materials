@@ -420,7 +420,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Happy.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodeco.Happy.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -452,7 +452,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Happy.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodeco.Happy.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -476,7 +476,7 @@
 				IBSC_MODULE = Happy_WatchKit_Extension;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Happy.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodeco.Happy.watchkitapp;
 				PRODUCT_NAME = Happy;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -500,7 +500,7 @@
 				IBSC_MODULE = Happy_WatchKit_Extension;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Happy.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodeco.Happy.watchkitapp;
 				PRODUCT_NAME = Happy;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -518,7 +518,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Happy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodeco.Happy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -531,7 +531,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Happy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodeco.Happy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

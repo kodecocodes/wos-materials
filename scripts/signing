@@ -25,7 +25,7 @@ sub wanted {
 
     while (<ARGV>) {
 	s/DEVELOPMENT_TEAM = .*;/DEVELOPMENT_TEAM = $teamId;/;
-	s/com.raywenderlich/$bundle/g; 
+	s/com.kodeco/$bundle/g; 
 	print;
     }
 }

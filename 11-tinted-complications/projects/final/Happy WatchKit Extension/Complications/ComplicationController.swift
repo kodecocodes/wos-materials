@@ -4,7 +4,7 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
   func complicationDescriptors() async -> [CLKComplicationDescriptor] {
     return [
       .init(
-        identifier: "com.raywenderlich.Updates",
+        identifier: "com.kodeco.Updates",
         displayName: "Updates",
         supportedFamilies: [
           .circularSmall, .extraLarge, .graphicBezel, .graphicCircular, .graphicCorner,
