@@ -4,9 +4,7 @@ import SwiftUI
 struct CinemaTimeApp: App {
   var body: some Scene {
     WindowGroup {
-      NavigationView {
-        PurchasedTicketsListView()
-      }
+      PurchasedTicketsListView()
     }
   }
 }

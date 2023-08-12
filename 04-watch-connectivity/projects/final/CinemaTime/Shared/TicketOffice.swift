@@ -61,6 +61,7 @@ final class TicketOffice: NSObject, ObservableObject {
     }
     
     purchased.append(movie)
+    updateCompanion()
   }
   
   func purchasableMovies() -> [String: [Movie]] {
